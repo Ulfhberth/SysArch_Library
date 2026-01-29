@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qqtIkPd9EfC_mdT_vlSHdg" type="PapyrusUMLProfileDiagram" name="profile_HierarchicalControlStereotypes" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zagKQPd9EfC_mdT_vlSHdg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zagxUPd9EfC_mdT_vlSHdg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zagxUfd9EfC_mdT_vlSHdg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zagxUvd9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zagxU_d9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zagxVPd9EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zagxVfd9EfC_mdT_vlSHdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zagxVvd9EfC_mdT_vlSHdg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zagxV_d9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zagxWPd9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zagxWfd9EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zagxWvd9EfC_mdT_vlSHdg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zagKQfd9EfC_mdT_vlSHdg" x="100" y="60" width="261"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_01zqoPd9EfC_mdT_vlSHdg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_01zqovd9EfC_mdT_vlSHdg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_01zqo_d9EfC_mdT_vlSHdg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_01zqpPd9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_01zqpfd9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_01zqpvd9EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_01zqp_d9EfC_mdT_vlSHdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_010RsPd9EfC_mdT_vlSHdg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_010Rsfd9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_010Rsvd9EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_010Rs_d9EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_010RtPd9EfC_mdT_vlSHdg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="SysMod_HierarchicalControlProfile.profile.uml#_01ycgPd9EfC_mdT_vlSHdg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_01zqofd9EfC_mdT_vlSHdg" x="100" y="240" width="261" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CknkAPd-EfC_mdT_vlSHdg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CknkAvd-EfC_mdT_vlSHdg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CknkA_d-EfC_mdT_vlSHdg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CknkBPd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CknkBfd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CknkBvd-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CknkB_d-EfC_mdT_vlSHdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CknkCPd-EfC_mdT_vlSHdg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CknkCfd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CknkCvd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CknkC_d-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CknkDPd-EfC_mdT_vlSHdg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_ProxyPort"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CknkAfd-EfC_mdT_vlSHdg" x="440" y="60" width="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_EGrzsPd-EfC_mdT_vlSHdg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EGsawPd-EfC_mdT_vlSHdg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_EGsawfd-EfC_mdT_vlSHdg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_EGsawvd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_EGsaw_d-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_EGsaxPd-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EGsaxfd-EfC_mdT_vlSHdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_EGsaxvd-EfC_mdT_vlSHdg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_EGsax_d-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_EGsayPd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_EGsayfd-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EGsayvd-EfC_mdT_vlSHdg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="SysMod_HierarchicalControlProfile.profile.uml#_EGrMoPd-EfC_mdT_vlSHdg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EGrzsfd-EfC_mdT_vlSHdg" x="440" y="240" width="201" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HbsAoPd-EfC_mdT_vlSHdg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HbsnsPd-EfC_mdT_vlSHdg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Hbsnsfd-EfC_mdT_vlSHdg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Hbsnsvd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Hbsns_d-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HbsntPd-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hbsntfd-EfC_mdT_vlSHdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Hbsntvd-EfC_mdT_vlSHdg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Hbsnt_d-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HbsnuPd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Hbsnufd-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hbsnuvd-EfC_mdT_vlSHdg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_InterfaceBlock"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HbsAofd-EfC_mdT_vlSHdg" x="100" y="440" width="261"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_JNbrEPd-EfC_mdT_vlSHdg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JNbrEvd-EfC_mdT_vlSHdg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_JNbrE_d-EfC_mdT_vlSHdg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_JNbrFPd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_JNbrFfd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_JNbrFvd-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JNbrF_d-EfC_mdT_vlSHdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_JNbrGPd-EfC_mdT_vlSHdg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_JNbrGfd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_JNbrGvd-EfC_mdT_vlSHdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_JNbrG_d-EfC_mdT_vlSHdg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JNbrHPd-EfC_mdT_vlSHdg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="SysMod_HierarchicalControlProfile.profile.uml#_JNac8Pd-EfC_mdT_vlSHdg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JNbrEfd-EfC_mdT_vlSHdg" x="100" y="600" width="261" height="121"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_qqtIkfd9EfC_mdT_vlSHdg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_qqtIkvd9EfC_mdT_vlSHdg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_qqtIk_d9EfC_mdT_vlSHdg" diagramKindId="org.eclipse.papyrus.uml.diagram.profile">
+    <owner xmi:type="uml:Profile" href="SysMod_HierarchicalControlProfile.profile.uml#_lpWHgPd9EfC_mdT_vlSHdg"/>
+  </styles>
+  <element xmi:type="uml:Profile" href="SysMod_HierarchicalControlProfile.profile.uml#_lpWHgPd9EfC_mdT_vlSHdg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_2eYyAPd9EfC_mdT_vlSHdg" type="Generalization_Edge" source="_01zqoPd9EfC_mdT_vlSHdg" target="_zagKQPd9EfC_mdT_vlSHdg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2eYyA_d9EfC_mdT_vlSHdg" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2eYyBPd9EfC_mdT_vlSHdg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2eYyAfd9EfC_mdT_vlSHdg"/>
+    <element xmi:type="uml:Generalization" href="SysMod_HierarchicalControlProfile.profile.uml#_2eVusPd9EfC_mdT_vlSHdg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2eYyAvd9EfC_mdT_vlSHdg" points="[260, 240, -643984, -643984]$[260, 160, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2egGwPd9EfC_mdT_vlSHdg" id="(0.6130268199233716,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2egGwfd9EfC_mdT_vlSHdg" id="(0.6130268199233716,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Gyrf4Pd-EfC_mdT_vlSHdg" type="Generalization_Edge" source="_EGrzsPd-EfC_mdT_vlSHdg" target="_CknkAPd-EfC_mdT_vlSHdg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Gyrf4_d-EfC_mdT_vlSHdg" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Gyrf5Pd-EfC_mdT_vlSHdg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Gyrf4fd-EfC_mdT_vlSHdg"/>
+    <element xmi:type="uml:Generalization" href="SysMod_HierarchicalControlProfile.profile.uml#_GyockPd-EfC_mdT_vlSHdg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gyrf4vd-EfC_mdT_vlSHdg" points="[540, 240, -643984, -643984]$[540, 160, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GyvxUPd-EfC_mdT_vlSHdg" id="(0.4975124378109453,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GyvxUfd-EfC_mdT_vlSHdg" id="(0.4975124378109453,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_TAxNYPd-EfC_mdT_vlSHdg" type="Generalization_Edge" source="_JNbrEPd-EfC_mdT_vlSHdg" target="_HbsAoPd-EfC_mdT_vlSHdg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TAxNY_d-EfC_mdT_vlSHdg" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TAxNZPd-EfC_mdT_vlSHdg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TAxNYfd-EfC_mdT_vlSHdg"/>
+    <element xmi:type="uml:Generalization" href="SysMod_HierarchicalControlProfile.profile.uml#_TAuxIPd-EfC_mdT_vlSHdg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TAxNYvd-EfC_mdT_vlSHdg" points="[240, 600, -643984, -643984]$[240, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TA2F4Pd-EfC_mdT_vlSHdg" id="(0.5363984674329502,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TA2F4fd-EfC_mdT_vlSHdg" id="(0.5363984674329502,1.0)"/>
+  </edges>
+</notation:Diagram>

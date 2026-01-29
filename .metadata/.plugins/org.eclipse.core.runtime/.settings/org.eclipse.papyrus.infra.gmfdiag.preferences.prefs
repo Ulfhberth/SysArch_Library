@@ -1,0 +1,7 @@
+DIAGRAM_PapyrusUMLClassDiagram.color.fill=192,192,192
+DIAGRAM_PapyrusUMLClassDiagram.color.gradient=RGB {255, 255, 255};RGB {255, 255, 255};0;0
+DIAGRAM_PapyrusUMLClassDiagram.color.line=0,0,0
+PAPYRUS_EDITOR.color.fill=228,179,229
+PAPYRUS_EDITOR.color.gradient=RGB {255, 255, 255};RGB {255, 255, 255};0;0
+eclipse.preferences.version=1
+org.eclipse.papyrus.uml.diagram.activity.CallBehaviorAction.CreateDialog.owner=platform\:/resource/BatteryManagementSystem_Template/BatteryManagementSystem_Template.uml|_ZmwEsPwlEfCONYqEA7gpog

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RFbQEPq1EfC9mrJSh1aXZA" name="SysMod_TechnicalDesignProfile">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM4Pq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_x-5qsfq5EfC9mrJSh1aXZA" name="SysMod_TechnicalDesignProfile" nsURI="http:///schemas/SysMod_TechnicalDesignProfile/_x-5qsPq5EfC9mrJSh1aXZA/1" nsPrefix="SysMod_TechnicalDesignProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5qsvq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-6Rwfq5EfC9mrJSh1aXZA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-6Rwvq5EfC9mrJSh1aXZA" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-6Rw_q5EfC9mrJSh1aXZA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-6RxPq5EfC9mrJSh1aXZA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-6Rxfq5EfC9mrJSh1aXZA" key="Date" value="2026-01-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-6Rxvq5EfC9mrJSh1aXZA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x-5qs_q5EfC9mrJSh1aXZA" name="ECU">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5qtPq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nwTFgPq1EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x-5qtvq5EfC9mrJSh1aXZA" name="HardwareComponent">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5qt_q5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-uoCcPq1EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x-5qufq5EfC9mrJSh1aXZA" name="SWFeature">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5quvq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_V_8M0Pq2EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x-5qvPq5EfC9mrJSh1aXZA" name="MicroControllerRessource">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5qvfq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1St2wPq3EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x-5qv_q5EfC9mrJSh1aXZA" name="MicroController">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5qwPq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_44_Z4Pq3EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x-5qwvq5EfC9mrJSh1aXZA" name="MicroControllerInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x-5qw_q5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mQAQEPq4EfC9mrJSh1aXZA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x-5qxPq5EfC9mrJSh1aXZA" key="originalName" value="MicroController-Interface"/>
+        </eAnnotations>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_s8NM4fq5EfC9mrJSh1aXZA" name="SysMod_TechnicalDesignProfile" nsURI="http:///schemas/SysMod_TechnicalDesignProfile/_s8Ml0Pq5EfC9mrJSh1aXZA/0" nsPrefix="SysMod_TechnicalDesignProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM4vq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8ObBPq5EfC9mrJSh1aXZA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s8ObBfq5EfC9mrJSh1aXZA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s8ObBvq5EfC9mrJSh1aXZA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s8ObB_q5EfC9mrJSh1aXZA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s8ObCPq5EfC9mrJSh1aXZA" key="Date" value="2026-01-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s8ObCfq5EfC9mrJSh1aXZA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_s8NM4_q5EfC9mrJSh1aXZA" name="ECU">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM5Pq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nwTFgPq1EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_s8NM5vq5EfC9mrJSh1aXZA" name="HardwareComponent">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM5_q5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-uoCcPq1EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_s8NM6fq5EfC9mrJSh1aXZA" name="SWFeature">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM6vq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_V_8M0Pq2EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_s8NM7Pq5EfC9mrJSh1aXZA" name="MicroControllerRessource">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM7fq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1St2wPq3EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_s8NM7_q5EfC9mrJSh1aXZA" name="MicroController">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM8Pq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_44_Z4Pq3EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_s8NM8vq5EfC9mrJSh1aXZA" name="MicroControllerInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM8_q5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mQAQEPq4EfC9mrJSh1aXZA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s8NM9Pq5EfC9mrJSh1aXZA" key="originalName" value="MicroController-Interface"/>
+        </eAnnotations>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_RG7r8Pq1EfC9mrJSh1aXZA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_RG8TAPq1EfC9mrJSh1aXZA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_gbMgMPq1EfC9mrJSh1aXZA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_gbNHQPq1EfC9mrJSh1aXZA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_nwTFgPq1EfC9mrJSh1aXZA" name="ECU">
+    <generalization xmi:type="uml:Generalization" xmi:id="_qcKO0Pq1EfC9mrJSh1aXZA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_-uoCcPq1EfC9mrJSh1aXZA" name="HardwareComponent">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UbQG8Pq2EfC9mrJSh1aXZA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_V_8M0Pq2EfC9mrJSh1aXZA" name="SWFeature">
+    <generalization xmi:type="uml:Generalization" xmi:id="_jYzrYPq2EfC9mrJSh1aXZA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_1St2wPq3EfC9mrJSh1aXZA" name="MicroControllerRessource">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-lgQwPq3EfC9mrJSh1aXZA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_44_Z4Pq3EfC9mrJSh1aXZA" name="MicroController">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-BDf4Pq3EfC9mrJSh1aXZA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_mQAQEPq4EfC9mrJSh1aXZA" name="MicroController-Interface">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tJB9YPq4EfC9mrJSh1aXZA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_ProxyPort"/>
+    </generalization>
+  </packagedElement>
+</uml:Profile>

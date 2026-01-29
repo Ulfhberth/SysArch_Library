@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:SysMod_ChannelArchitectureProfile="http:///schemas/SysMod_ChannelArchitectureProfile/_OMfDMPd3EfCG9O80Pb51PQ/1" xmlns:SysMod_HierarchicalControlProfile="http:///schemas/SysMod_HierarchicalControlProfile/_UUdp4Pd-EfC_mdT_vlSHdg/0" xmlns:SysMod_RequirementsEngineeringProfile="http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7" xmlns:SysMod_SystemContextProfile="http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http:///schemas/SysMod_ChannelArchitectureProfile/_OMfDMPd3EfCG9O80Pb51PQ/1 ../SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.uml#_OMfqQPd3EfCG9O80Pb51PQ http:///schemas/SysMod_HierarchicalControlProfile/_UUdp4Pd-EfC_mdT_vlSHdg/0 ../SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.uml#_UUeQ8Pd-EfC_mdT_vlSHdg http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7 ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4U0fYZEfCigK29YMXgvw http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1 ../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_C1XFMfe_EfCDd_uE11Ycjw">
+  <uml:Model xmi:id="_y3SVQPk6EfCtcLET-2iI1w" name="BatteryManagementSystem_Template">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_y4i5gPk6EfCtcLET-2iI1w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_y4nyAPk6EfCtcLET-2iI1w">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NQYI4Pk7EfCtcLET-2iI1w" name="01_RequirementsEngineering">
+      <packagedElement xmi:type="uml:Package" xmi:id="_h8NewPk7EfCtcLET-2iI1w" name="RE_SystemObjectives_ReqEngpkg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_q4-pkPn4EfCHlZpuU1O8uQ" name="HV Battery Supervision"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YBEeQPqOEfCdvKL71mzKtg" name="Safety of vehicle user and environment"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_E8yiwPqTEfCdvKL71mzKtg" name="Interface to the vehicle"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cnutYPk7EfCtcLET-2iI1w" name="RE_SystemActors_ReqEngpkg">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_BdSdYPqQEfCdvKL71mzKtg" name="RE_Actor_VehicleUser"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_IBE6gPqQEfCdvKL71mzKtg" name="RE_Actor_"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lOyCwPk7EfCtcLET-2iI1w" name="RE_SystemRequirementsSpec_ReqEngpkg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_pNrhQPk7EfCtcLET-2iI1w" name="RE_SystemTestCases_ReqEngpkg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PsZfYPk7EfCtcLET-2iI1w" name="02_FunctionalAnalysis">
+      <packagedElement xmi:type="uml:Package" xmi:id="_zgJ3YPnPEfCdUdBuMQyJXQ" name="Package1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SYqRUPk7EfCtcLET-2iI1w" name="03_FunctionalDesign">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OqKrQPnIEfCdUdBuMQyJXQ" name="01_FunctionBlocks_FuncDesPkg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_NnCFUPqvEfCYwtYPDKdIqw" name="Cell Voltage Data Acquisition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fnSwUPqwEfC9mrJSh1aXZA" name="Battery Current Data Acquisition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pXA98PqwEfC9mrJSh1aXZA" name="Cell Block Temperature Data Acquisition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xSOhAPqwEfC9mrJSh1aXZA" name="BMS Management"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_awKMsPnIEfCdUdBuMQyJXQ" name="02_InterfaceBlocks_FuncDesPkg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_gRaOwPnIEfCdUdBuMQyJXQ" name="03_Types_FuncDesPkg">
+        <packagedElement xmi:type="uml:Package" xmi:id="_mdQtAPnIEfCdUdBuMQyJXQ" name="01_DataTypes_FuncDesPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_pEOIMPnIEfCdUdBuMQyJXQ" name="02_ValueTypes_FuncDesPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_twtFcPnIEfCdUdBuMQyJXQ" name="03_QuantityKinds_FuncDesPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_xH6R0PnIEfCdUdBuMQyJXQ" name="04_Units_FuncDesPkg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pJOrgPquEfC-i6ZxyDLQqQ" name="BatteryManagementSystem"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UM85cPk7EfCtcLET-2iI1w" name="04_TechnicalSystemContext"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X8jXsPk7EfCtcLET-2iI1w" name="05_TechnicalAnalysis">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DeVyYPnQEfCdUdBuMQyJXQ" name="01_TechnicalSolutionAnalysis_TechAnpkg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_I9mQYPnQEfCdUdBuMQyJXQ" name="02_FaultTreeAnalysis_TechAnPkg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ej8MsPnJEfCdUdBuMQyJXQ" name="06_TechnicalDesign">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NeRmQPnQEfCdUdBuMQyJXQ" name="01_ECU_TechDesPkg">
+        <packagedElement xmi:type="uml:Package" xmi:id="_kGjfAPqyEfC9mrJSh1aXZA" name="01_HWComponents_TechDesPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_0UtTMPqzEfC9mrJSh1aXZA" name="02_Microcontroller_TechDesPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_9Jcp0Pq0EfC9mrJSh1aXZA" name="03_MicrocontrollerInterfaces_TechDesPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IABx0Pq1EfC9mrJSh1aXZA" name="04_SWFeatures_TechDesPkg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y32V8Pk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y34LIPk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4gdQPk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4gdQfk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4hrYPk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4hrYfk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4hrYvk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4hrY_k6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4hrZPk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4hrZfk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4hrZvk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4iScPk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4iScfk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4iScvk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4iSc_k6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4iSdPk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4iSdfk6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4iSdvk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y4iSd_k6EfCtcLET-2iI1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4iSePk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sib6sPn4EfCHlZpuU1O8uQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v5D4QPn4EfCu8KZa7h46FQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5D4Qfn4EfCu8KZa7h46FQ" key="Version" value="0.0.8"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5D4Qvn4EfCu8KZa7h46FQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5D4Q_n4EfCu8KZa7h46FQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5D4RPn4EfCu8KZa7h46FQ" key="Date" value="2026-01-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5D4Rfn4EfCu8KZa7h46FQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v5BcAPn4EfCu8KZa7h46FQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4U0fYZEfCigK29YMXgvw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_j7GWwPXtEfCmbf5-iBIlGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__qyz_vquEfC-i6ZxyDLQqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GzU84PqvEfCYwtYPDKdIqw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GzU84fqvEfCYwtYPDKdIqw" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GzU84vqvEfCYwtYPDKdIqw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GzU84_qvEfCYwtYPDKdIqw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GzU85PqvEfCYwtYPDKdIqw" key="Date" value="2026-01-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GzU85fqvEfCYwtYPDKdIqw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GzTHsPqvEfCYwtYPDKdIqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_C1XFMfe_EfCDd_uE11Ycjw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_j-4AkPe7EfCDd_uE11Ycjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_T1vqUPqvEfCYwtYPDKdIqw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XWWDQPqvEfC9mrJSh1aXZA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWDQfqvEfC9mrJSh1aXZA" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWDQvqvEfC9mrJSh1aXZA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWDQ_qvEfC9mrJSh1aXZA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWDRPqvEfC9mrJSh1aXZA" key="Date" value="2026-01-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWDRfqvEfC9mrJSh1aXZA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XWUOEPqvEfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.uml#_OMfqQPd3EfCG9O80Pb51PQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.uml#_wsFV0Pd1EfCG9O80Pb51PQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_T10i0PqvEfCYwtYPDKdIqw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XWWqUPqvEfC9mrJSh1aXZA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWqUfqvEfC9mrJSh1aXZA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWqUvqvEfC9mrJSh1aXZA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWqU_qvEfC9mrJSh1aXZA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWqVPqvEfC9mrJSh1aXZA" key="Date" value="2026-01-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XWWqVfqvEfC9mrJSh1aXZA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XWWDRvqvEfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.uml#_UUeQ8Pd-EfC_mdT_vlSHdg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.uml#_lpWHgPd9EfC_mdT_vlSHdg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_T12_EPqvEfCYwtYPDKdIqw">
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_j7GWwPXtEfCmbf5-iBIlGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_T12_EfqvEfCYwtYPDKdIqw">
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_j-4AkPe7EfCDd_uE11Ycjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wO660Pq5EfC9mrJSh1aXZA">
+      <appliedProfile xmi:type="uml:Profile" href="../SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml#_RFbQEPq1EfC9mrJSh1aXZA"/>
+    </profileApplication>
+  </uml:Model>
+  <SysMod_RequirementsEngineeringProfile:Objective xmi:id="_0mpowPn4EfCu8KZa7h46FQ" base_Class="_q4-pkPn4EfCHlZpuU1O8uQ" ID="BMS_Obj_01&#xA;" NeededCapability="Ability of the battery management system to regulate the energy supply and discharge of the HV battery in order to maintain the operating parameters within the optimum range.&#xA;" Context=" Daily operation under varying load conditions and environmental conditions, requiring continuous monitoring and adjustment of battery parameters.&#xA;" SuccessMetric="The HV battery maintains a state of charge between 20% and 80%, a state of health of at least 85%, and an operating temperature between 15°C and 35°C for at least 95% of operating hours."/>
+  <SysMod_RequirementsEngineeringProfile:Objective xmi:id="_ZemMMPqOEfCdvKL71mzKtg" base_Class="_YBEeQPqOEfCdvKL71mzKtg" ID="BMS_Obj_02&#xA;" NeededCapability="Ability of the battery management system (BMS) to ensure the safety of drivers and the environment by monitoring and preventing critical high-voltage battery conditions.&#xA;" Context="Operation of an electric vehicle under various environmental conditions, including potential faults such as insulation defects, short circuits, or defective cells.&#xA;" SuccessMetric="The BMS prevents the battery voltage from being switched on in at least 99% of cases of malfunction and takes measures to avoid dangerous situations, such as disconnecting the battery from the charging system or regulating the cooling capacity.&#xA;"/>
+  <ModelElements:Stakeholder xmi:id="_BdVgsPqQEfCdvKL71mzKtg" base_Classifier="_BdSdYPqQEfCdvKL71mzKtg"/>
+  <ModelElements:Stakeholder xmi:id="_IBGvsPqQEfCdvKL71mzKtg" base_Classifier="_IBE6gPqQEfCdvKL71mzKtg"/>
+  <SysMod_RequirementsEngineeringProfile:Objective xmi:id="_5b388PqVEfCdvKL71mzKtg" base_Class="_E8yiwPqTEfCdvKL71mzKtg" ID="BMS_Obj_03&#xA;" NeededCapability="Ability of the BMS to precisely monitor the state of the HV battery and to implement vehicle applications such as “driving the vehicle,” “recuperation,” or “charging the HV battery” in coordination with the vehicle's systems.&#xA;" Context="In daily operation under various driving conditions, including compliance with legal requirements and safe operating conditions. Also in direct communication with the other systems of the vehicle.&#xA;" SuccessMetric="The BMS monitors the HV battery status accurately in at least 99% of cases and enables use cases to be carried out without manual intervention.&#xA;&#xA;&#xA;"/>
+  <SysMod_SystemContextProfile:System xmi:id="_JsvaAPqvEfCYwtYPDKdIqw" base_Class="_pJOrgPquEfC-i6ZxyDLQqQ"/>
+  <SysMod_ChannelArchitectureProfile:DataPipeline xmi:id="_zsbvEPqvEfC9mrJSh1aXZA" base_Class="_NnCFUPqvEfCYwtYPDKdIqw"/>
+  <SysMod_ChannelArchitectureProfile:DataPipeline xmi:id="_oPR50PqwEfC9mrJSh1aXZA" base_Class="_fnSwUPqwEfC9mrJSh1aXZA"/>
+  <SysMod_ChannelArchitectureProfile:DataPipeline xmi:id="_tG0QgPqwEfC9mrJSh1aXZA" base_Class="_pXA98PqwEfC9mrJSh1aXZA"/>
+  <SysMod_HierarchicalControlProfile:Controller xmi:id="_1U_L0PqwEfC9mrJSh1aXZA" base_Class="_xSOhAPqwEfC9mrJSh1aXZA"/>
+</xmi:XMI>
