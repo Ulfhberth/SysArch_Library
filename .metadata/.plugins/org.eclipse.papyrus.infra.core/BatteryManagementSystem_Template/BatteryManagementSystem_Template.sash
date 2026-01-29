@@ -3,7 +3,7 @@
   <di:SashWindowsMngr>
     <sashModel currentSelection="/0/@sashModel/@windows.0/@children.0" restoreActivePage="true">
       <windows>
-        <children xsi:type="di:TabFolder" currentSelection="/0/@sashModel/@windows.0/@children.0/@children.1">
+        <children xsi:type="di:TabFolder" currentSelection="/0/@sashModel/@windows.0/@children.0/@children.0">
           <children>
             <emfPageIdentifier href="platform:/resource/BatteryManagementSystem_Template/BatteryManagementSystem_Template.notation#_8yq0QPzzEfCUnfqjy6ET_w"/>
           </children>
