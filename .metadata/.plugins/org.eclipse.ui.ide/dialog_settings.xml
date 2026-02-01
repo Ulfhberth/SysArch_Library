@@ -185,6 +185,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/02_SysModeling_ArchitecturePattern/SysMod_HierarchicalControlProfile"/>
+			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/02_SysModeling_ArchitecturePattern/SysMod_ChannelArchitectureProfile"/>
+			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/01_SysModeling_Subdomains/SysMod_TechnicalDesignProfile"/>
 			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/01_SysModeling_Subdomains/SysMod_SystemContextProfile"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Activities="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:SysMod_ChannelArchitectureProfile="http:///schemas/SysMod_ChannelArchitectureProfile/_OMfDMPd3EfCG9O80Pb51PQ/1" xmlns:SysMod_HierarchicalControlProfile="http:///schemas/SysMod_HierarchicalControlProfile/_UUdp4Pd-EfC_mdT_vlSHdg/0" xmlns:SysMod_RequirementsEngineeringProfile="http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7" xmlns:SysMod_SystemContextProfile="http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1" xmlns:SysMod_TechnicalDesignProfile="http:///schemas/SysMod_TechnicalDesignProfile/_HScegPwzEfCHzqIFEPPEfQ/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http:///schemas/SysMod_ChannelArchitectureProfile/_OMfDMPd3EfCG9O80Pb51PQ/1 ../SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.uml#_OMfqQPd3EfCG9O80Pb51PQ http:///schemas/SysMod_HierarchicalControlProfile/_UUdp4Pd-EfC_mdT_vlSHdg/0 ../SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.uml#_UUeQ8Pd-EfC_mdT_vlSHdg http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7 ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4U0fYZEfCigK29YMXgvw http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1 ../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_C1XFMfe_EfCDd_uE11Ycjw http:///schemas/SysMod_TechnicalDesignProfile/_HScegPwzEfCHzqIFEPPEfQ/3 ../SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml#_HSdFkPwzEfCHzqIFEPPEfQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Activities="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SysMod_ChannelArchitectureProfile="http:///schemas/SysMod_ChannelArchitectureProfile/_OMfDMPd3EfCG9O80Pb51PQ/1" xmlns:SysMod_HierarchicalControlProfile="http:///schemas/SysMod_HierarchicalControlProfile/_UUdp4Pd-EfC_mdT_vlSHdg/0" xmlns:SysMod_RequirementsEngineeringProfile="http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7" xmlns:SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg="http:///SysMod_RequirementsEngineeringProfile/SystemReqSpec_profpkg.ecore" xmlns:SysMod_SystemContextProfile="http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1" xmlns:SysMod_TechnicalDesignProfile="http:///schemas/SysMod_TechnicalDesignProfile/_HScegPwzEfCHzqIFEPPEfQ/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SysMod_ChannelArchitectureProfile/_OMfDMPd3EfCG9O80Pb51PQ/1 ../SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.uml#_OMfqQPd3EfCG9O80Pb51PQ http:///schemas/SysMod_HierarchicalControlProfile/_UUdp4Pd-EfC_mdT_vlSHdg/0 ../SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.uml#_UUeQ8Pd-EfC_mdT_vlSHdg http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7 ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4U0fYZEfCigK29YMXgvw http:///SysMod_RequirementsEngineeringProfile/SystemReqSpec_profpkg.ecore ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4VGvYZEfCigK29YMXgvw http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1 ../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_C1XFMfe_EfCDd_uE11Ycjw http:///schemas/SysMod_TechnicalDesignProfile/_HScegPwzEfCHzqIFEPPEfQ/3 ../SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml#_HSdFkPwzEfCHzqIFEPPEfQ">
   <uml:Model xmi:id="_y3SVQPk6EfCtcLET-2iI1w" name="BatteryManagementSystem_Template">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_y4i5gPk6EfCtcLET-2iI1w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -10,25 +10,122 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_NQYI4Pk7EfCtcLET-2iI1w" name="01_RequirementsEngineering">
       <packagedElement xmi:type="uml:Package" xmi:id="_h8NewPk7EfCtcLET-2iI1w" name="RE_SystemObjectives_ReqEngpkg">
         <packagedElement xmi:type="uml:Class" xmi:id="_q4-pkPn4EfCHlZpuU1O8uQ" name="HV Battery Supervision"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_YBEeQPqOEfCdvKL71mzKtg" name="Safety of vehicle user and environment"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YBEeQPqOEfCdvKL71mzKtg" name="Safety of vehicle user and environment">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_eXcj8P0fEfC1tP0nbvQkeg" annotatedElement="_YJSYkP0fEfC1tP0nbvQkeg">
+            <body>Hazard_and_risk_analysis_BMS_{Project}
+</body>
+          </ownedComment>
+          <ownedComment xmi:type="uml:Comment" xmi:id="_VShfcP0iEfC1tP0nbvQkeg" annotatedElement="_iRbl4P0iEfC1tP0nbvQkeg _utKt0P0iEfC1tP0nbvQkeg _zUjvsP0iEfC1tP0nbvQkeg">
+            <body>HV_Battery_MonParameter_Analysis_{Project}
+</body>
+          </ownedComment>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_rVxRAP0eEfC1tP0nbvQkeg" name="Operating of HV Battery within safe limits"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_E8yiwPqTEfCdvKL71mzKtg" name="Interface to the vehicle"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_v4HswP0cEfC1tP0nbvQkeg" name="Trace4" client="_YBEeQPqOEfCdvKL71mzKtg" supplier="_rXpyQP0cEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_6V5TMP0cEfC1tP0nbvQkeg" name="Trace5" client="_YBEeQPqOEfCdvKL71mzKtg" supplier="_42YoQP0cEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_YJSYkP0fEfC1tP0nbvQkeg" name="DeriveReqt6" client="_rVxRAP0eEfC1tP0nbvQkeg" supplier="_YBEeQPqOEfCdvKL71mzKtg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_iRbl4P0iEfC1tP0nbvQkeg" name="DeriveReqt7" client="_uCaoAP0fEfC1tP0nbvQkeg" supplier="_rVxRAP0eEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_utKt0P0iEfC1tP0nbvQkeg" name="DeriveReqt8" client="_QA9xIP0gEfC1tP0nbvQkeg" supplier="_rVxRAP0eEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_zUjvsP0iEfC1tP0nbvQkeg" name="DeriveReqt9" client="_QQT0sP0gEfC1tP0nbvQkeg" supplier="_rVxRAP0eEfC1tP0nbvQkeg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_cnutYPk7EfCtcLET-2iI1w" name="RE_SystemActors_ReqEngpkg">
         <packagedElement xmi:type="uml:Actor" xmi:id="_BdSdYPqQEfCdvKL71mzKtg" name="RE_Actor_VehicleUser"/>
         <packagedElement xmi:type="uml:Actor" xmi:id="_IBE6gPqQEfCdvKL71mzKtg" name="RE_Actor_"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_rXpyQP0cEfC1tP0nbvQkeg" name="Vehicle User"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_42YoQP0cEfC1tP0nbvQkeg" name="SafetyManager"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_lOyCwPk7EfCtcLET-2iI1w" name="RE_SystemRequirementsSpec_ReqEngpkg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lOyCwPk7EfCtcLET-2iI1w" name="RE_SystemRequirementsSpec_ReqEngpkg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_uCaoAP0fEfC1tP0nbvQkeg" name="Cell Voltage Monitoring">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_-Jj3UP63EfCsXaHXONNEfg" name="TC_CellVoltAcq_EquivalenceClass_1"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_FrMcwP64EfCsXaHXONNEfg" name="TC_CellVoltAcq_EquivalenceClass_2"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_HAcYcP64EfCsXaHXONNEfg" name="TC_CellVoltAcq_Performance_1"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_osQLwP64EfCsXaHXONNEfg" name="TC_CellVoltAcq_StressTest_1"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_mqjFwP0jEfC1tP0nbvQkeg" name="Accuracy of cell voltage monitoring"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7SpLIP0jEfC1tP0nbvQkeg" name="Cell Voltage Monitoring hard real time"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_lqFR0P0kEfC1tP0nbvQkeg" name="cell voltage monitoring behavior"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_mQbDoP0lEfC1tP0nbvQkeg" name="Cell Voltage monitoring Data storage"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_OvcQIP0mEfC1tP0nbvQkeg" name="CEll Voltage Monitoring Reliability"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_909D0P64EfCsXaHXONNEfg" name="Cell Voltage Data Acquisition"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QA9xIP0gEfC1tP0nbvQkeg" name="HV Battery Current Monitoring"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QQT0sP0gEfC1tP0nbvQkeg" name="Cell Block Temperature Monitoring"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_AFTLQP64EfCsXaHXONNEfg" name="Verify4" client="_-Jj3UP63EfCsXaHXONNEfg" supplier="_lqFR0P0kEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_NUM1gP64EfCsXaHXONNEfg" name="Verify5" client="_FrMcwP64EfCsXaHXONNEfg" supplier="_mqjFwP0jEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_QNv1gP64EfCsXaHXONNEfg" name="Verify6" client="_HAcYcP64EfCsXaHXONNEfg" supplier="_7SpLIP0jEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_t45PwP64EfCsXaHXONNEfg" name="Verify9" client="_osQLwP64EfCsXaHXONNEfg" supplier="_7SpLIP0jEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_JSNxUP65EfCsXaHXONNEfg" name="Satisfy8" client="_909D0P64EfCsXaHXONNEfg" supplier="_uCaoAP0fEfC1tP0nbvQkeg"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_pNrhQPk7EfCtcLET-2iI1w" name="RE_SystemTestCases_ReqEngpkg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_PsZfYPk7EfCtcLET-2iI1w" name="02_FunctionalAnalysis">
-      <packagedElement xmi:type="uml:Package" xmi:id="_zgJ3YPnPEfCdUdBuMQyJXQ" name="Package1"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_zgJ3YPnPEfCdUdBuMQyJXQ" name="01_UseCaseAnalysis_FuncAnaPkg">
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_2C-AIP62EfCsXaHXONNEfg" name="Refine2" client="_uelF8P0nEfC1tP0nbvQkeg" supplier="_rVxRAP0eEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_T-iKEP65EfCsXaHXONNEfg" name="BatteryManagementSystem" useCase="_aZn-MP65EfCsXaHXONNEfg _uelF8P0nEfC1tP0nbvQkeg">
+          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_aZn-MP65EfCsXaHXONNEfg" name="monitor cell voltages" subject="_T-iKEP65EfCsXaHXONNEfg"/>
+          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uelF8P0nEfC1tP0nbvQkeg" name="monitor HV battery parameters" classifierBehavior="_Go6jAP0oEfC1tP0nbvQkeg" subject="_T-iKEP65EfCsXaHXONNEfg">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_Go6jAP0oEfC1tP0nbvQkeg" name="Activity1">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_MRPdcP0oEfC1tP0nbvQkeg" name="Monitor Cell Voltages StandardFlow" node="_pcB8oP0oEfC1tP0nbvQkeg _vD3u4P0oEfC1tP0nbvQkeg _gPtyYP66EfCsXaHXONNEfg _YuxCEP69EfCsXaHXONNEfg _0FGhEP69EfCsXaHXONNEfg _6PgN0P69EfCsXaHXONNEfg _wllQwP6-EfCsXaHXONNEfg">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sCkhEP0oEfC1tP0nbvQkeg" name="Measure cell voltages"/>
+                <ownedBehavior xmi:type="uml:Activity" xmi:id="_574aQP0oEfC1tP0nbvQkeg" name="Check for overvoltage and undervoltage"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cjMV8P69EfCsXaHXONNEfg" name="transit HV Battery to safe state"/>
+                <edge xmi:type="uml:ObjectFlow" xmi:id="_RbUxAP66EfCsXaHXONNEfg" target="_OkJIgP66EfCsXaHXONNEfg" source="_LB2GcP66EfCsXaHXONNEfg">
+                  <guard xmi:type="uml:LiteralBoolean" xmi:id="_RbX0UP66EfCsXaHXONNEfg" value="true"/>
+                  <weight xmi:type="uml:LiteralInteger" xmi:id="_RbX0Uf66EfCsXaHXONNEfg" value="1"/>
+                </edge>
+                <edge xmi:type="uml:ObjectFlow" xmi:id="_udG90P69EfCsXaHXONNEfg" target="_iyTjkP69EfCsXaHXONNEfg" source="_k9iFAP69EfCsXaHXONNEfg">
+                  <guard xmi:type="uml:LiteralBoolean" xmi:id="_udLPQP69EfCsXaHXONNEfg" value="true"/>
+                  <weight xmi:type="uml:LiteralInteger" xmi:id="_udLPQf69EfCsXaHXONNEfg" value="1"/>
+                </edge>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_7mAtwP69EfCsXaHXONNEfg" name="no" target="_6PgN0P69EfCsXaHXONNEfg" source="_0FGhEP69EfCsXaHXONNEfg"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_yoJlcP6-EfCsXaHXONNEfg" target="_wllQwP6-EfCsXaHXONNEfg" source="_YuxCEP69EfCsXaHXONNEfg"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_1foI4P6-EfCsXaHXONNEfg" target="_0FGhEP69EfCsXaHXONNEfg" source="_vD3u4P0oEfC1tP0nbvQkeg"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_4kH0oP6-EfCsXaHXONNEfg" target="_gPtyYP66EfCsXaHXONNEfg" source="_0FGhEP69EfCsXaHXONNEfg"/>
+                <node xmi:type="uml:CallBehaviorAction" xmi:id="_pcB8oP0oEfC1tP0nbvQkeg" name="measure cell voltages" behavior="_sCkhEP0oEfC1tP0nbvQkeg">
+                  <argument xmi:type="uml:InputPin" xmi:id="_DHvWoP66EfCsXaHXONNEfg" name="cv_raw">
+                    <upperBound xmi:type="uml:LiteralInteger" xmi:id="_DHwkwP66EfCsXaHXONNEfg" value="1"/>
+                  </argument>
+                  <result xmi:type="uml:OutputPin" xmi:id="_LB2GcP66EfCsXaHXONNEfg" name="cv_meas" outgoing="_RbUxAP66EfCsXaHXONNEfg">
+                    <upperBound xmi:type="uml:LiteralInteger" xmi:id="_LB3UkP66EfCsXaHXONNEfg" value="1"/>
+                  </result>
+                </node>
+                <node xmi:type="uml:CallBehaviorAction" xmi:id="_vD3u4P0oEfC1tP0nbvQkeg" name="check for overvoltage and undervoltage" outgoing="_1foI4P6-EfCsXaHXONNEfg" behavior="_574aQP0oEfC1tP0nbvQkeg">
+                  <argument xmi:type="uml:InputPin" xmi:id="_OkJIgP66EfCsXaHXONNEfg" name="cv_meas" incoming="_RbUxAP66EfCsXaHXONNEfg">
+                    <upperBound xmi:type="uml:LiteralInteger" xmi:id="_OkJvkP66EfCsXaHXONNEfg" value="1"/>
+                  </argument>
+                </node>
+                <node xmi:type="uml:CallBehaviorAction" xmi:id="_gPtyYP66EfCsXaHXONNEfg" name="Decide ErrorReaction for Safe State" incoming="_4kH0oP6-EfCsXaHXONNEfg">
+                  <result xmi:type="uml:OutputPin" xmi:id="_k9iFAP69EfCsXaHXONNEfg" name="SafeStateStrategy" outgoing="_udG90P69EfCsXaHXONNEfg">
+                    <upperBound xmi:type="uml:LiteralInteger" xmi:id="_k9jTIP69EfCsXaHXONNEfg" value="1"/>
+                  </result>
+                </node>
+                <node xmi:type="uml:CallBehaviorAction" xmi:id="_YuxCEP69EfCsXaHXONNEfg" name="transit HV battery to safe state" outgoing="_yoJlcP6-EfCsXaHXONNEfg" behavior="_cjMV8P69EfCsXaHXONNEfg">
+                  <argument xmi:type="uml:InputPin" xmi:id="_iyTjkP69EfCsXaHXONNEfg" name="SafeStateStrategy" incoming="_udG90P69EfCsXaHXONNEfg">
+                    <upperBound xmi:type="uml:LiteralInteger" xmi:id="_iyV_0P69EfCsXaHXONNEfg" value="1"/>
+                  </argument>
+                </node>
+                <node xmi:type="uml:DecisionNode" xmi:id="_0FGhEP69EfCsXaHXONNEfg" name="Error detected?" incoming="_1foI4P6-EfCsXaHXONNEfg" outgoing="_7mAtwP69EfCsXaHXONNEfg _4kH0oP6-EfCsXaHXONNEfg"/>
+                <node xmi:type="uml:FlowFinalNode" xmi:id="_6PgN0P69EfCsXaHXONNEfg" name="FlowFinalNode12" incoming="_7mAtwP69EfCsXaHXONNEfg"/>
+                <node xmi:type="uml:FlowFinalNode" xmi:id="_wllQwP6-EfCsXaHXONNEfg" name="FlowFinalNode15" incoming="_yoJlcP6-EfCsXaHXONNEfg"/>
+              </ownedBehavior>
+            </ownedBehavior>
+          </ownedUseCase>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_SYqRUPk7EfCtcLET-2iI1w" name="03_FunctionalDesign">
       <packagedElement xmi:type="uml:Package" xmi:id="_OqKrQPnIEfCdUdBuMQyJXQ" name="01_FunctionBlocks_FuncDesPkg">
-        <packagedElement xmi:type="uml:Class" xmi:id="_NnCFUPqvEfCYwtYPDKdIqw" name="Cell Voltage Data Acquisition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NnCFUPqvEfCYwtYPDKdIqw" name="Cell Voltage Data Acquisition">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_CdKBMP69EfCsXaHXONNEfg" name="CellVoltageMeasurement"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IGck8P69EfCsXaHXONNEfg" name="CellErrorReaction"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Qqu6MP69EfCsXaHXONNEfg" name="CellErrorSafeStateTransition"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_fnSwUPqwEfC9mrJSh1aXZA" name="Battery Current Data Acquisition"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_pXA98PqwEfC9mrJSh1aXZA" name="Cell Block Temperature Data Acquisition"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_xSOhAPqwEfC9mrJSh1aXZA" name="BMS Management"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_FXU7AP63EfCsXaHXONNEfg" name="Satisfy5" client="_NnCFUPqvEfCYwtYPDKdIqw" supplier="_uCaoAP0fEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ISGDAP63EfCsXaHXONNEfg" name="Satisfy6" client="_fnSwUPqwEfC9mrJSh1aXZA" supplier="_QA9xIP0gEfC1tP0nbvQkeg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_J4O6YP63EfCsXaHXONNEfg" name="Satisfy7" client="_pXA98PqwEfC9mrJSh1aXZA" supplier="_QQT0sP0gEfC1tP0nbvQkeg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_awKMsPnIEfCdUdBuMQyJXQ" name="02_InterfaceBlocks_FuncDesPkg"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_gRaOwPnIEfCdUdBuMQyJXQ" name="03_Types_FuncDesPkg">
@@ -488,6 +585,7 @@ This SysML package defines the interface specification of the communication prot
                   </ownedAttribute>
                 </packagedElement>
               </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VqdY8P0PEfC5TZDX4_ilaA" name="Block4"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_bgFoIPtlEfCxHv84GMYyPQ" name="03_CMUSyncedCommunication_TechDesPkg">
               <ownedComment xmi:type="uml:Comment" xmi:id="_Pbh0oPtmEfCxHv84GMYyPQ" annotatedElement="_Y97rIPq6EfCwSJ_Ep6ygOw">
@@ -767,4 +865,55 @@ This SysML package contains the Controller responsible for coordinating the comm
   <SysMod_ChannelArchitectureProfile:DataPort xmi:id="_odGmIfzvEfCUGInwsD8kCg" base_Port="_odF_EPzvEfCUGInwsD8kCg"/>
   <Blocks:Block xmi:id="_HW69gPzxEfCrsYob3LYTKQ" base_Class="_HW2FAPzxEfCrsYob3LYTKQ"/>
   <Blocks:Block xmi:id="_r1wSEPzxEfCrsYob3LYTKQ" base_Class="_r1t10PzxEfCrsYob3LYTKQ"/>
+  <Blocks:Block xmi:id="_VqjfkP0PEfC5TZDX4_ilaA" base_Class="_VqdY8P0PEfC5TZDX4_ilaA"/>
+  <SysMod_ChannelArchitectureProfile:DataProcessingComponent xmi:id="_zIcg8P0PEfC5TZDX4_ilaA" base_Class="_WvFMkPzsEfCUGInwsD8kCg"/>
+  <Requirements:Requirement xmi:id="_fJM4YP0cEfC1tP0nbvQkeg" base_NamedElement="_YBEeQPqOEfCdvKL71mzKtg" base_Class="_YBEeQPqOEfCdvKL71mzKtg"/>
+  <ModelElements:Stakeholder xmi:id="_rXxuEP0cEfC1tP0nbvQkeg" base_Classifier="_rXpyQP0cEfC1tP0nbvQkeg"/>
+  <Requirements:Trace xmi:id="_v4KwEP0cEfC1tP0nbvQkeg" base_DirectedRelationship="_v4HswP0cEfC1tP0nbvQkeg" base_Abstraction="_v4HswP0cEfC1tP0nbvQkeg"/>
+  <ModelElements:Stakeholder xmi:id="_42bEgP0cEfC1tP0nbvQkeg" base_Classifier="_42YoQP0cEfC1tP0nbvQkeg"/>
+  <Requirements:Trace xmi:id="_6V6hUP0cEfC1tP0nbvQkeg" base_DirectedRelationship="_6V5TMP0cEfC1tP0nbvQkeg" base_Abstraction="_6V5TMP0cEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile:SafetyGoal xmi:id="_yYqsAP0eEfC1tP0nbvQkeg" ID="tbd" Text="The battery management system (BMS) must be capable of monitoring the voltage, current, and temperature of each individual battery cell in real time. This includes continuously recording and analyzing these parameters to ensure that all cells are operating within their defined safe operating limits to prevent a thermal runaway of the HV battery. " base_Class="_rVxRAP0eEfC1tP0nbvQkeg" ASIL_Classification="tbd"/>
+  <Requirements:Requirement xmi:id="_WRZC0P0fEfC1tP0nbvQkeg" base_NamedElement="_rVxRAP0eEfC1tP0nbvQkeg" base_Class="_rVxRAP0eEfC1tP0nbvQkeg"/>
+  <Requirements:DeriveReqt xmi:id="_YJUNwP0fEfC1tP0nbvQkeg" base_DirectedRelationship="_YJSYkP0fEfC1tP0nbvQkeg" base_Abstraction="_YJSYkP0fEfC1tP0nbvQkeg"/>
+  <ModelElements:Rationale xmi:id="_eXeZIP0fEfC1tP0nbvQkeg" base_Comment="_eXcj8P0fEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_uCcdMP0fEfC1tP0nbvQkeg" base_NamedElement="_uCaoAP0fEfC1tP0nbvQkeg" base_Class="_uCaoAP0fEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:FunctionalRequirement xmi:id="_yD78sP0fEfC1tP0nbvQkeg" ID="tbd" Text="The battery management system (BMS) must be able to continuously monitor the voltage of each individual battery cell and ensure that it remains within the range of {HVBatt_CellVoltMin} V to {HVBatt_CellVoltMax} V." Priority="tbd" ASIL_Classification="tbd" base_Class="_uCaoAP0fEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_QBA0cP0gEfC1tP0nbvQkeg" base_NamedElement="_QA9xIP0gEfC1tP0nbvQkeg" base_Class="_QA9xIP0gEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_QQVp4P0gEfC1tP0nbvQkeg" base_NamedElement="_QQT0sP0gEfC1tP0nbvQkeg" base_Class="_QQT0sP0gEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:FunctionalRequirement xmi:id="_cx_zoP0gEfC1tP0nbvQkeg" ID="tbd" Text="The battery management system (BMS) must be able to continuously monitor the current flow to the HV battery and ensure that it does not exceed {HVBatt_CurrMax} A." Priority="tbd" ASIL_Classification="tbd" base_Class="_QA9xIP0gEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:FunctionalRequirement xmi:id="_gLv9sP0gEfC1tP0nbvQkeg" ID="tbd" Text="The battery management system (BMS) must be able to continuously monitor the temperature of each individual HV battery cell block and ensure that it remains within the range of {HV_CBTemp_Min} °C to {HV_CBTemp_Max}°C." Priority="tbd" ASIL_Classification="tbd" base_Class="_QQT0sP0gEfC1tP0nbvQkeg"/>
+  <ModelElements:Rationale xmi:id="_VSj7sP0iEfC1tP0nbvQkeg" base_Comment="_VShfcP0iEfC1tP0nbvQkeg"/>
+  <Requirements:DeriveReqt xmi:id="_iReCIP0iEfC1tP0nbvQkeg" base_DirectedRelationship="_iRbl4P0iEfC1tP0nbvQkeg" base_Abstraction="_iRbl4P0iEfC1tP0nbvQkeg"/>
+  <Requirements:DeriveReqt xmi:id="_utMjAP0iEfC1tP0nbvQkeg" base_DirectedRelationship="_utKt0P0iEfC1tP0nbvQkeg" base_Abstraction="_utKt0P0iEfC1tP0nbvQkeg"/>
+  <Requirements:DeriveReqt xmi:id="_zUmL8P0iEfC1tP0nbvQkeg" base_DirectedRelationship="_zUjvsP0iEfC1tP0nbvQkeg" base_Abstraction="_zUjvsP0iEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_mqliAP0jEfC1tP0nbvQkeg" base_NamedElement="_mqjFwP0jEfC1tP0nbvQkeg" base_Class="_mqjFwP0jEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:PerformanceRequirement xmi:id="_s-r9UP0jEfC1tP0nbvQkeg" ID="tbd" Text="The cell voltage must be measured with an accuracy of at least 0.1 V." Priority="tbd" ASIL_Classification="tbd" base_Class="_mqjFwP0jEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_7SrAUP0jEfC1tP0nbvQkeg" base_NamedElement="_7SpLIP0jEfC1tP0nbvQkeg" base_Class="_7SpLIP0jEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:PerformanceRequirement xmi:id="__gazIP0jEfC1tP0nbvQkeg" ID="tbd" Text="The voltage measurement must be performed in hard real time, with an update rate of at least 100 Hz (10 milliseconds)." Priority="tbd" ASIL_Classification="tbd" base_Class="_7SpLIP0jEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_lqHHAP0kEfC1tP0nbvQkeg" base_NamedElement="_lqFR0P0kEfC1tP0nbvQkeg" base_Class="_lqFR0P0kEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:FunctionalRequirement xmi:id="_nMVHsP0kEfC1tP0nbvQkeg" ID="tbd" Text="If a cell voltage outside the defined range is detected for a period longer than {HVBatt_CellMon_FTTI}, the BMS must trigger a warning and initiate the transition of the HV battery to a safe state in order to protect the cell from damage." Priority="tbd" ASIL_Classification="tbd" base_Class="_lqFR0P0kEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_mQdf4P0lEfC1tP0nbvQkeg" base_NamedElement="_mQbDoP0lEfC1tP0nbvQkeg" base_Class="_mQbDoP0lEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:Supportabilityrequirement xmi:id="_o6XhYP0lEfC1tP0nbvQkeg" ID="tbd" Text="The system must be capable of storing historical voltage data for each cell and providing this data for diagnostic and maintenance purposes." Priority="tbd" ASIL_Classification="tbd" base_Class="_mQbDoP0lEfC1tP0nbvQkeg"/>
+  <Requirements:Requirement xmi:id="_OveFUP0mEfC1tP0nbvQkeg" base_NamedElement="_OvcQIP0mEfC1tP0nbvQkeg" base_Class="_OvcQIP0mEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg:ReliabilityRequirement xmi:id="_YqCRAP0mEfC1tP0nbvQkeg" Text="The Cell Voltage Monitoring must be capable of running in 99% of the BMS runtime and under all defined conditions." Priority="tbd" ASIL_Classification="tbd" base_Class="_OvcQIP0mEfC1tP0nbvQkeg"/>
+  <SysMod_RequirementsEngineeringProfile:SystemProcess xmi:id="_v-rmwP0nEfC1tP0nbvQkeg" base_UseCase="_uelF8P0nEfC1tP0nbvQkeg"/>
+  <Requirements:Refine xmi:id="_2DDfsP62EfCsXaHXONNEfg" base_DirectedRelationship="_2C-AIP62EfCsXaHXONNEfg" base_Abstraction="_2C-AIP62EfCsXaHXONNEfg"/>
+  <Requirements:Satisfy xmi:id="_FXXXQP63EfCsXaHXONNEfg" base_DirectedRelationship="_FXU7AP63EfCsXaHXONNEfg" base_Abstraction="_FXU7AP63EfCsXaHXONNEfg"/>
+  <Requirements:Satisfy xmi:id="_ISHRIP63EfCsXaHXONNEfg" base_DirectedRelationship="_ISGDAP63EfCsXaHXONNEfg" base_Abstraction="_ISGDAP63EfCsXaHXONNEfg"/>
+  <Requirements:Satisfy xmi:id="_J4QvkP63EfCsXaHXONNEfg" base_DirectedRelationship="_J4O6YP63EfCsXaHXONNEfg" base_Abstraction="_J4O6YP63EfCsXaHXONNEfg"/>
+  <Requirements:TestCase xmi:id="_-JnhsP63EfCsXaHXONNEfg" base_Behavior="_-Jj3UP63EfCsXaHXONNEfg"/>
+  <Requirements:Verify xmi:id="_AFVngP64EfCsXaHXONNEfg" base_DirectedRelationship="_AFTLQP64EfCsXaHXONNEfg" base_Abstraction="_AFTLQP64EfCsXaHXONNEfg"/>
+  <Requirements:TestCase xmi:id="_FrO5AP64EfCsXaHXONNEfg" base_Behavior="_FrMcwP64EfCsXaHXONNEfg"/>
+  <Requirements:TestCase xmi:id="_HAe0sP64EfCsXaHXONNEfg" base_Behavior="_HAcYcP64EfCsXaHXONNEfg"/>
+  <Requirements:Verify xmi:id="_NUOqsP64EfCsXaHXONNEfg" base_DirectedRelationship="_NUM1gP64EfCsXaHXONNEfg" base_Abstraction="_NUM1gP64EfCsXaHXONNEfg"/>
+  <Requirements:Verify xmi:id="_QNxqsP64EfCsXaHXONNEfg" base_DirectedRelationship="_QNv1gP64EfCsXaHXONNEfg" base_Abstraction="_QNv1gP64EfCsXaHXONNEfg"/>
+  <Requirements:TestCase xmi:id="_osSA8P64EfCsXaHXONNEfg" base_Behavior="_osQLwP64EfCsXaHXONNEfg"/>
+  <Requirements:Verify xmi:id="_t46d4P64EfCsXaHXONNEfg" base_DirectedRelationship="_t45PwP64EfCsXaHXONNEfg" base_Abstraction="_t45PwP64EfCsXaHXONNEfg"/>
+  <SysMod_ChannelArchitectureProfile:DataPipeline xmi:id="_91EYkP64EfCsXaHXONNEfg" base_Class="_909D0P64EfCsXaHXONNEfg"/>
+  <Requirements:Satisfy xmi:id="_JSO_cP65EfCsXaHXONNEfg" base_DirectedRelationship="_JSNxUP65EfCsXaHXONNEfg" base_Abstraction="_JSNxUP65EfCsXaHXONNEfg"/>
+  <SysMod_SystemContextProfile:System xmi:id="_V3z_4P65EfCsXaHXONNEfg" base_Class="_T-iKEP65EfCsXaHXONNEfg"/>
+  <SysMod_RequirementsEngineeringProfile:SystemUseCase xmi:id="_ebROsP65EfCsXaHXONNEfg" base_UseCase="_aZn-MP65EfCsXaHXONNEfg"/>
+  <Blocks:Block xmi:id="_CdOSoP69EfCsXaHXONNEfg" base_Class="_CdKBMP69EfCsXaHXONNEfg"/>
+  <Blocks:Block xmi:id="_IGfBMP69EfCsXaHXONNEfg" base_Class="_IGck8P69EfCsXaHXONNEfg"/>
+  <Blocks:Block xmi:id="_QqxWcP69EfCsXaHXONNEfg" base_Class="_Qqu6MP69EfCsXaHXONNEfg"/>
 </xmi:XMI>

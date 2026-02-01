@@ -1,0 +1,4 @@
+PAPYRUS_EDITOR.color.gradient=RGB {255, 255, 255};RGB {255, 255, 255};0;0
+PAPYRUS_EDITOR.rulergrid.gridlinecolor=0,0,0
+PAPYRUS_EDITOR.rulergrid.gridlinestyle=3
+eclipse.preferences.version=1
