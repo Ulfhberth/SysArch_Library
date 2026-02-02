@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements">
+  <uml:Model xmi:id="_VcxQEAAhEfGIWKGV4kimHA" name="MBSE_ProjectStandardLibrary">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Ved5OgAhEfGIWKGV4kimHA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_VeixsAAhEfGIWKGV4kimHA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vW4BoAAhEfGIWKGV4kimHA" name="01_ProjectStakeholders">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_9cZx4AAhEfGIWKGV4kimHA" name="System Architect"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="__11ucAAhEfGIWKGV4kimHA" name="Project Management"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_B2KncAAiEfGIWKGV4kimHA" name="Technical Lead Engineer"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_EoI_0AAiEfGIWKGV4kimHA" name="System Integration Engineer"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_M204gAAiEfGIWKGV4kimHA" name="Testing">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_JOKvwAAiEfGIWKGV4kimHA" name="System Integration Tester"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_LTh5wAAiEfGIWKGV4kimHA" name="System Tester"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yOE4QAAhEfGIWKGV4kimHA" name="02_ProjectViewpoints">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_FWvq4AAlEfGIWKGV4kimHA">
+        <body>- What are the main system components and subsystems?
+- How is the system decomposed hierarchically?
+- Which components are responsible for which architectural roles?
+- Is the component structure complete and understandable at a glance?</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5MyW0AAhEfGIWKGV4kimHA" name="System Component Composition Overview"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Vdx8sAAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vdzx4AAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VedSIAAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VedSIQAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VedSIgAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VedSIwAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VedSJAAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VedSJQAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VedSJgAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VedSJwAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ved5MAAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ved5MQAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ved5MgAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ved5MwAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ved5NAAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ved5NQAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ved5NgAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ved5NwAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ved5OAAhEfGIWKGV4kimHA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ved5OQAhEfGIWKGV4kimHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <ModelElements:Viewpoint xmi:id="_5M0zEAAhEfGIWKGV4kimHA" base_Class="_5MyW0AAhEfGIWKGV4kimHA" concernList="_FWvq4AAlEfGIWKGV4kimHA" purpose="This viewpoint defines a high-level Block Definition Diagram (BDD) used as an overview of the system component composition. It provides a clear structural map of the system by identifying the major components, their decomposition, and their roles, while intentionally abstracting away detailed interfaces and behavioral aspects. The viewpoint supports early architectural understanding, communication with stakeholders, and alignment with layered interface views defined by the profile." stakeholder="_9cbnEAAhEfGIWKGV4kimHA __128kAAhEfGIWKGV4kimHA _B2L1kAAiEfGIWKGV4kimHA _EoKN8AAiEfGIWKGV4kimHA _LTjH4AAiEfGIWKGV4kimHA">
+    <presentation>Block Definition Diagram</presentation>
+  </ModelElements:Viewpoint>
+  <ModelElements:Stakeholder xmi:id="_9cbnEAAhEfGIWKGV4kimHA" base_Classifier="_9cZx4AAhEfGIWKGV4kimHA"/>
+  <ModelElements:Stakeholder xmi:id="__128kAAhEfGIWKGV4kimHA" base_Classifier="__11ucAAhEfGIWKGV4kimHA"/>
+  <ModelElements:Stakeholder xmi:id="_B2L1kAAiEfGIWKGV4kimHA" base_Classifier="_B2KncAAiEfGIWKGV4kimHA"/>
+  <ModelElements:Stakeholder xmi:id="_EoKN8AAiEfGIWKGV4kimHA" base_Classifier="_EoI_0AAiEfGIWKGV4kimHA"/>
+  <ModelElements:Stakeholder xmi:id="_JOMk8AAiEfGIWKGV4kimHA" base_Classifier="_JOKvwAAiEfGIWKGV4kimHA"/>
+  <ModelElements:Stakeholder xmi:id="_LTjH4AAiEfGIWKGV4kimHA" base_Classifier="_LTh5wAAiEfGIWKGV4kimHA"/>
+</xmi:XMI>

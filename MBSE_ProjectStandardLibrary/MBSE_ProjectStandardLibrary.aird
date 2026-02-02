@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_y3HWIPk6EfCtcLET-2iI1w" selectedViews="_y3d7cPk6EfCtcLET-2iI1w" version="15.4.1.202403191723">
-  <semanticResources>BatteryManagementSystem_Template.uml</semanticResources>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_VceVIAAhEfGIWKGV4kimHA" selectedViews="_VdNU8AAhEfGIWKGV4kimHA" version="15.4.1.202403191723">
+  <semanticResources>MBSE_ProjectStandardLibrary.uml</semanticResources>
   <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
   <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
   <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
@@ -11,10 +11,7 @@
   <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.uml</semanticResources>
   <semanticResources>pathmap://SysML16_LIBRARIES/SysML-Standard-Library.notation</semanticResources>
   <semanticResources>pathmap://SysML16_LIBRARIES/SysML-Standard-Library.di</semanticResources>
-  <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml</semanticResources>
-  <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.notation</semanticResources>
-  <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di</semanticResources>
-  <ownedViews xmi:type="viewpoint:DView" uid="_y3d7cPk6EfCtcLET-2iI1w">
+  <ownedViews xmi:type="viewpoint:DView" uid="_VdNU8AAhEfGIWKGV4kimHA">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.properties.uml/description/umlProperties.odesign#//@ownedViewpoints[name='UmlProperties']"/>
   </ownedViews>
 </viewpoint:DAnalysis>

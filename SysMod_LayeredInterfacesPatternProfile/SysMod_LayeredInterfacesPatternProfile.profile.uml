@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zUR-QAAUEfGuRKqBBCPETQ" name="SysMod_LayeredInterfacesPatternProfile">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFApsAAbEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-RQlAQAbEfGuRKqBBCPETQ" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-RQlAgAbEfGuRKqBBCPETQ" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-RQlAwAbEfGuRKqBBCPETQ" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-RQlBAAbEfGuRKqBBCPETQ" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-RQlBQAbEfGuRKqBBCPETQ" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-RQlBgAbEfGuRKqBBCPETQ" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_hslq0ABAEfG8hsyKKgHT2w" name="SysMod_LayeredInterfacesPatternProfile" nsURI="http:///schemas/SysMod_LayeredInterfacesPatternProfile/_hslDwABAEfG8hsyKKgHT2w/3" nsPrefix="SysMod_LayeredInterfacesPatternProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq0QBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hsmR4gBAEfG8hsyKKgHT2w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hsmR4wBAEfG8hsyKKgHT2w" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hsmR5ABAEfG8hsyKKgHT2w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hsmR5QBAEfG8hsyKKgHT2w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hsmR5gBAEfG8hsyKKgHT2w" key="Date" value="2026-02-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hsmR5wBAEfG8hsyKKgHT2w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hslq0gBAEfG8hsyKKgHT2w" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq0wBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QY4ZEAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hslq1ABAEfG8hsyKKgHT2w" name="StandardReference" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hslq1gBAEfG8hsyKKgHT2w" name="ProtocolRole" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hslq2QBAEfG8hsyKKgHT2w" name="Application">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq2gBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_q0i_kAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_hslq3ABAEfG8hsyKKgHT2w" name="Block_Stereotypes" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Block_Stereotypes.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Block_Stereotypes">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq3QBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9uNmgAAUEfGuRKqBBCPETQ"/>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_hslq3gBAEfG8hsyKKgHT2w" name="Interfaces" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Interfaces">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq3wBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="__w3awAAUEfGuRKqBBCPETQ"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_hslq4ABAEfG8hsyKKgHT2w" name="ProtocolDataUnit">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq4QBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-RQlAAAbEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hslq4gBAEfG8hsyKKgHT2w" name="pduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hslq5ABAEfG8hsyKKgHT2w" name="encodingReference" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_hslq5wBAEfG8hsyKKgHT2w" name="Provided">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq6ABAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_dNUNgAAcEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hslq6QBAEfG8hsyKKgHT2w" name="sduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_hslq7ABAEfG8hsyKKgHT2w" name="Required">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq7QBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rolkQAAcEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hslq7gBAEfG8hsyKKgHT2w" name="sduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_hslq8QBAEfG8hsyKKgHT2w" name="Over">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hslq8gBAEfG8hsyKKgHT2w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OEO5EAAdEfGuRKqBBCPETQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hslq8wBAEfG8hsyKKgHT2w" name="mappingRationale" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hslq9QBAEfG8hsyKKgHT2w" name="orderIndex" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_sa8_4AAdEfGuRKqBBCPETQ" name="SysMod_LayeredInterfacesPatternProfile" nsURI="http:///schemas/SysMod_LayeredInterfacesPatternProfile/_sa8Y0AAdEfGuRKqBBCPETQ/2" nsPrefix="SysMod_LayeredInterfacesPatternProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_4QAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa9m8AAdEfGuRKqBBCPETQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sa9m8QAdEfGuRKqBBCPETQ" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sa9m8gAdEfGuRKqBBCPETQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sa9m8wAdEfGuRKqBBCPETQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sa9m9AAdEfGuRKqBBCPETQ" key="Date" value="2026-02-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sa9m9QAdEfGuRKqBBCPETQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_sa8_4gAdEfGuRKqBBCPETQ" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_4wAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QY4ZEAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sa8_5AAdEfGuRKqBBCPETQ" name="StandardReference" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sa8_5gAdEfGuRKqBBCPETQ" name="ProtocolRole" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_sa8_6QAdEfGuRKqBBCPETQ" name="Application">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_6gAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_q0i_kAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_sa8_7AAdEfGuRKqBBCPETQ" name="Block_Stereotypes" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Block_Stereotypes.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Block_Stereotypes">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_7QAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9uNmgAAUEfGuRKqBBCPETQ"/>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_sa8_7gAdEfGuRKqBBCPETQ" name="Interfaces" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Interfaces">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_7wAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="__w3awAAUEfGuRKqBBCPETQ"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_sa8_8AAdEfGuRKqBBCPETQ" name="ProtocolDataUnit">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_8QAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-RQlAAAbEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sa8_8gAdEfGuRKqBBCPETQ" name="pduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sa8_9AAdEfGuRKqBBCPETQ" name="encodingReference" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_sa8_9wAdEfGuRKqBBCPETQ" name="Provided">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8_-AAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_dNUNgAAcEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sa8_-QAdEfGuRKqBBCPETQ" name="sduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_sa8__AAdEfGuRKqBBCPETQ" name="Required">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa8__QAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rolkQAAcEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_sa8__gAdEfGuRKqBBCPETQ" name="sduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_sa9AAQAdEfGuRKqBBCPETQ" name="Over">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sa9AAgAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OEO5EAAdEfGuRKqBBCPETQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_sa9AAwAdEfGuRKqBBCPETQ" name="mappingRationale" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_sa9ABQAdEfGuRKqBBCPETQ" name="orderIndex" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_pKrh8QAdEfGuRKqBBCPETQ" name="SysMod_LayeredInterfacesPatternProfile" nsURI="http:///schemas/SysMod_LayeredInterfacesPatternProfile/_pKrh8AAdEfGuRKqBBCPETQ/1" nsPrefix="SysMod_LayeredInterfacesPatternProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKrh8gAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKswEgAdEfGuRKqBBCPETQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pKswEwAdEfGuRKqBBCPETQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pKswFAAdEfGuRKqBBCPETQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pKswFQAdEfGuRKqBBCPETQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pKswFgAdEfGuRKqBBCPETQ" key="Date" value="2026-02-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pKswFwAdEfGuRKqBBCPETQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pKrh8wAdEfGuRKqBBCPETQ" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKrh9AAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QY4ZEAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pKrh9QAdEfGuRKqBBCPETQ" name="StandardReference" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pKrh9wAdEfGuRKqBBCPETQ" name="ProtocolRole" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pKrh-gAdEfGuRKqBBCPETQ" name="Application">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKrh-wAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_q0i_kAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_pKrh_QAdEfGuRKqBBCPETQ" name="Block_Stereotypes" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Block_Stereotypes.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Block_Stereotypes">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKrh_gAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9uNmgAAUEfGuRKqBBCPETQ"/>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_pKrh_wAdEfGuRKqBBCPETQ" name="Interfaces" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Interfaces">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKriAAAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="__w3awAAUEfGuRKqBBCPETQ"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_pKriAQAdEfGuRKqBBCPETQ" name="ProtocolDataUnit">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKriAgAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-RQlAAAbEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pKriAwAdEfGuRKqBBCPETQ" name="pduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pKriBQAdEfGuRKqBBCPETQ" name="encodingReference" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_pKriCAAdEfGuRKqBBCPETQ" name="Provided">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKriCQAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_dNUNgAAcEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pKriCgAdEfGuRKqBBCPETQ" name="sduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_pKriDQAdEfGuRKqBBCPETQ" name="Required">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKriDgAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rolkQAAcEfGuRKqBBCPETQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pKriDwAdEfGuRKqBBCPETQ" name="sduType" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_pKriEgAdEfGuRKqBBCPETQ" name="Over">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKriEwAdEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OEO5EAAdEfGuRKqBBCPETQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pKriFAAdEfGuRKqBBCPETQ" name="mappingRationale" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pKriFgAdEfGuRKqBBCPETQ" name="orderIndex" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_pFBQwAAbEfGuRKqBBCPETQ" name="SysMod_LayeredInterfacesPatternProfile" nsURI="http:///schemas/SysMod_LayeredInterfacesPatternProfile/_pFACoAAbEfGuRKqBBCPETQ/0" nsPrefix="SysMod_LayeredInterfacesPatternProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFBQwQAbEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFB30gAbEfGuRKqBBCPETQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFB30wAbEfGuRKqBBCPETQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFB31AAbEfGuRKqBBCPETQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFB31QAbEfGuRKqBBCPETQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFB31gAbEfGuRKqBBCPETQ" key="Date" value="2026-02-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFB31wAbEfGuRKqBBCPETQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pFBQwgAbEfGuRKqBBCPETQ" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFBQwwAbEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QY4ZEAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pFBQxAAbEfGuRKqBBCPETQ" name="StandardReference" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pFBQxgAbEfGuRKqBBCPETQ" name="ProtocolRole" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pFBQyQAbEfGuRKqBBCPETQ" name="Application">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFBQygAbEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_q0i_kAAZEfGuRKqBBCPETQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_pFBQzAAbEfGuRKqBBCPETQ" name="Block_Stereotypes" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Block_Stereotypes.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Block_Stereotypes">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFBQzQAbEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9uNmgAAUEfGuRKqBBCPETQ"/>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_pFBQzgAbEfGuRKqBBCPETQ" name="Interfaces" nsURI="http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore" nsPrefix="SysMod_LayeredInterfacesPatternProfile.Interfaces">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFBQzwAbEfGuRKqBBCPETQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="__w3awAAUEfGuRKqBBCPETQ"/>
+      </eSubpackages>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zVdC8AAUEfGuRKqBBCPETQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zVdqAAAUEfGuRKqBBCPETQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_NkMq8AAZEfGuRKqBBCPETQ">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_NkNSAAAZEfGuRKqBBCPETQ">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9uNmgAAUEfGuRKqBBCPETQ" name="Block_Stereotypes"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="__w3awAAUEfGuRKqBBCPETQ" name="Interfaces">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_-RQlAAAbEfGuRKqBBCPETQ" name="ProtocolDataUnit">
+      <generalization xmi:type="uml:Generalization" xmi:id="_cVNg0AAcEfGuRKqBBCPETQ">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_ProxyPort"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SEqeEAAcEfGuRKqBBCPETQ" name="pduType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iJoWgAAcEfGuRKqBBCPETQ" name="encodingReference">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_dNUNgAAcEfGuRKqBBCPETQ" name="Provided">
+      <generalization xmi:type="uml:Generalization" xmi:id="_m77A0AAcEfGuRKqBBCPETQ">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_ProxyPort"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_CxDUoAAdEfGuRKqBBCPETQ" name="sduType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_rolkQAAcEfGuRKqBBCPETQ" name="Required">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tZ-pYAAcEfGuRKqBBCPETQ">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_ProxyPort"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_J7uLkAAdEfGuRKqBBCPETQ" name="sduType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_OEO5EAAdEfGuRKqBBCPETQ" name="Over">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tc0uYAAdEfGuRKqBBCPETQ" name="mappingRationale"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_U4FLcAAdEfGuRKqBBCPETQ" name="orderIndex"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_QY4ZEAAZEfGuRKqBBCPETQ" name="ProtocolEntity">
+    <generalization xmi:type="uml:Generalization" xmi:id="_TsxLsAAZEfGuRKqBBCPETQ">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a8wngAAZEfGuRKqBBCPETQ" name="StandardReference">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_glPS8AAZEfGuRKqBBCPETQ" name="ProtocolRole">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_q0i_kAAZEfGuRKqBBCPETQ" name="Application">
+    <generalization xmi:type="uml:Generalization" xmi:id="_v5tikAAZEfGuRKqBBCPETQ">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+  </packagedElement>
+</uml:Profile>
