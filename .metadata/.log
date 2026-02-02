@@ -4742,3 +4742,58 @@ java.io.FileNotFoundException: /home/oliver/workspace-papyrus/.metadata/.plugins
 	at org.eclipse.egit.core.internal.efs.HiddenResources.initialize(HiddenResources.java:127)
 	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-02-02 08:21:04.602 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.papyrus.infra.types.core 2 0 2026-02-02 08:21:14.210
+!MESSAGE Diagnosis of org.eclipse.papyrus.infra.types.impl.ElementTypeSetConfigurationImpl@68a62f4d{platform:/plugin/org.eclipse.papyrus.sysml16.service.types/model/SysML16-extension.elementtypesconfigurations#org.eclipse.papyrus.sysml16.service.types.elementTypeSet.extension}
+	Warning: Element 'org.eclipse.uml2.uml.internal.impl.InstanceValueImpl@1585bd5{platform:/plugin/org.eclipse.papyrus.sysml16.service.types/model/SysML16-extension.elementtypesconfigurations#_p4me0kcKEemrpM9dj3x64Q}' must be owned, but it has no owner.
+	Warning: Element 'org.eclipse.uml2.uml.internal.impl.LiteralBooleanImpl@59a9a490{platform:/plugin/org.eclipse.papyrus.sysml16.service.types/model/SysML16-extension.elementtypesconfigurations#_p4oUAUcKEemrpM9dj3x64Q}' must be owned, but it has no owner.
+
+!ENTRY org.eclipse.papyrus.infra.types.core 2 0 2026-02-02 08:21:14.322
+!MESSAGE Diagnosis of org.eclipse.papyrus.infra.types.impl.ElementTypeSetConfigurationImpl@5601e212{platform:/plugin/org.eclipse.papyrus.sysml16.service.types/model/SysML16-extension.elementtypesconfigurations#org.eclipse.papyrus.sysml16.service.types.elementTypeSet.extension}
+	Warning: Element 'org.eclipse.uml2.uml.internal.impl.InstanceValueImpl@40ab4114{platform:/plugin/org.eclipse.papyrus.sysml16.service.types/model/SysML16-extension.elementtypesconfigurations#_p4me0kcKEemrpM9dj3x64Q}' must be owned, but it has no owner.
+	Warning: Element 'org.eclipse.uml2.uml.internal.impl.LiteralBooleanImpl@46c03fe4{platform:/plugin/org.eclipse.papyrus.sysml16.service.types/model/SysML16-extension.elementtypesconfigurations#_p4oUAUcKEemrpM9dj3x64Q}' must be owned, but it has no owner.
+
+!ENTRY org.eclipse.egit.core 2 0 2026-02-02 08:21:16.121
+!MESSAGE Cannot clean up internal hidden project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/home/oliver/workspace-papyrus/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/17.tree)[568]: java.io.FileNotFoundException: /home/oliver/workspace-papyrus/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/17.tree (Datei oder Verzeichnis nicht gefunden)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2178)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:975)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1109)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1192)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.openProject(HiddenResources.java:321)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.getHiddenProject(HiddenResources.java:274)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.initialize(HiddenResources.java:127)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2026-02-02 08:21:16.122
+!MESSAGE Could not write metadata for '/.org.eclipse.egit.core.cmp'.
+!STACK 0
+java.io.FileNotFoundException: /home/oliver/workspace-papyrus/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/17.tree (Datei oder Verzeichnis nicht gefunden)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2178)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:975)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1109)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1192)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.openProject(HiddenResources.java:321)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.getHiddenProject(HiddenResources.java:274)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.initialize(HiddenResources.java:127)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
