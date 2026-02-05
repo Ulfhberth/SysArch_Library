@@ -7,6 +7,9 @@
   <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
   <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
   <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+  <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.uml</semanticResources>
+  <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.notation</semanticResources>
+  <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.di</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" uid="_lphtsPd9EfC_mdT_vlSHdg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.pkg/description/papyrus_package.odesign#//@ownedViewpoints[name='PackageDiagram']"/>
   </ownedViews>

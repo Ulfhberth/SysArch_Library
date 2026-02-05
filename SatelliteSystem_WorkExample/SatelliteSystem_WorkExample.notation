@@ -490,13 +490,13 @@
       <element xmi:type="uml:Class" href="SatelliteSystem_WorkExample.uml#_h5bscAAeEfGfXJnC7RSk8A"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ywJPQQA8EfG8hsyKKgHT2w" x="940" y="240" width="500" height="250"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_yxD1QwA8EfG8hsyKKgHT2w" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_yxD1RAA8EfG8hsyKKgHT2w"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_yxD1RgA8EfG8hsyKKgHT2w" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_65qGEgDWEfGRvrPFIKYNww" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_65qGEwDWEfGRvrPFIKYNww"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_65qGFQDWEfGRvrPFIKYNww" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SatelliteSystem_WorkExample.uml#_h5bscAAeEfGfXJnC7RSk8A"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yxD1RQA8EfG8hsyKKgHT2w" x="240" y="40"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_65qGFADWEfGRvrPFIKYNww" x="1140" y="240"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_ywIBIQA8EfG8hsyKKgHT2w" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_ywIBIgA8EfG8hsyKKgHT2w"/>
@@ -504,15 +504,15 @@
       <owner xmi:type="uml:Class" href="SatelliteSystem_WorkExample.uml#_h5bscAAeEfGfXJnC7RSk8A"/>
     </styles>
     <element xmi:type="uml:Class" href="SatelliteSystem_WorkExample.uml#_h5bscAAeEfGfXJnC7RSk8A"/>
-    <edges xmi:type="notation:Connector" xmi:id="_yxD1RwA8EfG8hsyKKgHT2w" type="StereotypeCommentLink" source="_ywJPQAA8EfG8hsyKKgHT2w" target="_yxD1QwA8EfG8hsyKKgHT2w">
-      <styles xmi:type="notation:FontStyle" xmi:id="_yxD1SAA8EfG8hsyKKgHT2w"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_yxD1TAA8EfG8hsyKKgHT2w" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_65qGFgDWEfGRvrPFIKYNww" type="StereotypeCommentLink" source="_ywJPQAA8EfG8hsyKKgHT2w" target="_65qGEgDWEfGRvrPFIKYNww">
+      <styles xmi:type="notation:FontStyle" xmi:id="_65qGFwDWEfGRvrPFIKYNww"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_65qGGwDWEfGRvrPFIKYNww" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SatelliteSystem_WorkExample.uml#_h5bscAAeEfGfXJnC7RSk8A"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yxD1SQA8EfG8hsyKKgHT2w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yxD1SgA8EfG8hsyKKgHT2w"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yxD1SwA8EfG8hsyKKgHT2w"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_65qGGADWEfGRvrPFIKYNww" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_65qGGQDWEfGRvrPFIKYNww"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_65qGGgDWEfGRvrPFIKYNww"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_P2mywf62EfCsXaHXONNEfg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_P2mywv62EfCsXaHXONNEfg" bindingContexts="_P2myy_62EfCsXaHXONNEfg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_TechnicalDesignProfile.profile.di&quot; tooltip=&quot;SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;BatteryManagementSystem_Template.di&quot; tooltip=&quot;BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;>&#xA;&lt;persistable path=&quot;/BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SatelliteSystem_WorkExample.di&quot; tooltip=&quot;SatelliteSystem_WorkExample/SatelliteSystem_WorkExample.di&quot;>&#xA;&lt;persistable path=&quot;/SatelliteSystem_WorkExample/SatelliteSystem_WorkExample.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_LayeredInterfacesPatternProfile.profile.di&quot; tooltip=&quot;SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;MBSE_ProjectStandardLibrary.di&quot; tooltip=&quot;MBSE_ProjectStandardLibrary/MBSE_ProjectStandardLibrary.di&quot;>&#xA;&lt;persistable path=&quot;/MBSE_ProjectStandardLibrary/MBSE_ProjectStandardLibrary.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_HierarchicalControlProfile.profile.di&quot; tooltip=&quot;SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; tooltip=&quot;SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;BatteryManagementSystem_Template.di&quot; tooltip=&quot;BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;>&#xA;&lt;persistable path=&quot;/BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_TechnicalDesignProfile.profile.di&quot; tooltip=&quot;SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysLib_CommStandards.di&quot; tooltip=&quot;SysLib_CommStandards/SysLib_CommStandards.di&quot;>&#xA;&lt;persistable path=&quot;/SysLib_CommStandards/SysLib_CommStandards.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; tooltip=&quot;SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_SystemContextProfile.profile.di&quot; tooltip=&quot;SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_HierarchicalControlProfile.profile.di&quot; tooltip=&quot;SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_LayeredInterfacesPatternProfile.profile.di&quot; tooltip=&quot;SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di&quot;>&#xA;&lt;persistable path=&quot;/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SatelliteSystem_WorkExample.di&quot; tooltip=&quot;SatelliteSystem_WorkExample/SatelliteSystem_WorkExample.di&quot;>&#xA;&lt;persistable path=&quot;/SatelliteSystem_WorkExample/SatelliteSystem_WorkExample.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;MBSE_ProjectStandardLibrary.di&quot; tooltip=&quot;MBSE_ProjectStandardLibrary/MBSE_ProjectStandardLibrary.di&quot;>&#xA;&lt;persistable path=&quot;/MBSE_ProjectStandardLibrary/MBSE_ProjectStandardLibrary.di&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_P2mywv62EfCsXaHXONNEfg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_P9rrI_62EfCsXaHXONNEfg" x="0" y="0" width="1286" height="1389">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_P2mywv62EfCsXaHXONNEfg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_P9rrI_62EfCsXaHXONNEfg" x="0" y="0" width="1809" height="1389">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -40,37 +40,37 @@
           <tags>persp.actionSet:org.eclipse.debug.ui.launchActionSet</tags>
           <tags>persp.perspSC:org.eclipse.ui.resourcePerspective</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaPerspective</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_P_HOgf62EfCsXaHXONNEfg" selectedElement="_8C2R4AAJEfGuRKqBBCPETQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_tm0tMAAJEfGuRKqBBCPETQ" containerData="2631" selectedElement="_vhbYsAAJEfGuRKqBBCPETQ">
-              <children xsi:type="basic:PartStack" xmi:id="_P_HOg_62EfCsXaHXONNEfg" elementId="org.eclipse.ui.navigator.ProjectExplorerMStack" containerData="2468" selectedElement="_P_HOhP62EfCsXaHXONNEfg">
-                <tags>noFocus</tags>
-                <children xsi:type="advanced:Placeholder" xmi:id="_P_HOhP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_P_EySP62EfCsXaHXONNEfg" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:General</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_P_HOgf62EfCsXaHXONNEfg" selectedElement="_-0CTMAKSEfGm-ofqeQU2yA" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_vhbYsAAJEfGuRKqBBCPETQ" containerData="3086" selectedElement="_OIpocAGxEfGdkYsVXeTmXA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_OIpocAGxEfGdkYsVXeTmXA" containerData="9000" selectedElement="_P_HOhv62EfCsXaHXONNEfg">
+                <children xsi:type="basic:PartStack" xmi:id="_P_HOg_62EfCsXaHXONNEfg" elementId="org.eclipse.ui.navigator.ProjectExplorerMStack" containerData="1000" selectedElement="_P_HOhP62EfCsXaHXONNEfg">
+                  <tags>noFocus</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_P_HOhP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_P_EySP62EfCsXaHXONNEfg" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
+                  </children>
                 </children>
-              </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_vhbYsAAJEfGuRKqBBCPETQ" containerData="7532" selectedElement="_P_HOhv62EfCsXaHXONNEfg">
-                <children xsi:type="basic:PartStack" xmi:id="_P_HOhv62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.views.modelexplorer.modelexplorerMStack" containerData="5000" selectedElement="_P_HOh_62EfCsXaHXONNEfg">
+                <children xsi:type="basic:PartStack" xmi:id="_P_HOhv62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.views.modelexplorer.modelexplorerMStack" containerData="9000" selectedElement="_P_HOh_62EfCsXaHXONNEfg">
                   <children xsi:type="advanced:Placeholder" xmi:id="_P_HOh_62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.views.modelexplorer.modelexplorer" ref="_P_FZUP62EfCsXaHXONNEfg" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Papyrus</tags>
                   </children>
                 </children>
-                <children xsi:type="basic:PartStack" xmi:id="_P_HOiP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="5000" selectedElement="_P_HOif62EfCsXaHXONNEfg">
-                  <children xsi:type="advanced:Placeholder" xmi:id="_P_HOif62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.ContentOutline" ref="_P_GAYP62EfCsXaHXONNEfg" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_P_HOiv62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" ref="_P_GncP62EfCsXaHXONNEfg" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
-                  </children>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="_P_HOiP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="1000" selectedElement="_P_HOif62EfCsXaHXONNEfg">
+                <children xsi:type="advanced:Placeholder" xmi:id="_P_HOif62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.ContentOutline" ref="_P_GAYP62EfCsXaHXONNEfg" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_P_HOiv62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" ref="_P_GncP62EfCsXaHXONNEfg" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_8C2R4AAJEfGuRKqBBCPETQ" containerData="7369" selectedElement="_P_HOjP62EfCsXaHXONNEfg">
-              <children xsi:type="advanced:Placeholder" xmi:id="_P_HOjP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.editorss" containerData="7287" ref="_P_C9EP62EfCsXaHXONNEfg"/>
-              <children xsi:type="basic:PartStack" xmi:id="_P_HOjf62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.perspective.folder.bottom" containerData="2713" selectedElement="_P_HOjv62EfCsXaHXONNEfg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_-0CTMAKSEfGm-ofqeQU2yA" containerData="6914" selectedElement="_P_HOjP62EfCsXaHXONNEfg">
+              <children xsi:type="advanced:Placeholder" xmi:id="_P_HOjP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.editorss" containerData="6617" ref="_P_C9EP62EfCsXaHXONNEfg"/>
+              <children xsi:type="basic:PartStack" xmi:id="_P_HOjf62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.perspective.folder.bottom" containerData="3383" selectedElement="_P_HOjv62EfCsXaHXONNEfg">
                 <children xsi:type="advanced:Placeholder" xmi:id="_P_HOjv62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.PropertySheet" ref="_P_FZUf62EfCsXaHXONNEfg" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -130,57 +130,6 @@
         <tags>EditorStack</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:CompositePart" xmi:id="_j4b8UAAJEfGNT6_6qoB3xg" elementId="Split Host(BatteryManagementSystem_Template.di)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitHost" label="BatteryManagementSystem_Template.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true" selectedElement="_kCAvEAAJEfGNT6_6qoB3xg">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
-          <tags>removeOnHide</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_kCAvEAAJEfGNT6_6qoB3xg" selectedElement="_j4b8UQAJEfGNT6_6qoB3xg">
-            <children xsi:type="basic:Part" xmi:id="_RTDioP62EfCsXaHXONNEfg" elementId="org.eclipse.e4.ui.compatibility.editor" containerData="5000" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BatteryManagementSystem_Template.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-              <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;BatteryManagementSystem_Template.di&quot; partName=&quot;BatteryManagementSystem_Template.di&quot; title=&quot;BatteryManagementSystem_Template.di&quot; tooltip=&quot;BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;/>&#xA;&lt;/editor>"/>
-              <tags>Editor</tags>
-              <tags>removeOnHide</tags>
-              <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-              <tags>Split Horizontal</tags>
-            </children>
-            <children xsi:type="basic:Part" xmi:id="_j4b8UQAJEfGNT6_6qoB3xg" elementId="org.eclipse.e4.ui.compatibility.editor" containerData="5000" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BatteryManagementSystem_Template.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-              <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;BatteryManagementSystem_Template.di&quot; partName=&quot;BatteryManagementSystem_Template.di&quot; title=&quot;BatteryManagementSystem_Template.di&quot; tooltip=&quot;BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;/>&#xA;&lt;/editor>"/>
-              <tags>Editor</tags>
-              <tags>removeOnHide</tags>
-              <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-              <tags>Split Horizontal</tags>
-            </children>
-          </children>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DrbgAP9eEfCrPruYPkJAfQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_ChannelArchitectureProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; partName=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; title=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; tooltip=&quot;SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_ClPFQP9kEfCrPruYPkJAfQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_HierarchicalControlProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_HierarchicalControlProfile.profile.di&quot; partName=&quot;SysMod_HierarchicalControlProfile.profile.di&quot; title=&quot;SysMod_HierarchicalControlProfile.profile.di&quot; tooltip=&quot;SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.di&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_yUvN0AAJEfGuRKqBBCPETQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BatteryManagementSystem_Template.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;BatteryManagementSystem_Template.di&quot; partName=&quot;BatteryManagementSystem_Template.di&quot; title=&quot;BatteryManagementSystem_Template.di&quot; tooltip=&quot;BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_zVrFYAAUEfGuRKqBBCPETQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_LayeredInterfacesPatternProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_LayeredInterfacesPatternProfile.profile.di&quot; partName=&quot;SysMod_LayeredInterfacesPatternProfile.profile.di&quot; title=&quot;SysMod_LayeredInterfacesPatternProfile.profile.di&quot; tooltip=&quot;SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_VfGLUAAhEfGIWKGV4kimHA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MBSE_ProjectStandardLibrary.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;MBSE_ProjectStandardLibrary.di&quot; partName=&quot;MBSE_ProjectStandardLibrary.di&quot; title=&quot;MBSE_ProjectStandardLibrary.di&quot; tooltip=&quot;MBSE_ProjectStandardLibrary/MBSE_ProjectStandardLibrary.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MBSE_ProjectStandardLibrary/MBSE_ProjectStandardLibrary.di&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-        </children>
         <children xsi:type="basic:Part" xmi:id="_q9Hs8AA-EfG8hsyKKgHT2w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BatteryManagementSystem_Template.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;BatteryManagementSystem_Template.di&quot; partName=&quot;BatteryManagementSystem_Template.di&quot; title=&quot;BatteryManagementSystem_Template.di&quot; tooltip=&quot;BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BatteryManagementSystem_Template/BatteryManagementSystem_Template.di&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -189,13 +138,19 @@
           <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_Yc1WsABAEfG8hsyKKgHT2w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SatelliteSystem_WorkExample.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SatelliteSystem_WorkExample.di&quot; partName=&quot;SatelliteSystem_WorkExample.di&quot; title=&quot;SatelliteSystem_WorkExample.di&quot; tooltip=&quot;SatelliteSystem_WorkExample/SatelliteSystem_WorkExample.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SatelliteSystem_WorkExample/SatelliteSystem_WorkExample.di&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_SO9WgAGxEfGdkYsVXeTmXA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_ChannelArchitectureProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; partName=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; title=&quot;SysMod_ChannelArchitectureProfile.profile.di&quot; tooltip=&quot;SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.di&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_5ZnkAABEEfGhaKW3I8EJFQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_TechnicalDesignProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_67e1sAHAEfGRm64pFX_jLw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_SystemContextProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_SystemContextProfile.profile.di&quot; partName=&quot;SysMod_SystemContextProfile.profile.di&quot; title=&quot;SysMod_SystemContextProfile.profile.di&quot; tooltip=&quot;SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.di&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_jBtbwAKSEfGm-ofqeQU2yA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMod_TechnicalDesignProfile.profile.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMod_TechnicalDesignProfile.profile.di&quot; partName=&quot;SysMod_TechnicalDesignProfile.profile.di&quot; title=&quot;SysMod_TechnicalDesignProfile.profile.di&quot; tooltip=&quot;SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.di&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
@@ -242,8 +197,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_P_FZUv62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.views.validation.ModelValidationView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Model Validation" iconURI="platform:/plugin/org.eclipse.papyrus.views.validation/icons/full/view16/model_validation.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.papyrus.views.validation.internal.ModelValidationView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.papyrus.views.validation"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view columnWidths=&quot;0,300,300,300,1093&quot; sortColumn=&quot;2&quot; sortDirection=&quot;128&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Papyrus</tags>
+      <menus xmi:id="_akKlgAKDEfGm-ofqeQU2yA" elementId="org.eclipse.papyrus.views.validation.ModelValidationView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_akKlgQKDEfGm-ofqeQU2yA" elementId="org.eclipse.papyrus.views.validation.ModelValidationView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_P_GAYP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.svg" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.contentoutline.ContentOutline"/>
@@ -266,8 +227,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_P_Gncf62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.views.references.ReferencesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="References" iconURI="platform:/plugin/org.eclipse.papyrus.views.references/icons/scopeset_obj.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.papyrus.views.references.views.ReferencesView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.papyrus.views.references"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Papyrus</tags>
+      <menus xmi:id="_ZAiPkAKDEfGm-ofqeQU2yA" elementId="org.eclipse.papyrus.views.references.ReferencesView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_ZAi2oAKDEfGm-ofqeQU2yA" elementId="org.eclipse.papyrus.views.references.ReferencesView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_P_Gncv62EfCsXaHXONNEfg" elementId="org.eclipse.papyrus.views.documentation.DocumentationView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Documentation" iconURI="platform:/plugin/org.eclipse.papyrus.views.documentation/icons/documentation.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.papyrus.views.documentation.views.DocumentationView"/>
@@ -282,7 +249,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P9_NIP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qmoNoABAEfGhaKW3I8EJFQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_P202xf62EfCsXaHXONNEfg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_c7OvQAKeEfGlnZyM-lIyIg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_P202xf62EfCsXaHXONNEfg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P9_NIf62EfCsXaHXONNEfg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -290,8 +257,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P9_NI_62EfCsXaHXONNEfg" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qmoNpgBAEfGhaKW3I8EJFQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" enabled="false" command="_P20OV_62EfCsXaHXONNEfg"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qmo0sABAEfGhaKW3I8EJFQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_P20PMP62EfCsXaHXONNEfg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_c7OvRgKeEfGlnZyM-lIyIg" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" enabled="false" command="_P20OV_62EfCsXaHXONNEfg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_c7PWUAKeEfGlnZyM-lIyIg" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_P20PMP62EfCsXaHXONNEfg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P9_NJP62EfCsXaHXONNEfg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -309,7 +276,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P9_NKP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qmo0tgBAEfGhaKW3I8EJFQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" type="Check" command="_P202S_62EfCsXaHXONNEfg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_c7PWVgKeEfGlnZyM-lIyIg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" type="Check" command="_P202S_62EfCsXaHXONNEfg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_P9_NKf62EfCsXaHXONNEfg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -349,6 +316,10 @@
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_afi6UAAJEfGNT6_6qoB3xg" elementId="org.eclipse.ui.views.ContentOutlineMStack(IDEWindow).(org.eclipse.papyrus.infra.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_EJ118AGxEfGDVbKI8_ovFw" elementId="org.eclipse.papyrus.views.modelexplorer.modelexplorerMStack(IDEWindow).(org.eclipse.papyrus.infra.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
@@ -1015,28 +986,28 @@
   <rootContext xmi:id="_P_EyQv62EfCsXaHXONNEfg" elementId="org.eclipse.ui.WorkingSetActionSet" name="Auto::org.eclipse.ui.WorkingSetActionSet"/>
   <rootContext xmi:id="_P_EyRP62EfCsXaHXONNEfg" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
   <rootContext xmi:id="_P_EyRv62EfCsXaHXONNEfg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
-  <descriptors xmi:id="_qhTowABAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" label="Preference Spy" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/$nl$/icons/preference_spy.png" closeable="true" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" description="Spy to display preferences">
+  <descriptors xmi:id="_c1xAcAKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" label="Preference Spy" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/$nl$/icons/preference_spy.png" closeable="true" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" description="Spy to display preferences">
     <persistedState key="perstistState" value="false"/>
     <tags>Spy</tags>
-    <toolbar xmi:id="_qhToxgBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.toolbar" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences">
-      <children xsi:type="menu:ToolControl" xmi:id="_qhToxwBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.toolcontrol.layout" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.ToggleLayoutControl"/>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_qhToyABAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.0" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_qhToyQBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.showall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/show_all_preferences.png">
+    <toolbar xmi:id="_c1xAdgKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.toolbar" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences">
+      <children xsi:type="menu:ToolControl" xmi:id="_c1xAdwKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.toolcontrol.layout" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.ToggleLayoutControl"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_c1xAeAKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.0" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_c1xAeQKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.showall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/show_all_preferences.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_ufxRsHY2EeSuTdKDH5hMwg"/>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_qhToygBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.toolcontrol.trace" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.TogglePreferenceTraceControl"/>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_qhToywBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.1" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_qhTozABAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.expandall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/expandall.png">
+      <children xsi:type="menu:ToolControl" xmi:id="_c1xngAKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.toolcontrol.trace" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.TogglePreferenceTraceControl"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_c1xngQKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.1" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_c1xnggKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.expandall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/expandall.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_4NM_IH_gEeSk-4v3KnNHPw"/>
       </children>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_qhTozQBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.collapseall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/collapseall.png">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_c1xngwKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.collapseall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/collapseall.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_68UQwH_gEeSk-4v3KnNHPw"/>
       </children>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_qhTozgBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.2" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_qhTozwBAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeentry" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/remove_co.png">
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_c1xnhAKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.2" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_c1xnhQKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeentry" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/remove_co.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_iGEkYGxiEeSQ7v0akw7aRA"/>
       </children>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_qhTo0ABAEfGhaKW3I8EJFQ" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/removeall_co.png">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_c1xnhgKeEfGlnZyM-lIyIg" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/removeall_co.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_eBGTEGxiEeSQ7v0akw7aRA"/>
       </children>
     </toolbar>
@@ -3177,7 +3148,7 @@
   <addons xmi:id="_P2nZ0v62EfCsXaHXONNEfg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_P2nZ0_62EfCsXaHXONNEfg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_P2rrQP62EfCsXaHXONNEfg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_qhICkQBAEfGhaKW3I8EJFQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_c1n2gAKeEfGlnZyM-lIyIg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_OuENQESaEeiAQ-my3lrC5g" elementId="org.eclipse.papyrus.infra.ui.fonts.addon.0" contributorURI="platform:/plugin/org.eclipse.papyrus.infra.ui.fonts" contributionURI="bundleclass://org.eclipse.papyrus.infra.ui.fonts/org.eclipse.papyrus.infra.ui.fonts.internal.addon.FontAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_P2xx4P62EfCsXaHXONNEfg" elementId="org.eclipse.ui.category.edit" name="Edit"/>

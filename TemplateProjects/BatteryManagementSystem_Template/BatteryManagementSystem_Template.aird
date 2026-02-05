@@ -14,6 +14,10 @@
   <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml</semanticResources>
   <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.notation</semanticResources>
   <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di</semanticResources>
+  <semanticResources>platform:/resource/SysLib_CommStandards/SysLib_CommStandards.uml</semanticResources>
+  <semanticResources>platform:/resource/SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml</semanticResources>
+  <semanticResources>platform:/resource/SysLib_CommStandards/SysLib_CommStandards.notation</semanticResources>
+  <semanticResources>platform:/resource/SysLib_CommStandards/SysLib_CommStandards.di</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" uid="_y3d7cPk6EfCtcLET-2iI1w">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.properties.uml/description/umlProperties.odesign#//@ownedViewpoints[name='UmlProperties']"/>
   </ownedViews>

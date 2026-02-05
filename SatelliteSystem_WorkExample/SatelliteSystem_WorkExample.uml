@@ -119,15 +119,15 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_u5Q1YAAdEfGuRKqBBCPETQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zsLKwAAdEfGEnJ0zF1DU1g" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zsLKwQAdEfGEnJ0zF1DU1g" key="Version" value="0.0.3"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zsLKwgAdEfGEnJ0zF1DU1g" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zsLKwwAdEfGEnJ0zF1DU1g" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zsLKxAAdEfGEnJ0zF1DU1g" key="Date" value="2026-02-02"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zsLKxQAdEfGEnJ0zF1DU1g" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7RmE8ADWEfGRvrPFIKYNww" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RmE8QDWEfGRvrPFIKYNww" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RmE8gDWEfGRvrPFIKYNww" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RmE8wDWEfGRvrPFIKYNww" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RmE9ADWEfGRvrPFIKYNww" key="Date" value="2026-02-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7RmE9QDWEfGRvrPFIKYNww" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zsJ8oAAdEfGEnJ0zF1DU1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_sa8_4AAdEfGuRKqBBCPETQ"/>
+        <references xmi:type="ecore:EPackage" href="../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_hslq0ABAEfG8hsyKKgHT2w"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_zUR-QAAUEfGuRKqBBCPETQ"/>
     </profileApplication>
