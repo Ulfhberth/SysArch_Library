@@ -12,7 +12,6 @@
   <semanticResources>pathmap://SysML16_LIBRARIES/SysML-Standard-Library.notation</semanticResources>
   <semanticResources>pathmap://SysML16_LIBRARIES/SysML-Standard-Library.di</semanticResources>
   <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml</semanticResources>
-  <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.notation</semanticResources>
   <semanticResources>platform:/resource/SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.di</semanticResources>
   <semanticResources>platform:/resource/SysLib_CommStandards/SysLib_CommStandards.uml</semanticResources>
   <semanticResources>platform:/resource/SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml</semanticResources>
