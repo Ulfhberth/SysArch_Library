@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kKrmAANCEfGA465kvgcumA" type="PapyrusUMLProfileDiagram" name="Profile_TestingProfile" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lVaTwANCEfGA465kvgcumA" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lVa60ANCEfGA465kvgcumA" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lVa60QNCEfGA465kvgcumA" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lVa60gNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lVa60wNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lVa61ANCEfGA465kvgcumA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lVa61QNCEfGA465kvgcumA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lVa61gNCEfGA465kvgcumA" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lVa61wNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lVa62ANCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lVa62QNCEfGA465kvgcumA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lVa62gNCEfGA465kvgcumA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements.stereotype_packagedElement_TestCase"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lVaTwQNCEfGA465kvgcumA" x="40" y="220" width="221" height="141"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_m62nkANCEfGA465kvgcumA" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_m62nkgNCEfGA465kvgcumA" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_m62nkwNCEfGA465kvgcumA" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m62nlANCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_m62nlQNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_m62nlgNCEfGA465kvgcumA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m62nlwNCEfGA465kvgcumA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_m62nmANCEfGA465kvgcumA" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m62nmQNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_m62nmgNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_m62nmwNCEfGA465kvgcumA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m62nnANCEfGA465kvgcumA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="SysMod_MBSETestProfile.profile.uml#_m60yYANCEfGA465kvgcumA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m62nkQNCEfGA465kvgcumA" x="820" y="300" width="281" height="101"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qVvaEANCEfGA465kvgcumA" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qVvaEgNCEfGA465kvgcumA" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qVvaEwNCEfGA465kvgcumA" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qVvaFANCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qVvaFQNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qVvaFgNCEfGA465kvgcumA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVvaFwNCEfGA465kvgcumA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qVvaGANCEfGA465kvgcumA" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qVvaGQNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qVvaGgNCEfGA465kvgcumA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qVvaGwNCEfGA465kvgcumA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVvaHANCEfGA465kvgcumA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="SysMod_MBSETestProfile.profile.uml#_qVtk4ANCEfGA465kvgcumA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVvaEQNCEfGA465kvgcumA" x="820" y="160" width="281" height="101"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qitpoANDEfGZk6lU1wBYuA" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qitpogNDEfGZk6lU1wBYuA" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qitpowNDEfGZk6lU1wBYuA" type="Stereotype_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_vRHH4ANCEfGA465kvgcumA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="SysMod_MBSETestProfile.profile.uml#_vRDdgANCEfGA465kvgcumA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vRHH4QNCEfGA465kvgcumA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uNPaoANDEfGZk6lU1wBYuA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="SysMod_MBSETestProfile.profile.uml#_uNMXUANDEfGZk6lU1wBYuA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uNPaoQNDEfGZk6lU1wBYuA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0FRacANCEfGA465kvgcumA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="SysMod_MBSETestProfile.profile.uml#_0FO-MANCEfGA465kvgcumA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0FRacQNCEfGA465kvgcumA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qitppANDEfGZk6lU1wBYuA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qitppQNDEfGZk6lU1wBYuA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qitppgNDEfGZk6lU1wBYuA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qitppwNDEfGZk6lU1wBYuA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qitpqANDEfGZk6lU1wBYuA" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qitpqQNDEfGZk6lU1wBYuA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qitpqgNDEfGZk6lU1wBYuA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qitpqwNDEfGZk6lU1wBYuA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qitprANDEfGZk6lU1wBYuA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="SysMod_MBSETestProfile.profile.uml#_qir0cANDEfGZk6lU1wBYuA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qitpoQNDEfGZk6lU1wBYuA" x="420" y="220" width="281" height="141"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_kKrmAQNCEfGA465kvgcumA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_kKrmAgNCEfGA465kvgcumA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_kKrmAwNCEfGA465kvgcumA" diagramKindId="org.eclipse.papyrus.uml.diagram.profile">
+    <owner xmi:type="uml:Profile" href="SysMod_MBSETestProfile.profile.uml#_ckrd8ANCEfGA465kvgcumA"/>
+  </styles>
+  <element xmi:type="uml:Profile" href="SysMod_MBSETestProfile.profile.uml#_ckrd8ANCEfGA465kvgcumA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_n2_fsANCEfGA465kvgcumA" type="Generalization_Edge" source="_m62nkANCEfGA465kvgcumA" target="_qitpoANDEfGZk6lU1wBYuA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n2_fswNCEfGA465kvgcumA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_p1nIgANCEfGA465kvgcumA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n2_ftANCEfGA465kvgcumA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n2_fsQNCEfGA465kvgcumA"/>
+    <element xmi:type="uml:Generalization" href="SysMod_MBSETestProfile.profile.uml#_n28cYANCEfGA465kvgcumA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n2_fsgNCEfGA465kvgcumA" points="[640, 180, -643984, -643984]$[401, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n3DKEANCEfGA465kvgcumA" id="(0.0,0.39603960396039606)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n3DKEQNCEfGA465kvgcumA" id="(1.0,0.5673758865248227)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tBkuMANCEfGA465kvgcumA" type="Generalization_Edge" source="_qVvaEANCEfGA465kvgcumA" target="_qitpoANDEfGZk6lU1wBYuA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tBkuMwNCEfGA465kvgcumA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_taoucANCEfGA465kvgcumA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tBkuNANCEfGA465kvgcumA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tBkuMQNCEfGA465kvgcumA"/>
+    <element xmi:type="uml:Generalization" href="SysMod_MBSETestProfile.profile.uml#_tBhq4ANCEfGA465kvgcumA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tBkuMgNCEfGA465kvgcumA" points="[640, 180, -643984, -643984]$[401, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tBnxgANCEfGA465kvgcumA" id="(0.0,0.39603960396039606)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tBnxgQNCEfGA465kvgcumA" id="(1.0,0.28368794326241137)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0H2-8ANDEfGZk6lU1wBYuA" type="Generalization_Edge" source="_qitpoANDEfGZk6lU1wBYuA" target="_lVaTwANCEfGA465kvgcumA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0H2-8wNDEfGZk6lU1wBYuA" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0H2-9ANDEfGZk6lU1wBYuA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0H2-8QNDEfGZk6lU1wBYuA"/>
+    <element xmi:type="uml:Generalization" href="SysMod_MBSETestProfile.profile.uml#_0HzUkANDEfGZk6lU1wBYuA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0H2-8gNDEfGZk6lU1wBYuA" points="[420, 280, -643984, -643984]$[261, 280, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0H8egANDEfGZk6lU1wBYuA" id="(0.0,0.425531914893617)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0H8egQNDEfGZk6lU1wBYuA" id="(1.0,0.425531914893617)"/>
+  </edges>
+</notation:Diagram>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RFbQEPq1EfC9mrJSh1aXZA" name="SysMod_TechnicalDesignProfile" metaclassReference="__qGNEPwyEfCHzqIFEPPEfQ _YD0sgAJ_EfG4sY63-EeWpw">
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s8NM4Pq5EfC9mrJSh1aXZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mYmz8AMzEfGUR-7jVDy4Hg" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYmz8QMzEfGUR-7jVDy4Hg" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYmz8gMzEfGUR-7jVDy4Hg" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYmz8wMzEfGUR-7jVDy4Hg" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYmz9AMzEfGUR-7jVDy4Hg" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYmz9QMzEfGUR-7jVDy4Hg" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eyv10AMzEfGW8q_rdwgz7g" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eyv10QMzEfGW8q_rdwgz7g" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eyv10gMzEfGW8q_rdwgz7g" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eyv10wMzEfGW8q_rdwgz7g" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eyv11AMzEfGW8q_rdwgz7g" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eyv11QMzEfGW8q_rdwgz7g" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qm9_8PtZEfCc4I8EsY9_ug" source="PapyrusVersion">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qm9_8ftZEfCc4I8EsY9_ug" key="Version" value="0.0.0"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qm9_8vtZEfCc4I8EsY9_ug" key="Comment" value="&lt;undefined>"/>
@@ -8,6 +22,69 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qm9_9PtZEfCc4I8EsY9_ug" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qm9_9ftZEfCc4I8EsY9_ug" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_uoHzEQMzEfGUR-7jVDy4Hg" name="SysMod_TechnicalDesignProfile" nsURI="http:///schemas/SysMod_TechnicalDesignProfile/_uoHzEAMzEfGUR-7jVDy4Hg/6" nsPrefix="SysMod_TechnicalDesignProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzEgMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoIaKgMzEfGUR-7jVDy4Hg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoIaKwMzEfGUR-7jVDy4Hg" key="Version" value="0.0.7"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoIaLAMzEfGUR-7jVDy4Hg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoIaLQMzEfGUR-7jVDy4Hg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoIaLgMzEfGUR-7jVDy4Hg" key="Date" value="2026-02-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoIaLwMzEfGUR-7jVDy4Hg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzEwMzEfGUR-7jVDy4Hg" name="ECU">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzFAMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nwTFgPq1EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzFgMzEfGUR-7jVDy4Hg" name="HardwareComponent">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzFwMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-uoCcPq1EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzGQMzEfGUR-7jVDy4Hg" name="SWFeature">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzGgMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_V_8M0Pq2EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzHAMzEfGUR-7jVDy4Hg" name="MicroControllerRessource">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzHQMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1St2wPq3EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzHwMzEfGUR-7jVDy4Hg" name="MicroController">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzIAMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_44_Z4Pq3EfC9mrJSh1aXZA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzIgMzEfGUR-7jVDy4Hg" name="MicroControllerInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzIwMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mQAQEPq4EfC9mrJSh1aXZA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoHzJAMzEfGUR-7jVDy4Hg" key="originalName" value="MicroController-Interface"/>
+        </eAnnotations>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzJgMzEfGUR-7jVDy4Hg" name="Message">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzJwMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Qm9Y4PtZEfCc4I8EsY9_ug"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzKQMzEfGUR-7jVDy4Hg" name="OwnedBehavior">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzKgMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CdL_wPwzEfCHzqIFEPPEfQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_uoHzKwMzEfGUR-7jVDy4Hg" name="base_Activity" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzLQMzEfGUR-7jVDy4Hg" name="ConfigurationParameter">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzLgMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jHjfsAJ_EfG4sY63-EeWpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_uoHzLwMzEfGUR-7jVDy4Hg" name="base_Property" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uoHzMQMzEfGUR-7jVDy4Hg" name="TechnicalView">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoHzMgMzEfGUR-7jVDy4Hg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_UVsoIAMzEfGW8q_rdwgz7g"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements/View"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_uoHzMwMzEfGUR-7jVDy4Hg" name="Purpose" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_dn5ZEAJ_EfG4sY63-EeWpw" name="SysMod_TechnicalDesignProfile" nsURI="http:///schemas/SysMod_TechnicalDesignProfile/_dn4yAAJ_EfG4sY63-EeWpw/5" nsPrefix="SysMod_TechnicalDesignProfile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dn5ZEQJ_EfG4sY63-EeWpw" source="http://www.eclipse.org/uml2/4.1.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
@@ -57,7 +134,7 @@
         </eStructuralFeatures>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_dn5ZLAJ_EfG4sY63-EeWpw" name="ConfigurationParameter">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dn5ZLQJ_EfG4sY63-EeWpw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ZZbNgAJ_EfG4sY63-EeWpw"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dn5ZLQJ_EfG4sY63-EeWpw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dn5ZLgJ_EfG4sY63-EeWpw" name="base_Property" ordered="false">
           <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
         </eStructuralFeatures>
@@ -345,15 +422,6 @@
   <packagedElement xmi:type="uml:Extension" xmi:id="_F5BNcPwzEfCHzqIFEPPEfQ" name="E_OwnedBehavior_Activity15" memberEnd="_F5CbkPwzEfCHzqIFEPPEfQ _F5CbkfwzEfCHzqIFEPPEfQ">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_F5CbkPwzEfCHzqIFEPPEfQ" name="extension_OwnedBehavior" type="_CdL_wPwzEfCHzqIFEPPEfQ" aggregation="composite" association="_F5BNcPwzEfCHzqIFEPPEfQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ZZbNgAJ_EfG4sY63-EeWpw" name="ConfigurationParameter">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_c6BmcAJ_EfG4sY63-EeWpw" name="base_Property" association="_c5_xQAJ_EfG4sY63-EeWpw">
-      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c6BmcQJ_EfG4sY63-EeWpw"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Extension" xmi:id="_c5_xQAJ_EfG4sY63-EeWpw" name="E_ConfigurationParameter_Property18" memberEnd="_c6A_YAJ_EfG4sY63-EeWpw _c6BmcAJ_EfG4sY63-EeWpw">
-    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_c6A_YAJ_EfG4sY63-EeWpw" name="extension_ConfigurationParameter" type="_ZZbNgAJ_EfG4sY63-EeWpw" aggregation="composite" association="_c5_xQAJ_EfG4sY63-EeWpw"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Stereotype" xmi:id="_jHjfsAJ_EfG4sY63-EeWpw" name="ConfigurationParameter">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_koH6kQJ_EfG4sY63-EeWpw" name="base_Property" association="_koHTgAJ_EfG4sY63-EeWpw">
       <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
@@ -362,5 +430,13 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_koHTgAJ_EfG4sY63-EeWpw" name="E_ConfigurationParameter_Property20" memberEnd="_koH6kAJ_EfG4sY63-EeWpw _koH6kQJ_EfG4sY63-EeWpw">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_koH6kAJ_EfG4sY63-EeWpw" name="extension_ConfigurationParameter" type="_jHjfsAJ_EfG4sY63-EeWpw" aggregation="composite" association="_koHTgAJ_EfG4sY63-EeWpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_UVsoIAMzEfGW8q_rdwgz7g" name="TechnicalView">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Ybgm8AMzEfGW8q_rdwgz7g">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements.stereotype_packagedElement_View"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y3YqoAMzEfGW8q_rdwgz7g" name="Purpose">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
   </packagedElement>
 </uml:Profile>

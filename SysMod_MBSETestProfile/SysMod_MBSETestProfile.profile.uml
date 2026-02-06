@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ckrd8ANCEfGA465kvgcumA" name="SysMod_MBSETestProfile">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L0qn8QNDEfGA465kvgcumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gIUHUANDEfGZk6lU1wBYuA" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gIUHUQNDEfGZk6lU1wBYuA" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gIUHUgNDEfGZk6lU1wBYuA" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gIUHUwNDEfGZk6lU1wBYuA" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gIUHVANDEfGZk6lU1wBYuA" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gIUHVQNDEfGZk6lU1wBYuA" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_D5UskQNEEfGZk6lU1wBYuA" name="SysMod_MBSETestProfile" nsURI="http:///schemas/SysMod_MBSETestProfile/_D5UskANEEfGZk6lU1wBYuA/3" nsPrefix="SysMod_MBSETestProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D5UskgNEEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D5VToQNEEfGZk6lU1wBYuA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D5VTogNEEfGZk6lU1wBYuA" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D5VTowNEEfGZk6lU1wBYuA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D5VTpANEEfGZk6lU1wBYuA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D5VTpQNEEfGZk6lU1wBYuA" key="Date" value="2026-02-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D5VTpgNEEfGZk6lU1wBYuA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_D5UskwNEEfGZk6lU1wBYuA" name="SystemIntegrationTest" eSuperTypes="_D5UslgNEEfGZk6lU1wBYuA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D5UslANEEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m60yYANCEfGA465kvgcumA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_D5UslgNEEfGZk6lU1wBYuA" name="MBSETestCase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D5UslwNEEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qir0cANDEfGZk6lU1wBYuA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/TestCase"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_D5UsmANEEfGZk6lU1wBYuA" name="TestScope" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_D5UsmgNEEfGZk6lU1wBYuA" name="AbstractDescription" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_D5UsnANEEfGZk6lU1wBYuA" name="TestMethod" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_D5UsnwNEEfGZk6lU1wBYuA" name="SystemTest" eSuperTypes="_D5UslgNEEfGZk6lU1wBYuA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D5UsoANEEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qVtk4ANCEfGA465kvgcumA"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_0-VT8QNDEfGZk6lU1wBYuA" name="SysMod_MBSETestProfile" nsURI="http:///schemas/SysMod_MBSETestProfile/_0-VT8ANDEfGZk6lU1wBYuA/2" nsPrefix="SysMod_MBSETestProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VT8gNDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-V7AQNDEfGZk6lU1wBYuA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0-V7AgNDEfGZk6lU1wBYuA" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0-V7AwNDEfGZk6lU1wBYuA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0-V7BANDEfGZk6lU1wBYuA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0-V7BQNDEfGZk6lU1wBYuA" key="Date" value="2026-02-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0-V7BgNDEfGZk6lU1wBYuA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0-VT8wNDEfGZk6lU1wBYuA" name="SystemIntegrationTest" eSuperTypes="_0-VT-gNDEfGZk6lU1wBYuA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VT9ANDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m60yYANCEfGA465kvgcumA"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VT9QNDEfGZk6lU1wBYuA" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_0-VT9gNDEfGZk6lU1wBYuA" name="TestMethod" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VT9wNDEfGZk6lU1wBYuA" source="redefines" references="_0-VUAANDEfGZk6lU1wBYuA"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0-VT-gNDEfGZk6lU1wBYuA" name="MBSETestCase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VT-wNDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qir0cANDEfGZk6lU1wBYuA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/TestCase"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0-VT_ANDEfGZk6lU1wBYuA" name="TestScope" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0-VT_gNDEfGZk6lU1wBYuA" name="AbstractDescription" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0-VUAANDEfGZk6lU1wBYuA" name="TestMethod" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0-VUAwNDEfGZk6lU1wBYuA" name="SystemTest" eSuperTypes="_0-VT-gNDEfGZk6lU1wBYuA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VUBANDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qVtk4ANCEfGA465kvgcumA"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VUBQNDEfGZk6lU1wBYuA" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_0-VUBgNDEfGZk6lU1wBYuA" name="TestMethod" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0-VUBwNDEfGZk6lU1wBYuA" source="redefines" references="_0-VUAANDEfGZk6lU1wBYuA"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_oDKeAANDEfGZk6lU1wBYuA" name="SysMod_MBSETestProfile" nsURI="http:///schemas/SysMod_MBSETestProfile/_oDJ28ANDEfGZk6lU1wBYuA/1" nsPrefix="SysMod_MBSETestProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oDKeAQNDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oDLFEgNDEfGZk6lU1wBYuA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oDLFEwNDEfGZk6lU1wBYuA" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oDLFFANDEfGZk6lU1wBYuA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oDLFFQNDEfGZk6lU1wBYuA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oDLFFgNDEfGZk6lU1wBYuA" key="Date" value="2026-02-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oDLFFwNDEfGZk6lU1wBYuA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_oDKeAgNDEfGZk6lU1wBYuA" name="SystemIntegrationTest">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oDKeAwNDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m60yYANCEfGA465kvgcumA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/TestCase"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_oDKeBANDEfGZk6lU1wBYuA" name="TestScope" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_oDKeBgNDEfGZk6lU1wBYuA" name="AbstractDescription" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_oDKeCANDEfGZk6lU1wBYuA" name="TestMethod" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_oDKeCwNDEfGZk6lU1wBYuA" name="SystemTest">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oDKeDANDEfGZk6lU1wBYuA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qVtk4ANCEfGA465kvgcumA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/TestCase"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_oDKeDQNDEfGZk6lU1wBYuA" name="TestScope" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_oDKeDwNDEfGZk6lU1wBYuA" name="AbstractDescription" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_oDKeEQNDEfGZk6lU1wBYuA" name="TestMethod" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_L0r2EANDEfGA465kvgcumA" name="SysMod_MBSETestProfile" nsURI="http:///schemas/SysMod_MBSETestProfile/_L0qn8ANDEfGA465kvgcumA/0" nsPrefix="SysMod_MBSETestProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L0r2EQNDEfGA465kvgcumA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L0sdIgNDEfGA465kvgcumA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L0sdIwNDEfGA465kvgcumA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L0sdJANDEfGA465kvgcumA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L0sdJQNDEfGA465kvgcumA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L0sdJgNDEfGA465kvgcumA" key="Date" value="2026-02-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L0sdJwNDEfGA465kvgcumA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L0r2EgNDEfGA465kvgcumA" name="SystemIntegrationTest">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L0r2EwNDEfGA465kvgcumA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m60yYANCEfGA465kvgcumA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/TestCase"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L0r2FANDEfGA465kvgcumA" name="TestScope" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L0r2FgNDEfGA465kvgcumA" name="AbstractDescription" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L0r2GQNDEfGA465kvgcumA" name="SystemTest">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L0r2GgNDEfGA465kvgcumA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qVtk4ANCEfGA465kvgcumA"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/TestCase"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L0r2GwNDEfGA465kvgcumA" name="TestScope" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L0r2HQNDEfGA465kvgcumA" name="AbstractDescription" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_cl8CMANCEfGA465kvgcumA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_cl9QUANCEfGA465kvgcumA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iMrBMANCEfGA465kvgcumA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_m60yYANCEfGA465kvgcumA" name="SystemIntegrationTest">
+    <generalization xmi:type="uml:Generalization" xmi:id="_n28cYANCEfGA465kvgcumA" general="_qir0cANDEfGZk6lU1wBYuA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_qVtk4ANCEfGA465kvgcumA" name="SystemTest">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tBhq4ANCEfGA465kvgcumA" general="_qir0cANDEfGZk6lU1wBYuA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_qir0cANDEfGZk6lU1wBYuA" name="MBSETestCase">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0HzUkANDEfGZk6lU1wBYuA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements.stereotype_packagedElement_TestCase"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vRDdgANCEfGA465kvgcumA" name="TestScope">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0FO-MANCEfGA465kvgcumA" name="AbstractDescription">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uNMXUANDEfGZk6lU1wBYuA" name="TestMethod">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Profile>

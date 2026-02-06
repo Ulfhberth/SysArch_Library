@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description" uid="_wycDoAM1EfGUR-7jVDy4Hg" selectedViews="_wy1sQAM1EfGUR-7jVDy4Hg _wy-PIAM1EfGUR-7jVDy4Hg" version="15.4.1.202403191723">
+  <semanticResources>SysMod_FiveLayerArchPatternProfile.profile.uml</semanticResources>
+  <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
+  <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
+  <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
+  <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
+  <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
+  <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+  <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.uml</semanticResources>
+  <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.notation</semanticResources>
+  <semanticResources>pathmap://SysML16_PROFILES/SysML.profile.di</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_wy1sQAM1EfGUR-7jVDy4Hg">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.pkg/description/papyrus_package.odesign#//@ownedViewpoints[name='PackageDiagram']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_wy-PIAM1EfGUR-7jVDy4Hg">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.profile/description/papyrus_profile.odesign#//@ownedViewpoints[name='ProfileDiagram']"/>
+    <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3H6_AAM1EfGUR-7jVDy4Hg" name="profile_fiveLayerArch_Stereotypes" changeId="1770366974983">
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.profile/description/papyrus_profile.odesign#//@ownedViewpoints[name='ProfileDiagram']/@ownedRepresentations[name='ProfileDiagram']"/>
+      <target xmi:type="uml:Profile" href="SysMod_FiveLayerArchPatternProfile.profile.uml#_wyuXgAM1EfGUR-7jVDy4Hg"/>
+    </ownedRepresentationDescriptors>
+  </ownedViews>
+</viewpoint:DAnalysis>
