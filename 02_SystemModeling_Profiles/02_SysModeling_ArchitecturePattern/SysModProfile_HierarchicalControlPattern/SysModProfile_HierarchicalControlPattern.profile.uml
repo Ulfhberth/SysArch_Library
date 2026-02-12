@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eNKXUAW2EfGu9PPOxEOY2Q" name="SysModProfile_HierarchicalControlPattern">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lQvoAW6EfGu9PPOxEOY2Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7aeaQAZfEfGAQ8xaakjhAA" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7aeaQQZfEfGAQ8xaakjhAA" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7aeaQgZfEfGAQ8xaakjhAA" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7aeaQwZfEfGAQ8xaakjhAA" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7aeaRAZfEfGAQ8xaakjhAA" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7aeaRQZfEfGAQ8xaakjhAA" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xVZIQAW9EfGks9gXFL48Ag" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xVZIQQW9EfGks9gXFL48Ag" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xVZIQgW9EfGks9gXFL48Ag" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xVZIQwW9EfGks9gXFL48Ag" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xVZIRAW9EfGks9gXFL48Ag" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xVZIRQW9EfGks9gXFL48Ag" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_9iXT0QZfEfGAQ8xaakjhAA" name="SysModProfile_HierarchicalControlPattern" nsURI="http:///schemas/SysModProfile_HierarchicalControlPattern/_9iXT0AZfEfGAQ8xaakjhAA/3" nsPrefix="SysModProfile_HierarchicalControlPattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT0gZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iX64gZfEfGAQ8xaakjhAA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9iX64wZfEfGAQ8xaakjhAA" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9iX65AZfEfGAQ8xaakjhAA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9iX65QZfEfGAQ8xaakjhAA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9iX65gZfEfGAQ8xaakjhAA" key="Date" value="2026-02-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9iX65wZfEfGAQ8xaakjhAA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9iXT0wZfEfGAQ8xaakjhAA" name="Controller">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT1AZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_te7RMAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT1QZfEfGAQ8xaakjhAA" name="controllerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT1wZfEfGAQ8xaakjhAA" name="controlGranularity" ordered="false" lowerBound="1" eType="_9iXT4gZfEfGAQ8xaakjhAA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT2QZfEfGAQ8xaakjhAA" name="lifecycleOwnership" ordered="false" lowerBound="1" eType="_9iXT5wZfEfGAQ8xaakjhAA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT2wZfEfGAQ8xaakjhAA" name="LifeCycleSynchronization" ordered="false" lowerBound="1" eType="_9iXT7AZfEfGAQ8xaakjhAA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT3QZfEfGAQ8xaakjhAA" name="failureHandling" ordered="false" lowerBound="1" eType="_9iXT8QZfEfGAQ8xaakjhAA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT3wZfEfGAQ8xaakjhAA" name="StateMachineRef" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_9iXT4gZfEfGAQ8xaakjhAA" name="ControlGranularityKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT4wZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qat8gAW6EfGu9PPOxEOY2Q"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT5AZfEfGAQ8xaakjhAA" name="Strategic"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT5QZfEfGAQ8xaakjhAA" name="Tactical" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT5gZfEfGAQ8xaakjhAA" name="Operational" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_9iXT5wZfEfGAQ8xaakjhAA" name="LifeCycleOwnershipKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT6AZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xVYhMAW9EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT6QZfEfGAQ8xaakjhAA" name="owner"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT6gZfEfGAQ8xaakjhAA" name="shared" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT6wZfEfGAQ8xaakjhAA" name="independent" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_9iXT7AZfEfGAQ8xaakjhAA" name="LifeCycleSyncKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT7QZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DT7KYAW-EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT7gZfEfGAQ8xaakjhAA" name="synchronized"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT7wZfEfGAQ8xaakjhAA" name="asynchronous" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT8AZfEfGAQ8xaakjhAA" name="on_demand" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_9iXT8QZfEfGAQ8xaakjhAA" name="FailureHandlingKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT8gZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XTOKYAW-EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT8wZfEfGAQ8xaakjhAA" name="cascade"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT9AZfEfGAQ8xaakjhAA" name="isolate" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_9iXT9QZfEfGAQ8xaakjhAA" name="degrade" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9iXT9gZfEfGAQ8xaakjhAA" name="LeafElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9iXT9wZfEfGAQ8xaakjhAA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_05MDUAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT-AZfEfGAQ8xaakjhAA" name="IsPurelyFunctional" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT-gZfEfGAQ8xaakjhAA" name="AlgorithmId" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9iXT_AZfEfGAQ8xaakjhAA" name="ConfigParameters" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Ek-3sAXAEfG7g-qkOegNaw" name="SysModProfile_HierarchicalControlPattern" nsURI="http:///schemas/SysModProfile_HierarchicalControlPattern/_Ek-QoAXAEfG7g-qkOegNaw/2" nsPrefix="SysModProfile_HierarchicalControlPattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-3sQXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek_ewgXAEfG7g-qkOegNaw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ek_ewwXAEfG7g-qkOegNaw" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ek_exAXAEfG7g-qkOegNaw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ek_exQXAEfG7g-qkOegNaw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ek_exgXAEfG7g-qkOegNaw" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ek_exwXAEfG7g-qkOegNaw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Ek-3sgXAEfG7g-qkOegNaw" name="Controller">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-3swXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_te7RMAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-3tAXAEfG7g-qkOegNaw" name="ControllerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-3tgXAEfG7g-qkOegNaw" name="ControllerGranularity" ordered="false" lowerBound="1" eType="_Ek-3wQXAEfG7g-qkOegNaw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-3uAXAEfG7g-qkOegNaw" name="ChildOwnership" ordered="false" lowerBound="1" eType="_Ek-3xgXAEfG7g-qkOegNaw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-3ugXAEfG7g-qkOegNaw" name="LifeCycleSynchronization" ordered="false" lowerBound="1" eType="_Ek-3zAXAEfG7g-qkOegNaw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-3vAXAEfG7g-qkOegNaw" name="FailureHandlingStrategy" ordered="false" lowerBound="1" eType="_Ek-30QXAEfG7g-qkOegNaw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-3vgXAEfG7g-qkOegNaw" name="StateMachineRef" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Ek-3wQXAEfG7g-qkOegNaw" name="ControlGranularityKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-3wgXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qat8gAW6EfGu9PPOxEOY2Q"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3wwXAEfG7g-qkOegNaw" name="Strategic"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3xAXAEfG7g-qkOegNaw" name="Tactical" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3xQXAEfG7g-qkOegNaw" name="Operational" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Ek-3xgXAEfG7g-qkOegNaw" name="ChildOwnershipKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-3xwXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xVYhMAW9EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3yAXAEfG7g-qkOegNaw" name="None"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3yQXAEfG7g-qkOegNaw" name="Owner" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3ygXAEfG7g-qkOegNaw" name="Shared" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3ywXAEfG7g-qkOegNaw" name="Independent" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Ek-3zAXAEfG7g-qkOegNaw" name="LifeCycleSyncKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-3zQXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DT7KYAW-EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3zgXAEfG7g-qkOegNaw" name="Synchronous"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-3zwXAEfG7g-qkOegNaw" name="Asynchronous" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-30AXAEfG7g-qkOegNaw" name="OnDemand" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Ek-30QXAEfG7g-qkOegNaw" name="FailHnldStratKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-30gXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XTOKYAW-EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-30wXAEfG7g-qkOegNaw" name="Cascade"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-31AXAEfG7g-qkOegNaw" name="Isolated" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_Ek-31QXAEfG7g-qkOegNaw" name="Degraded" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Ek-31gXAEfG7g-qkOegNaw" name="LeafElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ek-31wXAEfG7g-qkOegNaw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_05MDUAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-32AXAEfG7g-qkOegNaw" name="IsPurelyFunctional" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-32gXAEfG7g-qkOegNaw" name="AlgorithmID" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Ek-33AXAEfG7g-qkOegNaw" name="ConfigParametersID" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_HtXaYAW_EfGks9gXFL48Ag" name="SysModProfile_HierarchicalControlPattern" nsURI="http:///schemas/SysModProfile_HierarchicalControlPattern/_HtWzUAW_EfGks9gXFL48Ag/1" nsPrefix="SysModProfile_HierarchicalControlPattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXaYQW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtYBcgW_EfGks9gXFL48Ag" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HtYBcwW_EfGks9gXFL48Ag" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HtYBdAW_EfGks9gXFL48Ag" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HtYBdQW_EfGks9gXFL48Ag" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HtYBdgW_EfGks9gXFL48Ag" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HtYBdwW_EfGks9gXFL48Ag" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HtXaYgW_EfGks9gXFL48Ag" name="Controller">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXaYwW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_te7RMAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXaZAW_EfGks9gXFL48Ag" name="ControllerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXaZgW_EfGks9gXFL48Ag" name="ControllerGranularity" ordered="false" lowerBound="1" eType="_HtXacQW_EfGks9gXFL48Ag"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXaaAW_EfGks9gXFL48Ag" name="ChildOwnership" ordered="false" lowerBound="1" eType="_HtXadgW_EfGks9gXFL48Ag"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXaagW_EfGks9gXFL48Ag" name="LifeCycleSynchronization" ordered="false" lowerBound="1" eType="_HtXafAW_EfGks9gXFL48Ag"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXabAW_EfGks9gXFL48Ag" name="FailureHandlingStrategy" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXabgW_EfGks9gXFL48Ag" name="StateMachineRef" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HtXacQW_EfGks9gXFL48Ag" name="ControlGranularityKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXacgW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qat8gAW6EfGu9PPOxEOY2Q"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXacwW_EfGks9gXFL48Ag" name="Strategic"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXadAW_EfGks9gXFL48Ag" name="Tactical" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXadQW_EfGks9gXFL48Ag" name="Operational" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HtXadgW_EfGks9gXFL48Ag" name="ChildOwnershipKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXadwW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xVYhMAW9EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXaeAW_EfGks9gXFL48Ag" name="None"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXaeQW_EfGks9gXFL48Ag" name="Owner" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXaegW_EfGks9gXFL48Ag" name="Shared" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXaewW_EfGks9gXFL48Ag" name="Independent" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HtXafAW_EfGks9gXFL48Ag" name="LifeCycleSyncKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXafQW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DT7KYAW-EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXafgW_EfGks9gXFL48Ag" name="Synchronous"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXafwW_EfGks9gXFL48Ag" name="Asynchronous" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXagAW_EfGks9gXFL48Ag" name="OnDemand" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HtXagQW_EfGks9gXFL48Ag" name="LeafElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXaggW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_05MDUAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXagwW_EfGks9gXFL48Ag" name="IsPurelyFunctional" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXahQW_EfGks9gXFL48Ag" name="AlgorithmID" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HtXahwW_EfGks9gXFL48Ag" name="ConfigParametersID" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HtXaigW_EfGks9gXFL48Ag" name="FailHnldStratKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HtXaiwW_EfGks9gXFL48Ag" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XTOKYAW-EfGks9gXFL48Ag"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXajAW_EfGks9gXFL48Ag" name="Cascade"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXajQW_EfGks9gXFL48Ag" name="Isolated" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HtXajgW_EfGks9gXFL48Ag" name="Degraded" value="2"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_4lRWsAW6EfGu9PPOxEOY2Q" name="SysModProfile_HierarchicalControlPattern" nsURI="http:///schemas/SysModProfile_HierarchicalControlPattern/_4lPhgAW6EfGu9PPOxEOY2Q/0" nsPrefix="SysModProfile_HierarchicalControlPattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lRWsQW6EfGu9PPOxEOY2Q" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lR9wgW6EfGu9PPOxEOY2Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4lR9wwW6EfGu9PPOxEOY2Q" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4lR9xAW6EfGu9PPOxEOY2Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4lR9xQW6EfGu9PPOxEOY2Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4lR9xgW6EfGu9PPOxEOY2Q" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4lR9xwW6EfGu9PPOxEOY2Q" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_4lRWsgW6EfGu9PPOxEOY2Q" name="Controller">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lRWswW6EfGu9PPOxEOY2Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_te7RMAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4lRWtAW6EfGu9PPOxEOY2Q" name="ControllerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4lRWtgW6EfGu9PPOxEOY2Q" name="ControllerGranularity" ordered="false" lowerBound="1" eType="_4lRWwQW6EfGu9PPOxEOY2Q"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4lRWuAW6EfGu9PPOxEOY2Q" name="ChildOwnership" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4lRWugW6EfGu9PPOxEOY2Q" name="LifeCycleSynchronization" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4lRWvAW6EfGu9PPOxEOY2Q" name="FailureHandlingStrategy" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4lRWvgW6EfGu9PPOxEOY2Q" name="StateMachineRef" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_4lRWwQW6EfGu9PPOxEOY2Q" name="ControlGranularityKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lRWwgW6EfGu9PPOxEOY2Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qat8gAW6EfGu9PPOxEOY2Q"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_4lRWwwW6EfGu9PPOxEOY2Q" name="Strategic"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_4lRWxAW6EfGu9PPOxEOY2Q" name="Tactical" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_4lRWxQW6EfGu9PPOxEOY2Q" name="Operational" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_4lRWxgW6EfGu9PPOxEOY2Q" name="LeafElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lRWxwW6EfGu9PPOxEOY2Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_05MDUAW2EfGu9PPOxEOY2Q"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4lRWyAW6EfGu9PPOxEOY2Q" name="IsPurelyFunctional" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_eOaUgAW2EfGu9PPOxEOY2Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_eObioAW2EfGu9PPOxEOY2Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pMmgYAW2EfGu9PPOxEOY2Q">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pMnHcAW2EfGu9PPOxEOY2Q">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_te7RMAW2EfGu9PPOxEOY2Q" name="Controller">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3h380AW2EfGu9PPOxEOY2Q">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__svsgAW2EfGu9PPOxEOY2Q" name="controllerLevel">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CUntsAW3EfGu9PPOxEOY2Q" name="controlGranularity" type="_qat8gAW6EfGu9PPOxEOY2Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CLanAAW6EfGu9PPOxEOY2Q" name="lifecycleOwnership" type="_xVYhMAW9EfGks9gXFL48Ag"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LcSVcAW6EfGu9PPOxEOY2Q" name="LifeCycleSynchronization" type="_DT7KYAW-EfGks9gXFL48Ag"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Nc2fAAW6EfGu9PPOxEOY2Q" name="failureHandling" type="_XTOKYAW-EfGks9gXFL48Ag"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZkqlYAW6EfGu9PPOxEOY2Q" name="StateMachineRef">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_05MDUAW2EfGu9PPOxEOY2Q" name="LeafElement">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3ArUQAW2EfGu9PPOxEOY2Q">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jOSyEAW6EfGu9PPOxEOY2Q" name="IsPurelyFunctional">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mLwr8AW-EfGks9gXFL48Ag" name="AlgorithmId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qWow8AW-EfGks9gXFL48Ag" name="ConfigParameters">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_qat8gAW6EfGu9PPOxEOY2Q" name="ControlGranularityKind">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_t5Qf8AW6EfGu9PPOxEOY2Q" name="Strategic"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_vkBYoAW6EfGu9PPOxEOY2Q" name="Tactical"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_xrYGsAW6EfGu9PPOxEOY2Q" name="Operational"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_xVYhMAW9EfGks9gXFL48Ag" name="LifeCycleOwnershipKind">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_8AW2IAW9EfGks9gXFL48Ag" name="owner"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_9KREgAW9EfGks9gXFL48Ag" name="shared"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-GO9gAW9EfGks9gXFL48Ag" name="independent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_DT7KYAW-EfGks9gXFL48Ag" name="LifeCycleSyncKind">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_EBR_oAW-EfGks9gXFL48Ag" name="synchronized"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Kwis8AW-EfGks9gXFL48Ag" name="asynchronous"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_NIyWsAW-EfGks9gXFL48Ag" name="on_demand"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_XTOKYAW-EfGks9gXFL48Ag" name="FailureHandlingKind">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_a1kPwAW-EfGks9gXFL48Ag" name="cascade"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cjvo0AW-EfGks9gXFL48Ag" name="isolate"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_fdtfkAW-EfGks9gXFL48Ag" name="degrade"/>
+  </packagedElement>
+</uml:Profile>

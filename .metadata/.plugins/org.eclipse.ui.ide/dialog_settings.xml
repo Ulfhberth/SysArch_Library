@@ -167,6 +167,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/oliver/workspace-papyrus/02_SystemModeling_Profiles/02_SysModeling_ArchitecturePattern/SysModProfile_FlowProcessingPattern"/>
 			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/01_SysModeling_Subdomains/SysMod_RequirementsEngineeringProfile"/>
 			<item value="/home/oliver/workspace-papyrus/TemplateProjects/BatteryManagementSystem_Template"/>
 		</list>
@@ -185,6 +186,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/oliver/workspace-papyrus"/>
 			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/02_SysModeling_ArchitecturePattern/SysMod_HierarchicalControlProfile"/>
 			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/02_SysModeling_ArchitecturePattern/SysMod_ChannelArchitectureProfile"/>
 			<item value="/home/oliver/workspace-papyrus/SysML-Profiles/01_SysModeling_Subdomains/SysMod_TechnicalDesignProfile"/>
@@ -200,5 +202,8 @@
 			<item key="DIALOG_HEIGHT" value="758"/>
 			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
 		</section>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="/home/oliver/workspace-papyrus/01_SystemModeling_StandardLibraries/COmponentLibrary"/>
 	</section>
 </section>

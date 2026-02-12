@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VrSzIAaWEfGfFIQ6d4tU5w" name="SysModProfile_LayeredInterfacePattern">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jDzAAaZEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A0NSsQaaEfGfFIQ6d4tU5w" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0NSsgaaEfGfFIQ6d4tU5w" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0NSswaaEfGfFIQ6d4tU5w" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0NStAaaEfGfFIQ6d4tU5w" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0NStQaaEfGfFIQ6d4tU5w" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0NStgaaEfGfFIQ6d4tU5w" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_DCr1EQadEfGfFIQ6d4tU5w" name="SysModProfile_LayeredInterfacePattern" nsURI="http:///schemas/SysModProfile_LayeredInterfacePattern/_DCr1EAadEfGfFIQ6d4tU5w/2" nsPrefix="SysModProfile_LayeredInterfacePattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1EgadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCscKwadEfGfFIQ6d4tU5w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DCscLAadEfGfFIQ6d4tU5w" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DCscLQadEfGfFIQ6d4tU5w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DCscLgadEfGfFIQ6d4tU5w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DCscLwadEfGfFIQ6d4tU5w" key="Date" value="2026-02-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DCscMAadEfGfFIQ6d4tU5w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1EwadEfGfFIQ6d4tU5w" name="ProtocolDataUnit">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1FAadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kjCDcAaWEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1FQadEfGfFIQ6d4tU5w" name="layerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1FwadEfGfFIQ6d4tU5w" name="protocolType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DCr1GQadEfGfFIQ6d4tU5w" name="encapsulatedSDU" ordered="false" lowerBound="1" eType="_DCr1HAadEfGfFIQ6d4tU5w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1HAadEfGfFIQ6d4tU5w" name="ServiceDataUnit">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1HQadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__GzdEAaWEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1HgadEfGfFIQ6d4tU5w" name="serviceType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1IQadEfGfFIQ6d4tU5w" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1IgadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aQWdQAaXEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1IwadEfGfFIQ6d4tU5w" name="layerNumber" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1JQadEfGfFIQ6d4tU5w" name="layerName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1JwadEfGfFIQ6d4tU5w" name="protocolName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1KgadEfGfFIQ6d4tU5w" name="ProtocolStack">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1KwadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ooANYAaZEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1LAadEfGfFIQ6d4tU5w" name="numberOfLayers" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1LgadEfGfFIQ6d4tU5w" name="stackType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1MQadEfGfFIQ6d4tU5w" name="SystemNode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1MgadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_A0NSsAaaEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1MwadEfGfFIQ6d4tU5w" name="nodeType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1NQadEfGfFIQ6d4tU5w" name="hasInternalStack" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1OAadEfGfFIQ6d4tU5w" name="Gateway" eSuperTypes="_DCr1MQadEfGfFIQ6d4tU5w">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1OQadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_TK2A4AacEfGfFIQ6d4tU5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DCr1OgadEfGfFIQ6d4tU5w" name="inputStack" ordered="false" lowerBound="1" eType="_DCr1KgadEfGfFIQ6d4tU5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DCr1PAadEfGfFIQ6d4tU5w" name="outputStack" ordered="false" lowerBound="1" eType="_DCr1KgadEfGfFIQ6d4tU5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DCr1PgadEfGfFIQ6d4tU5w" name="translationLayer" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1QQadEfGfFIQ6d4tU5w" name="ServiceInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1QgadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2bRooAacEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DCr1QwadEfGfFIQ6d4tU5w" name="ServiceType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DCr1RgadEfGfFIQ6d4tU5w" name="PeerInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DCr1RwadEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4oV9IAacEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_n73_0QacEfGfFIQ6d4tU5w" name="SysModProfile_LayeredInterfacePattern" nsURI="http:///schemas/SysModProfile_LayeredInterfacePattern/_n73_0AacEfGfFIQ6d4tU5w/1" nsPrefix="SysModProfile_LayeredInterfacePattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_0gacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n74m6AacEfGfFIQ6d4tU5w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n74m6QacEfGfFIQ6d4tU5w" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n74m6gacEfGfFIQ6d4tU5w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n74m6wacEfGfFIQ6d4tU5w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n74m7AacEfGfFIQ6d4tU5w" key="Date" value="2026-02-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n74m7QacEfGfFIQ6d4tU5w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n73_0wacEfGfFIQ6d4tU5w" name="ProtocolDataUnit">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_1AacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kjCDcAaWEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_1QacEfGfFIQ6d4tU5w" name="layerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_1wacEfGfFIQ6d4tU5w" name="protocolType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n73_2QacEfGfFIQ6d4tU5w" name="encapsulatedSDU" ordered="false" lowerBound="1" eType="_n73_3AacEfGfFIQ6d4tU5w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n73_3AacEfGfFIQ6d4tU5w" name="ServiceDataUnit">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_3QacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__GzdEAaWEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_3gacEfGfFIQ6d4tU5w" name="serviceType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n73_4QacEfGfFIQ6d4tU5w" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_4gacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aQWdQAaXEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_4wacEfGfFIQ6d4tU5w" name="layerNumber" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_5QacEfGfFIQ6d4tU5w" name="layerName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_5wacEfGfFIQ6d4tU5w" name="protocolName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n73_6gacEfGfFIQ6d4tU5w" name="ProtocolStack">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_6wacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ooANYAaZEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_7AacEfGfFIQ6d4tU5w" name="numberOfLayers" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_7gacEfGfFIQ6d4tU5w" name="stackType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n73_8QacEfGfFIQ6d4tU5w" name="SystemNode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_8gacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_A0NSsAaaEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_8wacEfGfFIQ6d4tU5w" name="nodeType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73_9QacEfGfFIQ6d4tU5w" name="hasInternalStack" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n73_-AacEfGfFIQ6d4tU5w" name="Gateway" eSuperTypes="_n73_8QacEfGfFIQ6d4tU5w">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n73_-QacEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_TK2A4AacEfGfFIQ6d4tU5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n73_-gacEfGfFIQ6d4tU5w" name="inputStack" ordered="false" lowerBound="1" eType="_n73_6gacEfGfFIQ6d4tU5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n73__AacEfGfFIQ6d4tU5w" name="outputStack" ordered="false" lowerBound="1" eType="_n73_6gacEfGfFIQ6d4tU5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n73__gacEfGfFIQ6d4tU5w" name="translationLayer" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_2jFBIAaZEfGfFIQ6d4tU5w" name="SysModProfile_LayeredInterfacePattern" nsURI="http:///schemas/SysModProfile_LayeredInterfacePattern/_2jDL8AaZEfGfFIQ6d4tU5w/0" nsPrefix="SysModProfile_LayeredInterfacePattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jFBIQaZEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jFoNQaZEfGfFIQ6d4tU5w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2jFoNgaZEfGfFIQ6d4tU5w" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2jFoNwaZEfGfFIQ6d4tU5w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2jFoOAaZEfGfFIQ6d4tU5w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2jFoOQaZEfGfFIQ6d4tU5w" key="Date" value="2026-02-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2jFoOgaZEfGfFIQ6d4tU5w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2jFBIgaZEfGfFIQ6d4tU5w" name="ProtocolDataUnit">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jFBIwaZEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kjCDcAaWEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBJAaZEfGfFIQ6d4tU5w" name="layerLevel" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBJgaZEfGfFIQ6d4tU5w" name="protocolType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2jFBKAaZEfGfFIQ6d4tU5w" name="encapsulatedSDU" ordered="false" lowerBound="1" eType="_2jFBKwaZEfGfFIQ6d4tU5w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2jFBKwaZEfGfFIQ6d4tU5w" name="ServiceDataUnit">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jFBLAaZEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__GzdEAaWEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBLQaZEfGfFIQ6d4tU5w" name="serviceType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2jFBMAaZEfGfFIQ6d4tU5w" name="ProtocolEntity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jFBMQaZEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aQWdQAaXEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBMgaZEfGfFIQ6d4tU5w" name="layerNumber" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBNAaZEfGfFIQ6d4tU5w" name="layerName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBNgaZEfGfFIQ6d4tU5w" name="protocolName" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2jFBOQaZEfGfFIQ6d4tU5w" name="ProtocolStack">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jFBOgaZEfGfFIQ6d4tU5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ooANYAaZEfGfFIQ6d4tU5w"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBOwaZEfGfFIQ6d4tU5w" name="numberOfLayers" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2jFBPQaZEfGfFIQ6d4tU5w" name="stackType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_VsiwUAaWEfGfFIQ6d4tU5w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Vsj-cAaWEfGfFIQ6d4tU5w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_g9PBcAaWEfGfFIQ6d4tU5w">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_g9PogAaWEfGfFIQ6d4tU5w">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_kjCDcAaWEfGfFIQ6d4tU5w" name="ProtocolDataUnit">
+    <generalization xmi:type="uml:Generalization" xmi:id="__qLP4AaWEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p4-0cAaWEfGfFIQ6d4tU5w" name="layerLevel">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wcEG8AaWEfGfFIQ6d4tU5w" name="protocolType">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_76JT0AaWEfGfFIQ6d4tU5w" name="encapsulatedSDU" type="__GzdEAaWEfGfFIQ6d4tU5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="__GzdEAaWEfGfFIQ6d4tU5w" name="ServiceDataUnit">
+    <generalization xmi:type="uml:Generalization" xmi:id="_AUSj4AaXEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EUVR4AaXEfGfFIQ6d4tU5w" name="serviceType">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aQWdQAaXEfGfFIQ6d4tU5w" name="ProtocolEntity">
+    <generalization xmi:type="uml:Generalization" xmi:id="_caARYAaXEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fAS-MAaXEfGfFIQ6d4tU5w" name="layerNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cJ1cgAaZEfGfFIQ6d4tU5w" name="layerName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jLlA8AaZEfGfFIQ6d4tU5w" name="protocolName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ooANYAaZEfGfFIQ6d4tU5w" name="ProtocolStack">
+    <generalization xmi:type="uml:Generalization" xmi:id="_1QQuYAaZEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qFna4AaZEfGfFIQ6d4tU5w" name="numberOfLayers">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v2hCgAaZEfGfFIQ6d4tU5w" name="stackType">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_A0NSsAaaEfGfFIQ6d4tU5w" name="SystemNode">
+    <generalization xmi:type="uml:Generalization" xmi:id="_FKU-YAaaEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GrzYMAaaEfGfFIQ6d4tU5w" name="nodeType">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Nmjj0AaaEfGfFIQ6d4tU5w" name="hasInternalStack">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_TK2A4AacEfGfFIQ6d4tU5w" name="Gateway">
+    <generalization xmi:type="uml:Generalization" xmi:id="_VoaPgAacEfGfFIQ6d4tU5w" general="_A0NSsAaaEfGfFIQ6d4tU5w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZDEYgAacEfGfFIQ6d4tU5w" name="inputStack" type="_ooANYAaZEfGfFIQ6d4tU5w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fcrl8AacEfGfFIQ6d4tU5w" name="outputStack" type="_ooANYAaZEfGfFIQ6d4tU5w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iLLMgAacEfGfFIQ6d4tU5w" name="translationLayer">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_2bRooAacEfGfFIQ6d4tU5w" name="ServiceInterface">
+    <generalization xmi:type="uml:Generalization" xmi:id="_6lcjAAacEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_InterfaceBlock"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7uLFoAacEfGfFIQ6d4tU5w" name="ServiceType"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_4oV9IAacEfGfFIQ6d4tU5w" name="PeerInterface">
+    <generalization xmi:type="uml:Generalization" xmi:id="_7EX6sAacEfGfFIQ6d4tU5w">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_InterfaceBlock"/>
+    </generalization>
+  </packagedElement>
+</uml:Profile>

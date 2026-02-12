@@ -68,14 +68,6 @@
       <element xmi:type="uml:Class" href="SysLib_CommStandards.uml#_OLubcAJ-EfGuLc1ntDXI6w"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OL8d4QJ-EfGuLc1ntDXI6w" x="160" y="160" width="421" height="181"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qD9RIAJ_EfGm-ofqeQU2yA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qD9RIQJ_EfGm-ofqeQU2yA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qD9RIwJ_EfGm-ofqeQU2yA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="SysLib_CommStandards.uml#_OLubcAJ-EfGuLc1ntDXI6w"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qD9RIgJ_EfGm-ofqeQU2yA" x="360" y="160"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_21YVMAJ_EfGm-ofqeQU2yA" type="Enumeration_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_21Y8QAJ_EfGm-ofqeQU2yA" type="Enumeration_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_21Y8QQJ_EfGm-ofqeQU2yA" type="Enumeration_FloatingNameLabel">
@@ -101,21 +93,29 @@
       <element xmi:type="uml:Enumeration" href="SysLib_CommStandards.uml#_21WgAAJ_EfGm-ofqeQU2yA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21YVMQJ_EfGm-ofqeQU2yA" x="1040" y="160" width="161" height="101"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_ymL3YANwEfGfvq7N3TRNrA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ymL3YQNwEfGfvq7N3TRNrA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ymL3YwNwEfGfvq7N3TRNrA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SysLib_CommStandards.uml#_OLubcAJ-EfGuLc1ntDXI6w"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ymL3YgNwEfGfvq7N3TRNrA" x="360" y="160"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_LXxGEQJ-EfGuLc1ntDXI6w" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_LXxGEgJ-EfGuLc1ntDXI6w"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_LXxGEwJ-EfGuLc1ntDXI6w" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
       <owner xmi:type="uml:Package" href="SysLib_CommStandards.uml#_5CxhMAJ8EfGuLc1ntDXI6w"/>
     </styles>
     <element xmi:type="uml:Package" href="SysLib_CommStandards.uml#_5CxhMAJ8EfGuLc1ntDXI6w"/>
-    <edges xmi:type="notation:Connector" xmi:id="_qD9RJAJ_EfGm-ofqeQU2yA" type="StereotypeCommentLink" source="_OL8d4AJ-EfGuLc1ntDXI6w" target="_qD9RIAJ_EfGm-ofqeQU2yA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qD9RJQJ_EfGm-ofqeQU2yA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qD9RKQJ_EfGm-ofqeQU2yA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_ymL3ZANwEfGfvq7N3TRNrA" type="StereotypeCommentLink" source="_OL8d4AJ-EfGuLc1ntDXI6w" target="_ymL3YANwEfGfvq7N3TRNrA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ymL3ZQNwEfGfvq7N3TRNrA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ymL3aQNwEfGfvq7N3TRNrA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SysLib_CommStandards.uml#_OLubcAJ-EfGuLc1ntDXI6w"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qD9RJgJ_EfGm-ofqeQU2yA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qD9RJwJ_EfGm-ofqeQU2yA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qD9RKAJ_EfGm-ofqeQU2yA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ymL3ZgNwEfGfvq7N3TRNrA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ymL3ZwNwEfGfvq7N3TRNrA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ymL3aANwEfGfvq7N3TRNrA"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

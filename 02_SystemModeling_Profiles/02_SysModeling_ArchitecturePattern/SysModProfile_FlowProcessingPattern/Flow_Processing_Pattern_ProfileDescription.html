@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Processing Pattern - SysML Profile Specification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            background: #f7fafc;
+            border-bottom: 2px solid #e2e8f0;
+            overflow-x: auto;
+        }
+        
+        .nav-tab {
+            padding: 20px 30px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #4a5568;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        
+        .nav-tab:hover {
+            background: #edf2f7;
+        }
+        
+        .nav-tab.active {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            background: white;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            font-size: 1.8em;
+        }
+        
+        .section h3 {
+            color: #4a5568;
+            margin: 25px 0 15px 0;
+            font-size: 1.4em;
+        }
+        
+        .section h4 {
+            color: #667eea;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+        }
+        
+        .card {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+        }
+        
+        .card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .highlight {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .warning {
+            background: #fee2e2;
+            border-left: 4px solid #ef4444;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .success {
+            background: #d1fae5;
+            border-left: 4px solid #10b981;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .attribute-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .attribute-table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .attribute-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .attribute-table tr:hover {
+            background: #f7fafc;
+        }
+        
+        .attribute-table code {
+            background: #edf2f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #667eea;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .stereotype-box {
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .stereotype-header {
+            background: #667eea;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .relationship-diagram {
+            background: #f7fafc;
+            border: 2px dashed #cbd5e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .placeholder {
+            background: #edf2f7;
+            border: 2px dashed #cbd5e0;
+            padding: 40px;
+            text-align: center;
+            color: #718096;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Flow Processing Pattern</h1>
+            <p>SysML Profile for Flow-Oriented System Architectures</p>
+        </div>
+        
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showTab('tab1')">Pattern Overview</button>
+            <button class="nav-tab" onclick="showTab('tab2')">Profile Overview</button>
+            <button class="nav-tab" onclick="showTab('tab3')">Examples</button>
+        </div>
+        
+        <div class="content">
+            <!-- TAB 1: PATTERN OVERVIEW -->
+            <div id="tab1" class="tab-content active">
+                <div class="section">
+                    <h2>📋 Architecture Pattern Explanation</h2>
+                    
+                    <p>The <strong>Flow Processing Pattern</strong> is a specialization of the classic <em>Pipes-and-Filters</em> architectural pattern and describes a structured method for building systems where <strong>media (information, energy, or materials) are "processed" in a chain</strong>.</p>
+                    
+                    <div class="card">
+                        <h4>🎯 Core Concept</h4>
+                        <p>The media to be processed flow sequentially through a <strong>series of filters (processing components)</strong>, each fulfilling a clearly defined task, while <strong>interfaces</strong> of the filters act as connecting communication pathways.</p>
+                    </div>
+                    
+                    <h3>Core Principles</h3>
+                    <ul>
+                        <li><strong>Media Processor:</strong> Individual, independent processing units that transform, validate, or enrich media</li>
+                        <li><strong>Media Interface:</strong> Defined connections that couple processors together and transport the media flow</li>
+                        <li><strong>Sequential Media Flow:</strong> Each processor receives input media from an interface and passes processed output media through another interface</li>
+                        <li><strong>Modular Composition:</strong> Complex processing chains emerge through chaining or reordering individual, reusable processors</li>
+                    </ul>
+                    
+                    <div class="highlight">
+                        <strong>💡 Suitability:</strong> The pattern is particularly suited for <strong>flow or streaming systems</strong> where modular structure, flexible composition, and loose coupling are essential goals.
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>✅ Pattern Benefits</h2>
+                    
+                    <div class="success">
+                        <h4>🔗 Loose Coupling & Better Replaceability</h4>
+                        <p>Processors only know their inputs and outputs; otherwise they are independent. This makes them easier to replace, recombine, and reuse in other flow chains.</p>
+                    </div>
+                    
+                    <div class="success">
+                        <h4>📈 High Extensibility</h4>
+                        <p>New functionality emerges by "adding media processors" rather than rebuilding existing processors. Particularly advantageous for additional validation, variant handling, or logging/monitoring.</p>
+                    </div>
+                    
+                    <div class="success">
+                        <h4>⚡ Stage-Level Scaling</h4>
+                        <p>During deployment, "hotspots" (complex sub-flow chains) can be scaled specifically without completely rebuilding the entire flow chain.</p>
+                    </div>
+                    
+                    <div class="success">
+                        <h4>🧪 Testability and Maintainability</h4>
+                        <p>Small, clearly delineated processors are easier to test and maintain in isolation (Separation of Concerns). Each processor has a clear responsibility.</p>
+                    </div>
+                    
+                    <div class="success">
+                        <h4>🔄 Asynchronicity & Temporal Decoupling</h4>
+                        <p>Interfaces enable temporal decoupling of producers and consumers and allow various transport modes (synchronous/asynchronous/streaming) – especially helpful for event/stream processing.</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>⚠️ Risks and Drawbacks</h2>
+                    
+                    <div class="warning">
+                        <h4>🔌 Schema/Media Format Coupling (Hidden Dependencies)</h4>
+                        <p>Despite loosely coupled media processors, strong coupling can emerge through the media format of the interfaces.</p>
+                        <p><strong>Remedy:</strong> Deploy converters in specific sub-flow chains.</p>
+                    </div>
+                    
+                    <div class="warning">
+                        <h4>⏱️ Latency Overhead Through Multiple Stages</h4>
+                        <p>Each component plus interface (queue/serialization) costs processing time.</p>
+                        <p><strong>Caution:</strong> Critical analysis necessary for hard real-time requirements and complex flow chains.</p>
+                    </div>
+                    
+                    <div class="warning">
+                        <h4>🍝 Risk of "Flow Chain Spaghetti"</h4>
+                        <p>Many branches and side-channels (e.g., additional diversions, "taps") can make the overall architecture confusing.</p>
+                        <p><strong>Remedy:</strong> Strict governance and rules:</p>
+                        <ul>
+                            <li>Naming conventions and stereotypes</li>
+                            <li>Clear interface definitions (contracts)</li>
+                            <li>Unambiguous versioning (especially for variant handling)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>🎯 Typical Application Areas</h2>
+                    
+                    <div class="card">
+                        <h4>📡 Real-Time Signal Processing</h4>
+                        <p>Audio, video, or sensor signals are processed step-by-step (e.g., noise reduction → feature extraction → classification).</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>🌊 Data Stream Systems</h4>
+                        <p>Log and event processing in monitoring systems, big data pipelines, and ETL processes. Continuous processing of large data volumes.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>🔧 Software with Multiple Transformation Stages</h4>
+                        <p>Compiler designs, image processing, protocol stacks – anywhere data must be rebuilt step-by-step.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>🏭 IoT and Industry 4.0</h4>
+                        <p>Processing sensor data in production environments with various analysis and aggregation stages.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>📊 Business Intelligence & Analytics</h4>
+                        <p>Data preparation, transformation, and aggregation in multi-stage analysis pipelines.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TAB 2: PROFILE OVERVIEW -->
+            <div id="tab2" class="tab-content">
+                <div class="section">
+                    <h2>📦 Package Overview</h2>
+                    
+                    <p>The <strong>Flow Processing Pattern SysML Profile</strong> provides a formal modeling foundation for applying the Flow Processing Pattern in SysML-based system architectures. It extends SysML with specialized stereotypes that make the pattern's characteristic elements – processors, interfaces, and media flows – explicitly modelable.</p>
+                    
+                    <div class="highlight">
+                        <strong>💡 Goal:</strong> The profile enables architects to model media flow-based architectures consistently, traceably, and with tool support. Clear typing makes the architecture more understandable and better analyzable.
+                    </div>
+                    
+                    <h3>Included Stereotypes</h3>
+                    <ul>
+                        <li><strong>«FlowChain»</strong> – Describes the overarching media flow chain</li>
+                        <li><strong>«FlowProcessor»</strong> – Models individual media processors (filters)</li>
+                        <li><strong>«FlowInterface»</strong> – Defines input/output points for data flows</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <h2>🔍 Stereotypes in Detail</h2>
+                    
+                    <!-- FlowChain -->
+                    <div class="stereotype-box">
+                        <div class="stereotype-header">«Stereotype» FlowChain</div>
+                        
+                        <p><strong>Description:</strong> The FlowChain stereotype describes an abstract, sequential processing chain within the Flow Processing Pattern. It represents the highest abstraction level where media flow step-by-step through an ordered sequence of independent processing units (filters).</p>
+                        
+                        <p><strong>Application:</strong> The FlowChain defines the order, coupling, and consistency of processing without specifying the internal logic of individual filters. It serves as an architectural framework for modeling modular, extensible, and reusable system and software architectures.</p>
+                        
+                        <h4>Attributes:</h4>
+                        <table class="attribute-table">
+                            <thead>
+                                <tr>
+                                    <th>Attribute</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>FlowChainKind</code></td>
+                                    <td>String [1]</td>
+                                    <td>Classification of the flow chain type (e.g., "linear", "branching", "circular"). Describes the topological structure of the processing chain.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>StreamType</code></td>
+                                    <td>String [1]</td>
+                                    <td>Type of data stream (e.g., "continuous", "batch", "event-driven"). Defines how media flows through the chain.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>ProcessingType</code></td>
+                                    <td>String [1]</td>
+                                    <td>Processing mode (e.g., "synchronous", "asynchronous", "parallel"). Defines the temporal behavior of flow chain execution.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- FlowProcessor -->
+                    <div class="stereotype-box">
+                        <div class="stereotype-header">«Stereotype» FlowProcessor</div>
+                        
+                        <p><strong>Description:</strong> The stereotype describes an independent processing unit within the pattern. It represents a logically self-contained component that receives inputs via defined interfaces, transforms, analyzes, or enriches them, and passes results to subsequent components.</p>
+                        
+                        <p><strong>Application:</strong> FlowProcessors are independent of each other, interchangeable, and free of assumptions about upstream or downstream processing steps. They form the fundamental building blocks of the media flow chain.</p>
+                        
+                        <h4>Attributes:</h4>
+                        <table class="attribute-table">
+                            <thead>
+                                <tr>
+                                    <th>Attribute</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>Purpose</code></td>
+                                    <td>String [1]</td>
+                                    <td>Describes the functional purpose of the component (e.g., "Validation", "Transformation", "Enrichment", "Aggregation"). Makes the role in the flow chain explicit.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>Statefulness</code></td>
+                                    <td>Boolean [1]</td>
+                                    <td>Indicates whether the component is stateful or stateless. Stateless components are easier to scale and test.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>ProcessRate</code></td>
+                                    <td>String [1]</td>
+                                    <td>Describes processing speed or throughput rate (e.g., "1000 msg/sec", "real-time", "batch-oriented"). Important for performance analysis and scaling decisions.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                   
+                    <!-- FlowInterface -->
+                    <div class="stereotype-box">
+                        <div class="stereotype-header">«Stereotype» FlowInterface</div>
+                        
+                        <p><strong>Description:</strong> The stereotype describes a standardized interface for defining media flows between components within the pattern. It types ProxyPorts and defines direction, structure, and type of media input and output.</p>
+                        
+                        <p><strong>Application:</strong> FlowInterfaces encapsulate data communication, promote loose coupling of processors, and enable consistent, interchangeable, and traceable modeling of media flows.</p>
+                        
+                        <h4>Attributes:</h4>
+                        <table class="attribute-table">
+                            <thead>
+                                <tr>
+                                    <th>Attribute</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>Ordering</code></td>
+                                    <td>String [1]</td>
+                                    <td>Defines the order of media transmission (e.g., "FIFO", "LIFO", "priority-based", "unordered"). Important for correct stream processing.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>BufferCapacity</code></td>
+                                    <td>Integer [1]</td>
+                                    <td>Maximum number of "media entities" that can be buffered in the interface. Determines backpressure behavior and decoupling between producer and consumer.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>TransportMode</code></td>
+                                    <td>String [1]</td>
+                                    <td>Type of media transmission (e.g., "synchronous", "asynchronous", "streaming", "request-reply"). Determines temporal communication behavior.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>RateLimit</code></td>
+                                    <td>String [1]</td>
+                                    <td>Transmission rate limitation (e.g., "1000 msg/sec", "unlimited"). Important for resource management and quality-of-service guarantees.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+                <div class="section">
+                    <h2>🔗 Relationships Between Stereotypes</h2>
+                    
+                    <div class="relationship-diagram">
+                        <h4>Structural Dependencies</h4>
+                        <p style="text-align: left; margin-top: 20px;">A <strong>FlowChain</strong> contains multiple <strong>FlowProcessors</strong>.</p>
+                        <p style="text-align: left;"><strong>FlowProcessors</strong> have <strong>ProxyPorts</strong> (inputs and outputs, standardized by SysML).</p>
+                        <p style="text-align: left;">A <strong>ProxyPort</strong> is typed by a <strong>FlowInterface</strong>.</p>                        
+                        <p style="text-align: left;"><strong>ProxyPorts</strong> are connected to other ProxyPorts through <strong>Connectors</strong>.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>📊 Typical Pipeline Structure</h4>
+                        <ol>
+                            <li><strong>FlowChain</strong> defines the overall structure and processing logic</li>
+                            <li><strong>FlowChains</strong> can be recursively decomposed as needed</li>
+                            <li><strong>FlowProcessors</strong> are instantiated in the FlowChain</li>
+                            <li>Each FlowProcessor has <strong>ProxyPorts</strong> with typed <strong>FlowInterfaces</strong> (input/output)</li>
+                            <li><strong>Connectors</strong> link the ProxyPorts and define data flow characteristics</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="success">
+                        <h4>✅ Best Practices</h4>
+                        <ul>
+                            <li>Use clear <strong>naming conventions</strong> for ProxyPorts (e.g., prefix "fp_" for FlowProcessor ports)</li>
+                            <li>Document <strong>media formats</strong> at each FlowInterface via FlowProperty</li>
+                            <li>Version FlowChain definitions for better <strong>traceability</strong></li>
+                            <li>Use the <strong>Statefulness attribute</strong> deliberately for scaling decisions</li>
+                            <li>Define <strong>FlowInterface characteristics</strong> explicitly (Ordering, BufferCapacity, etc.)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TAB 3: EXAMPLES -->
+            <div id="tab3" class="tab-content">
+                <div class="section">
+                    <h2>📚 Application Examples</h2>
+                    
+                    <div class="placeholder">
+                        <h3>Examples to Follow</h3>
+                        <p>This section will contain concrete application examples of the Pattern Profile in the future.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <p>🏗️ Flow Processing Pattern – SysML Profile for Modern Flow Architectures</p>
+            <p>Documentation for System and Software Architects</p>
+        </div>
+    </div>
+    
+    <script>
+        function showTab(tabName) {
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.classList.remove('active'));
+            
+            const tabs = document.querySelectorAll('.nav-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

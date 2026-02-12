@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wsFV0Pd1EfCG9O80Pb51PQ" name="SysMod_ChannelArchitectureProfile">
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wsFV0Pd1EfCG9O80Pb51PQ" name="SysModProfile_FlowProcessingPattern">
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_InpXEPd2EfCG9O80Pb51PQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mV9WcAGwEfGPLcZf_--6ww" source="PapyrusVersion">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mV9WcQGwEfGPLcZf_--6ww" key="Version" value="0.0.0"/>
@@ -15,6 +15,226 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Myp-9Pd2EfCG9O80Pb51PQ" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Myp-9fd2EfCG9O80Pb51PQ" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_eBixcAWbEfGte5cf4urdzw" name="SysModProfile_FlowProcessingPattern" nsURI="http:///schemas/SysModProfile_FlowProcessingPattern/_eBiKYAWbEfGte5cf4urdzw/11" nsPrefix="SysModProfile_FlowProcessingPattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eBixcQWbEfGte5cf4urdzw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eBj_kgWbEfGte5cf4urdzw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eBj_kwWbEfGte5cf4urdzw" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eBj_lAWbEfGte5cf4urdzw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eBj_lQWbEfGte5cf4urdzw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eBj_lgWbEfGte5cf4urdzw" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eBj_lwWbEfGte5cf4urdzw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_eBixcgWbEfGte5cf4urdzw" name="FlowProcessor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eBixcwWbEfGte5cf4urdzw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ErGpAPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixdAWbEfGte5cf4urdzw" name="Purpose" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixdgWbEfGte5cf4urdzw" name="Statefulness" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixeAWbEfGte5cf4urdzw" name="ProcessRate" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_eBixewWbEfGte5cf4urdzw" name="FlowInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eBixfAWbEfGte5cf4urdzw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_O-MCYPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixfQWbEfGte5cf4urdzw" name="Ordering" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixfwWbEfGte5cf4urdzw" name="BufferCapacity" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixgQWbEfGte5cf4urdzw" name="TransportMode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixgwWbEfGte5cf4urdzw" name="RateLimit" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_eBixhgWbEfGte5cf4urdzw" name="FlowChain">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eBixhwWbEfGte5cf4urdzw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FlCFMPd3EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixiAWbEfGte5cf4urdzw" name="FlowChainKind" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixigWbEfGte5cf4urdzw" name="StreamingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_eBixjAWbEfGte5cf4urdzw" name="ProcessingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_1fR5IQWZEfG_A-qmumsrhg" name="SysModProfile_FlowProcessingPattern" nsURI="http:///schemas/SysModProfile_FlowProcessingPattern/_1fR5IAWZEfG_A-qmumsrhg/10" nsPrefix="SysModProfile_FlowProcessingPattern">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1fR5IgWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1fSgMwWZEfG_A-qmumsrhg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1fSgNAWZEfG_A-qmumsrhg" key="Version" value="0.0.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1fSgNQWZEfG_A-qmumsrhg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1fSgNgWZEfG_A-qmumsrhg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1fSgNwWZEfG_A-qmumsrhg" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1fSgOAWZEfG_A-qmumsrhg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1fR5IwWZEfG_A-qmumsrhg" name="FlowProcessor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1fR5JAWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ErGpAPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5JQWZEfG_A-qmumsrhg" name="Purpose" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5JwWZEfG_A-qmumsrhg" name="Statefulness" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5KQWZEfG_A-qmumsrhg" name="ProcessRate" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1fR5LAWZEfG_A-qmumsrhg" name="FlowInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1fR5LQWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_O-MCYPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5LgWZEfG_A-qmumsrhg" name="Ordering" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5MAWZEfG_A-qmumsrhg" name="BufferCapacity" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5MgWZEfG_A-qmumsrhg" name="TransportMode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5NAWZEfG_A-qmumsrhg" name="RateLimit" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1fR5NwWZEfG_A-qmumsrhg" name="FlowChain">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1fR5OAWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FlCFMPd3EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5OQWZEfG_A-qmumsrhg" name="FlowChainKind" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5OwWZEfG_A-qmumsrhg" name="StreamingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1fR5PQWZEfG_A-qmumsrhg" name="ProcessingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Mbw4cQWZEfG_A-qmumsrhg" name="SysMod_ChannelArchitectureProfile" nsURI="http:///schemas/SysMod_ChannelArchitectureProfile/_Mbw4cAWZEfG_A-qmumsrhg/9" nsPrefix="SysMod_ChannelArchitectureProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mbw4cgWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MbyGkAWZEfG_A-qmumsrhg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MbyGkQWZEfG_A-qmumsrhg" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MbyGkgWZEfG_A-qmumsrhg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MbyGkwWZEfG_A-qmumsrhg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MbyGlAWZEfG_A-qmumsrhg" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MbyGlQWZEfG_A-qmumsrhg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Mbw4cwWZEfG_A-qmumsrhg" name="FlowProcessor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mbw4dAWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ErGpAPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4dQWZEfG_A-qmumsrhg" name="Purpose" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4dwWZEfG_A-qmumsrhg" name="Statefulness" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4eQWZEfG_A-qmumsrhg" name="ProcessRate" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Mbw4fAWZEfG_A-qmumsrhg" name="FlowInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mbw4fQWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_O-MCYPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4fgWZEfG_A-qmumsrhg" name="Ordering" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4gAWZEfG_A-qmumsrhg" name="BufferCapacity" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4ggWZEfG_A-qmumsrhg" name="TransportMode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4hAWZEfG_A-qmumsrhg" name="RateLimit" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Mbw4hwWZEfG_A-qmumsrhg" name="FlowChain">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mbw4iAWZEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FlCFMPd3EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4iQWZEfG_A-qmumsrhg" name="FlowChainKind" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4iwWZEfG_A-qmumsrhg" name="StreamingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Mbw4jQWZEfG_A-qmumsrhg" name="ProcessingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Yl2GIAWNEfG_A-qmumsrhg" name="SysMod_ChannelArchitectureProfile" nsURI="http:///schemas/SysMod_ChannelArchitectureProfile/_Yl1fEAWNEfG_A-qmumsrhg/8" nsPrefix="SysMod_ChannelArchitectureProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yl2GIQWNEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yl3UQwWNEfG_A-qmumsrhg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yl3URAWNEfG_A-qmumsrhg" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yl3URQWNEfG_A-qmumsrhg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yl3URgWNEfG_A-qmumsrhg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yl3URwWNEfG_A-qmumsrhg" key="Date" value="2026-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yl3USAWNEfG_A-qmumsrhg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Yl2GIgWNEfG_A-qmumsrhg" name="FlowProcessor">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yl2GIwWNEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ErGpAPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GJAWNEfG_A-qmumsrhg" name="Purpose" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GJgWNEfG_A-qmumsrhg" name="Statefulness" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GKAWNEfG_A-qmumsrhg" name="ProcessRate" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Yl2GKwWNEfG_A-qmumsrhg" name="FlowInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yl2GLAWNEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_O-MCYPd2EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GLQWNEfG_A-qmumsrhg" name="Ordering" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GLwWNEfG_A-qmumsrhg" name="BufferCapacity" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GMQWNEfG_A-qmumsrhg" name="TransportMode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GMwWNEfG_A-qmumsrhg" name="RateLimit" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Yl2GNgWNEfG_A-qmumsrhg" name="FlowChain">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yl2GNwWNEfG_A-qmumsrhg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FlCFMPd3EfCG9O80Pb51PQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GOAWNEfG_A-qmumsrhg" name="FlowChainKind" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GOgWNEfG_A-qmumsrhg" name="StreamingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Yl2GPAWNEfG_A-qmumsrhg" name="ProcessingType" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_VPGGsAGxEfGdkYsVXeTmXA" name="SysMod_ChannelArchitectureProfile" nsURI="http:///schemas/SysMod_ChannelArchitectureProfile/_VPFfoAGxEfGdkYsVXeTmXA/7" nsPrefix="SysMod_ChannelArchitectureProfile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VPGGsQGxEfGdkYsVXeTmXA" source="http://www.eclipse.org/uml2/4.1.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
@@ -57,7 +277,7 @@
         </eStructuralFeatures>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_VPGGxgGxEfGdkYsVXeTmXA" name="ProcessingPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VPGGxwGxEfGdkYsVXeTmXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VPGGxwGxEfGdkYsVXeTmXA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_VPGGyQGxEfGdkYsVXeTmXA" name="Pipeline">
@@ -116,7 +336,7 @@
         </eStructuralFeatures>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_o5wwBgGwEfGPLcZf_--6ww" name="ProcessingPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o5wwBwGwEfGPLcZf_--6ww" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o5wwBwGwEfGPLcZf_--6ww" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_o5wwCQGwEfGPLcZf_--6ww" name="Pipeline">
@@ -175,7 +395,7 @@
         </eStructuralFeatures>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_Q4sEBgGtEfGCIrQlYAfx_Q" name="ProcessingPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q4sEBwGtEfGCIrQlYAfx_Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q4sEBwGtEfGCIrQlYAfx_Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_Q4sECQGtEfGCIrQlYAfx_Q" name="Pipeline">
@@ -222,7 +442,7 @@
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_W-WQHwGsEfGCIrQlYAfx_Q" name="ProcessingPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W-WQIAGsEfGCIrQlYAfx_Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W-WQIAGsEfGCIrQlYAfx_Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_W-WQIgGsEfGCIrQlYAfx_Q" name="Pipeline">
@@ -260,7 +480,7 @@
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_rTnyCAGqEfGCIrQlYAfx_Q" name="ProcessingPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rTnyCQGqEfGCIrQlYAfx_Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rTnyCQGqEfGCIrQlYAfx_Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_rTnyCwGqEfGCIrQlYAfx_Q" name="Pipeline">
@@ -295,7 +515,7 @@
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_8NAX6P9jEfCrPruYPkJAfQ" name="DataPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8NAX6f9jEfCrPruYPkJAfQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8NAX6f9jEfCrPruYPkJAfQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_8NAX6_9jEfCrPruYPkJAfQ" name="DataPipeline">
@@ -324,7 +544,7 @@
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/InterfaceBlock"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_OMfqSPd3EfCG9O80Pb51PQ" name="DataPort">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OMfqSfd3EfCG9O80Pb51PQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4nTDcPd2EfCG9O80Pb51PQ"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OMfqSfd3EfCG9O80Pb51PQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
         <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows/ProxyPort"/>
       </eClassifiers>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_OMfqS_d3EfCG9O80Pb51PQ" name="DataPipeline">
@@ -349,28 +569,6 @@
       </eClassifiers>
     </contents>
   </eAnnotations>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_eYVngP9eEfCrPruYPkJAfQ">
-    <body>The Channel Architecture Pattern is a&quot;specialisation&quot; of the &quot;pipes and filters&quot;-pattern for System architectures and  divides a system into &quot;data processing components (filters)&quot; and &quot;channels&quot; through which data flows sequentially and is processed. Each filter performs only one clear transformation or analysis. The channels connect these filters, forming &quot;a pipeline for data streams&quot;.
-This pattern is particularly suitable where continuous data streams need to be processed efficiently, modularly, and robustly, such as in signal or sensor data processing.</body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_3tsl4P9hEfCrPruYPkJAfQ" annotatedElement="_FlCFMPd3EfCG9O80Pb51PQ">
-    <body>The stereotype &quot;Data-Pipeline&quot; describes an abstract, sequential processing chain within the Pipes and Filters Pattern. 
-It represents the higher-level structure in which data or signals flow step by step through a defined sequence of independent processing units (filters). The pipeline defines the order, coupling, and consistency of processing without specifying the internal logic of the individual filters. 
-It serves as an architectural framework for modeling modular, expandable, and reusable parts of system and software architectures.
-</body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_hvudQP9iEfCrPruYPkJAfQ" annotatedElement="_ErGpAPd2EfCG9O80Pb51PQ">
-    <body>The Stereotype &quot;ProcessingComponent&quot; describes a standalone processing unit within the Channel Architecture Pattern. It represents a logically self-contained component that receives inputs via defined interfaces, transforms, analyzes, or enriches it, and passes the result on to subsequent components.
-DataProcessingComponents are independent of each other, interchangeable, and free of assumptions about upstream or downstream processing steps. They form the basic building blocks. </body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_nfeY4P9jEfCrPruYPkJAfQ" annotatedElement="_O-MCYPd2EfCG9O80Pb51PQ">
-    <body>The DataPortInterface stereotype describes a standardized interface for transferring data between components within the pipes and filters pattern. It defines the direction, structure, and type of data exchanged and serves as a connecting element between DataProcessingComponents and DataPorts. 
-DataPortInterfaces encapsulate data communication, promote loose coupling of components, and enable consistent, interchangeable, and traceable modeling of data flows. </body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_3xxisP9jEfCrPruYPkJAfQ" annotatedElement="_4nTDcPd2EfCG9O80Pb51PQ">
-    <body>The DataPort stereotype describes a specific input or output point for data within the Pipes and Filters pattern. It represents the physical or logical connection of a DataProcessingComponent to a pipe and implements a DataPortInterface. DataPorts define the direction of data flow and are used for the explicit modeling of input and output relationships, enabling a clear, consistent, and verifiable definition of data streams.
-</body>
-  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_wtm_0Pd1EfCG9O80Pb51PQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -383,7 +581,7 @@ DataPortInterfaces encapsulate data communication, promote loose coupling of com
   <packageImport xmi:type="uml:PackageImport" xmi:id="_MypX4Pd2EfCG9O80Pb51PQ">
     <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ErGpAPd2EfCG9O80Pb51PQ" name="ProcessingComponent">
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ErGpAPd2EfCG9O80Pb51PQ" name="FlowProcessor">
     <generalization xmi:type="uml:Generalization" xmi:id="_HgjMIPd2EfCG9O80Pb51PQ">
       <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
     </generalization>
@@ -397,7 +595,7 @@ DataPortInterfaces encapsulate data communication, promote loose coupling of com
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Stereotype" xmi:id="_O-MCYPd2EfCG9O80Pb51PQ" name="Channel">
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_O-MCYPd2EfCG9O80Pb51PQ" name="FlowInterface">
     <generalization xmi:type="uml:Generalization" xmi:id="_z3N_oPd2EfCG9O80Pb51PQ">
       <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_InterfaceBlock"/>
     </generalization>
@@ -417,19 +615,14 @@ DataPortInterfaces encapsulate data communication, promote loose coupling of com
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Stereotype" xmi:id="_4nTDcPd2EfCG9O80Pb51PQ" name="ProcessingPort">
-    <generalization xmi:type="uml:Generalization" xmi:id="_85EaoPd2EfCG9O80Pb51PQ">
-      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows.stereotype_packagedElement_ProxyPort"/>
-    </generalization>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Stereotype" xmi:id="_FlCFMPd3EfCG9O80Pb51PQ" name="Pipeline">
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_FlCFMPd3EfCG9O80Pb51PQ" name="FlowChain">
     <generalization xmi:type="uml:Generalization" xmi:id="_H7LdMPd3EfCG9O80Pb51PQ">
       <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
     </generalization>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_IFiToAGqEfGCIrQlYAfx_Q" name="PipelineKind">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IFiToAGqEfGCIrQlYAfx_Q" name="FlowChainKind">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OO0mEAGqEfGCIrQlYAfx_Q" name="StreamType">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OO0mEAGqEfGCIrQlYAfx_Q" name="StreamingType">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_y5PfkAGqEfGCIrQlYAfx_Q" name="ProcessingType">

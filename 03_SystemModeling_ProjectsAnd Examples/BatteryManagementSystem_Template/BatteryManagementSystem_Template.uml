@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Activities="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SysMod_ChannelArchitectureProfile="http:///schemas/SysMod_ChannelArchitectureProfile/_VPFfoAGxEfGdkYsVXeTmXA/7" xmlns:SysMod_HierarchicalControlProfile="http:///schemas/SysMod_HierarchicalControlProfile/_XZrhMAGsEfGCIrQlYAfx_Q/1" xmlns:SysMod_LayeredInterfacesPatternProfile="http:///schemas/SysMod_LayeredInterfacesPatternProfile/_hslDwABAEfG8hsyKKgHT2w/3" xmlns:SysMod_LayeredInterfacesPatternProfile.Interfaces="http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore" xmlns:SysMod_MBSETestProfile="http:///schemas/SysMod_MBSETestProfile/_D5UskANEEfGZk6lU1wBYuA/3" xmlns:SysMod_RequirementsEngineeringProfile="http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7" xmlns:SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg="http:///SysMod_RequirementsEngineeringProfile/SystemReqSpec_profpkg.ecore" xmlns:SysMod_SystemContextProfile="http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1" xmlns:SysMod_TechnicalDesignProfile="http:///schemas/SysMod_TechnicalDesignProfile/_uoHzEAMzEfGUR-7jVDy4Hg/6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SysMod_ChannelArchitectureProfile/_VPFfoAGxEfGdkYsVXeTmXA/7 ../SysMod_ChannelArchitectureProfile/SysMod_ChannelArchitectureProfile.profile.uml#_VPGGsAGxEfGdkYsVXeTmXA http:///schemas/SysMod_HierarchicalControlProfile/_XZrhMAGsEfGCIrQlYAfx_Q/1 ../SysMod_HierarchicalControlProfile/SysMod_HierarchicalControlProfile.profile.uml#_XZrhMQGsEfGCIrQlYAfx_Q http:///schemas/SysMod_LayeredInterfacesPatternProfile/_hslDwABAEfG8hsyKKgHT2w/3 ../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_hslq0ABAEfG8hsyKKgHT2w http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore ../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_hslq3gBAEfG8hsyKKgHT2w http:///schemas/SysMod_MBSETestProfile/_D5UskANEEfGZk6lU1wBYuA/3 ../SysMod_MBSETestProfile/SysMod_MBSETestProfile.profile.uml#_D5UskQNEEfGZk6lU1wBYuA http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7 ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4U0fYZEfCigK29YMXgvw http:///SysMod_RequirementsEngineeringProfile/SystemReqSpec_profpkg.ecore ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4VGvYZEfCigK29YMXgvw http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1 ../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_C1XFMfe_EfCDd_uE11Ycjw http:///schemas/SysMod_TechnicalDesignProfile/_uoHzEAMzEfGUR-7jVDy4Hg/6 ../SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml#_uoHzEQMzEfGUR-7jVDy4Hg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Activities="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:SysModProfile_HierarchicalControlPattern="http:///schemas/SysModProfile_HierarchicalControlPattern/_9iXT0AZfEfGAQ8xaakjhAA/3" xmlns:SysMod_LayeredInterfacesPatternProfile="http:///schemas/SysMod_LayeredInterfacesPatternProfile/_hslDwABAEfG8hsyKKgHT2w/3" xmlns:SysMod_LayeredInterfacesPatternProfile.Interfaces="http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore" xmlns:SysMod_MBSETestProfile="http:///schemas/SysMod_MBSETestProfile/_D5UskANEEfGZk6lU1wBYuA/3" xmlns:SysMod_RequirementsEngineeringProfile="http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7" xmlns:SysMod_RequirementsEngineeringProfile.SystemReqSpec_profpkg="http:///SysMod_RequirementsEngineeringProfile/SystemReqSpec_profpkg.ecore" xmlns:SysMod_SystemContextProfile="http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1" xmlns:SysMod_TechnicalDesignProfile="http:///schemas/SysMod_TechnicalDesignProfile/_uoHzEAMzEfGUR-7jVDy4Hg/6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/SysModProfile_HierarchicalControlPattern/_9iXT0AZfEfGAQ8xaakjhAA/3 ../SysModProfile_HierarchicalControlPattern/SysModProfile_HierarchicalControlPattern.profile.uml#_9iXT0QZfEfGAQ8xaakjhAA http:///schemas/SysMod_LayeredInterfacesPatternProfile/_hslDwABAEfG8hsyKKgHT2w/3 ../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_hslq0ABAEfG8hsyKKgHT2w http:///SysMod_LayeredInterfacesPatternProfile/Interfaces.ecore ../SysMod_LayeredInterfacesPatternProfile/SysMod_LayeredInterfacesPatternProfile.profile.uml#_hslq3gBAEfG8hsyKKgHT2w http:///schemas/SysMod_MBSETestProfile/_D5UskANEEfGZk6lU1wBYuA/3 ../SysMod_MBSETestProfile/SysMod_MBSETestProfile.profile.uml#_D5UskQNEEfGZk6lU1wBYuA http:///schemas/SysMod_RequirementsEngineeringProfile/_Cr4U0PYZEfCigK29YMXgvw/7 ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4U0fYZEfCigK29YMXgvw http:///SysMod_RequirementsEngineeringProfile/SystemReqSpec_profpkg.ecore ../SysMod_RequirementsEngineeringProfile/SysMod_RequirementsEngineeringProfile.profile.uml#_Cr4VGvYZEfCigK29YMXgvw http:///schemas/SysMod_SystemContextProfile/_C1XFMPe_EfCDd_uE11Ycjw/1 ../SysMod_SystemContextProfile/SysMod_SystemContextProfile.profile.uml#_C1XFMfe_EfCDd_uE11Ycjw http:///schemas/SysMod_TechnicalDesignProfile/_uoHzEAMzEfGUR-7jVDy4Hg/6 ../SysMod_TechnicalDesignProfile/SysMod_TechnicalDesignProfile.profile.uml#_uoHzEQMzEfGUR-7jVDy4Hg">
   <uml:Model xmi:id="_y3SVQPk6EfCtcLET-2iI1w" name="BatteryManagementSystem_Template">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_y4i5gPk6EfCtcLET-2iI1w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -68,6 +68,7 @@
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sCkhEP0oEfC1tP0nbvQkeg" name="Measure cell voltages"/>
                 <ownedBehavior xmi:type="uml:Activity" xmi:id="_574aQP0oEfC1tP0nbvQkeg" name="Check for overvoltage and undervoltage"/>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cjMV8P69EfCsXaHXONNEfg" name="transit HV Battery to safe state"/>
+                <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_VYsO0AWnEfGu9PPOxEOY2Q" name="ChildStateMachine"/>
                 <nestedClassifier xmi:type="uml:DataType" xmi:id="_apiuYAAKEfGuRKqBBCPETQ" name="dt_CellVoltage"/>
                 <ownedParameter xmi:type="uml:Parameter" xmi:id="_RKHmkAAKEfGuRKqBBCPETQ" name="Cell Voltages" type="_apiuYAAKEfGuRKqBBCPETQ" effect="read">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ele_gAAKEfGuRKqBBCPETQ" name="LiteralInteger1" value="72"/>
@@ -1535,6 +1536,40 @@ This SysML package contains the Controller responsible for coordinating the comm
         <packagedElement xmi:type="uml:Package" xmi:id="_V2iOIANGEfG4i66jUe051A" name="Testing_SoftwareLevel"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1gH6wAWmEfGu9PPOxEOY2Q" name="08_test">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7hBGMAWmEfGu9PPOxEOY2Q" name="ParentController" classifierBehavior="_9U_lQAWmEfGu9PPOxEOY2Q">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BIGOAAWoEfGu9PPOxEOY2Q" name="childcontroller" type="_9LKeYAWnEfGu9PPOxEOY2Q" aggregation="composite" association="_BIEY0AWoEfGu9PPOxEOY2Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BIGOAQWoEfGu9PPOxEOY2Q"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BIGOAgWoEfGu9PPOxEOY2Q" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_y-6lcAWqEfGu9PPOxEOY2Q" name="ProxyPort4" type="_ZneuAAWoEfGu9PPOxEOY2Q" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_TV8pEAWpEfGu9PPOxEOY2Q" name="Connector4">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_TV93MAWpEfGu9PPOxEOY2Q"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_TV93MQWpEfGu9PPOxEOY2Q" partWithPort="_BIGOAAWoEfGu9PPOxEOY2Q"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_ZcQ1IAWrEfGu9PPOxEOY2Q" name="Connector5">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_ZcRcMAWrEfGu9PPOxEOY2Q" role="_y-6lcAWqEfGu9PPOxEOY2Q"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_ZcRcMQWrEfGu9PPOxEOY2Q" partWithPort="_BIGOAAWoEfGu9PPOxEOY2Q" role="_GwmnQAWrEfGu9PPOxEOY2Q"/>
+        </ownedConnector>
+        <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_9U_lQAWmEfGu9PPOxEOY2Q" name="StateMachine_ParentController">
+          <region xmi:type="uml:Region" xmi:id="__llu4AWmEfGu9PPOxEOY2Q" name="Region1"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Signal" xmi:id="_NFH2IAWnEfGu9PPOxEOY2Q" name="TestCall"/>
+      <packagedElement xmi:type="uml:CallEvent" xmi:id="_dGJCsAWnEfGu9PPOxEOY2Q" name="SetChildMode_Start"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9LKeYAWnEfGu9PPOxEOY2Q" name="ChildController">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_GwmnQAWrEfGu9PPOxEOY2Q" name="ProxyPort1" type="_ZneuAAWoEfGu9PPOxEOY2Q" aggregation="composite" isConjugated="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_BIEY0AWoEfGu9PPOxEOY2Q" memberEnd="_BIGOAAWoEfGu9PPOxEOY2Q _BIGOAwWoEfGu9PPOxEOY2Q">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIFm8AWoEfGu9PPOxEOY2Q" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIFm8QWoEfGu9PPOxEOY2Q" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_BIGOAwWoEfGu9PPOxEOY2Q" name="parentcontroller" type="_7hBGMAWmEfGu9PPOxEOY2Q" association="_BIEY0AWoEfGu9PPOxEOY2Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZneuAAWoEfGu9PPOxEOY2Q" name="InterfaceBlock6">
+        <nestedClassifier xmi:type="uml:Signal" xmi:id="_HKwekAWpEfGu9PPOxEOY2Q" name="ModeSignal"/>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_y32V8Pk6EfCtcLET-2iI1w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y34LIPk6EfCtcLET-2iI1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -1705,6 +1740,18 @@ This SysML package contains the Controller responsible for coordinating the comm
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../SysMod_MBSETestProfile/SysMod_MBSETestProfile.profile.uml#_ckrd8ANCEfGA465kvgcumA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VVsREAWaEfGZq--HfLRS8A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VVutUAWaEfGZq--HfLRS8A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysModProfile_FlowProcessingPattern/SysMod_ChannelArchitectureProfile.profile.uml#_1fR5IQWZEfG_A-qmumsrhg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysModProfile_FlowProcessingPattern/SysMod_ChannelArchitectureProfile.profile.uml#_wsFV0Pd1EfCG9O80Pb51PQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6ScrAAf7EfGUl_4EmSYqbw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6SegMAf7EfGUl_4EmSYqbw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysModProfile_HierarchicalControlPattern/SysModProfile_HierarchicalControlPattern.profile.uml#_9iXT0QZfEfGAQ8xaakjhAA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysModProfile_HierarchicalControlPattern/SysModProfile_HierarchicalControlPattern.profile.uml#_eNKXUAW2EfGu9PPOxEOY2Q"/>
+    </profileApplication>
   </uml:Model>
   <SysMod_RequirementsEngineeringProfile:Objective xmi:id="_0mpowPn4EfCu8KZa7h46FQ" base_Class="_q4-pkPn4EfCHlZpuU1O8uQ" ID="BMS_Obj_01&#xA;" NeededCapability="Ability of the battery management system to regulate the energy supply and discharge of the HV battery in order to maintain the operating parameters within the optimum range.&#xA;" Context=" Daily operation under varying load conditions and environmental conditions, requiring continuous monitoring and adjustment of battery parameters.&#xA;" SuccessMetric="The HV battery maintains a state of charge between 20% and 80%, a state of health of at least 85%, and an operating temperature between 15°C and 35°C for at least 95% of operating hours."/>
   <SysMod_RequirementsEngineeringProfile:Objective xmi:id="_ZemMMPqOEfCdvKL71mzKtg" base_Class="_YBEeQPqOEfCdvKL71mzKtg" ID="BMS_Obj_02&#xA;" NeededCapability="Ability of the battery management system (BMS) to ensure the safety of drivers and the environment by monitoring and preventing critical high-voltage battery conditions.&#xA;" Context="Operation of an electric vehicle under various environmental conditions, including potential faults such as insulation defects, short circuits, or defective cells.&#xA;" SuccessMetric="The BMS prevents the battery voltage from being switched on in at least 99% of cases of malfunction and takes measures to avoid dangerous situations, such as disconnecting the battery from the charging system or regulating the cooling capacity.&#xA;"/>
@@ -1712,33 +1759,17 @@ This SysML package contains the Controller responsible for coordinating the comm
   <ModelElements:Stakeholder xmi:id="_IBGvsPqQEfCdvKL71mzKtg" base_Classifier="_IBE6gPqQEfCdvKL71mzKtg"/>
   <SysMod_RequirementsEngineeringProfile:Objective xmi:id="_5b388PqVEfCdvKL71mzKtg" base_Class="_E8yiwPqTEfCdvKL71mzKtg" ID="BMS_Obj_03&#xA;" NeededCapability="Ability of the BMS to precisely monitor the state of the HV battery and to implement vehicle applications such as “driving the vehicle,” “recuperation,” or “charging the HV battery” in coordination with the vehicle's systems.&#xA;" Context="In daily operation under various driving conditions, including compliance with legal requirements and safe operating conditions. Also in direct communication with the other systems of the vehicle.&#xA;" SuccessMetric="The BMS monitors the HV battery status accurately in at least 99% of cases and enables use cases to be carried out without manual intervention.&#xA;&#xA;&#xA;"/>
   <SysMod_SystemContextProfile:System xmi:id="_JsvaAPqvEfCYwtYPDKdIqw" base_Class="_pJOrgPquEfC-i6ZxyDLQqQ"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_zsbvEPqvEfC9mrJSh1aXZA" base_Class="_NnCFUPqvEfCYwtYPDKdIqw"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_oPR50PqwEfC9mrJSh1aXZA" base_Class="_fnSwUPqwEfC9mrJSh1aXZA"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_tG0QgPqwEfC9mrJSh1aXZA" base_Class="_pXA98PqwEfC9mrJSh1aXZA"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="_1U_L0PqwEfC9mrJSh1aXZA" base_Class="_xSOhAPqwEfC9mrJSh1aXZA"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="__GC1MPq7EfCwSJ_Ep6ygOw" base_Class="_Y97rIPq6EfCwSJ_Ep6ygOw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_7-D7IPq8EfCwSJ_Ep6ygOw" base_Class="_GCpa8Pq8EfCwSJ_Ep6ygOw" ProcessRate="0.0"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_PMehsPrGEfC6j4NmEvOmvg" base_Class="_K8_pgPrGEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_UITigPrGEfC6j4NmEvOmvg" base_Class="_R9TDgPrGEfC6j4NmEvOmvg" ProcessRate="0.0"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_sAZZAPrGEfC6j4NmEvOmvg" base_Class="_mEe0MPrGEfC6j4NmEvOmvg" ProcessRate="0.0"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="_1U_L0PqwEfC9mrJSh1aXZA" base_Class="_xSOhAPqwEfC9mrJSh1aXZA"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="__GC1MPq7EfCwSJ_Ep6ygOw" base_Class="_Y97rIPq6EfCwSJ_Ep6ygOw"/>
   <Blocks:Block xmi:id="_CnC1wPrHEfC6j4NmEvOmvg" base_Class="_K8_pgPrGEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_6muTwPrHEfC6j4NmEvOmvg" base_Port="_4uJBgPrHEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_8sdRMPrHEfC6j4NmEvOmvg" base_Port="_d6sNIPrHEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_9nzfIPrHEfC6j4NmEvOmvg" base_Element="_9ny4EPrHEfC6j4NmEvOmvg" propertyPath="_2i_OAvrGEfC6j4NmEvOmvg" base_ConnectorEnd="_9ny4EPrHEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_9n0GMPrHEfC6j4NmEvOmvg" base_Element="_9ny4EfrHEfC6j4NmEvOmvg" propertyPath="_3KLJ0vrGEfC6j4NmEvOmvg" base_ConnectorEnd="_9ny4EfrHEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_NwVB4PrIEfC6j4NmEvOmvg" base_Port="_KJYJUPrIEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_QSHzwPrJEfC6j4NmEvOmvg" base_Port="_L9iZIPrJEfC6j4NmEvOmvg"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_0Lqp8PrJEfC6j4NmEvOmvg" base_Class="_0Lo0wPrJEfC6j4NmEvOmvg"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_oFAksPrKEfC6j4NmEvOmvg" base_Class="_oE-vgPrKEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_ubu2MPrKEfC6j4NmEvOmvg" base_Port="_ubuPIPrKEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_H04PwPrLEfC6j4NmEvOmvg" base_Port="_ubuPIfrKEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_LdW84frMEfC6j4NmEvOmvg" base_Element="_LdWV0PrMEfC6j4NmEvOmvg" propertyPath="_L9iZIPrJEfC6j4NmEvOmvg" base_ConnectorEnd="_LdWV0PrMEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_LdW84vrMEfC6j4NmEvOmvg" base_Element="_LdW84PrMEfC6j4NmEvOmvg" propertyPath="_2i_OAvrGEfC6j4NmEvOmvg" base_ConnectorEnd="_LdW84PrMEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_RgeV4PrMEfC6j4NmEvOmvg" base_Port="_N98DQPrMEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_SPAP0vrMEfC6j4NmEvOmvg" base_Element="_SPAP0PrMEfC6j4NmEvOmvg" propertyPath="_L9iZIPrJEfC6j4NmEvOmvg" base_ConnectorEnd="_SPAP0PrMEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_SPA24PrMEfC6j4NmEvOmvg" base_Element="_SPAP0frMEfC6j4NmEvOmvg" propertyPath="_2i_OAvrGEfC6j4NmEvOmvg" base_ConnectorEnd="_SPAP0frMEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_1sSAwPrMEfC6j4NmEvOmvg" base_Port="_qczQkPrMEfC6j4NmEvOmvg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_2v1IcPrMEfC6j4NmEvOmvg" base_Port="_tm3Y0PrMEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_3onxovrMEfC6j4NmEvOmvg" base_Element="_3onxoPrMEfC6j4NmEvOmvg" propertyPath="_3KLJ0vrGEfC6j4NmEvOmvg" base_ConnectorEnd="_3onxoPrMEfC6j4NmEvOmvg"/>
   <Blocks:NestedConnectorEnd xmi:id="_3ooYsPrMEfC6j4NmEvOmvg" base_Element="_3onxofrMEfC6j4NmEvOmvg" propertyPath="_3p9dIfrGEfC6j4NmEvOmvg" base_ConnectorEnd="_3onxofrMEfC6j4NmEvOmvg"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_75RTwPtWEfCc4I8EsY9_ug" base_Class="_75MbQPtWEfCc4I8EsY9_ug"/>
@@ -1748,15 +1779,10 @@ This SysML package contains the Controller responsible for coordinating the comm
   <PortsAndFlows:FlowProperty xmi:id="_iq3i4PtcEfCxHv84GMYyPQ" base_Property="_hkz5wPtcEfCxHv84GMYyPQ"/>
   <SysMod_TechnicalDesignProfile:Message xmi:id="_8ONoAPthEfCxHv84GMYyPQ" base_Class="_JPUyEPtbEfCxHv84GMYyPQ"/>
   <SysMod_TechnicalDesignProfile:HardwareComponent xmi:id="_iRnGoPtiEfCxHv84GMYyPQ" base_Class="_Y8XOgPtiEfCxHv84GMYyPQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_MxVxMPtkEfCxHv84GMYyPQ" base_Port="_KSE5cPtkEfCxHv84GMYyPQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_eN7j4PtkEfCxHv84GMYyPQ" base_Port="_aiw5sPtkEfCxHv84GMYyPQ"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_LnVU0PtnEfCxHv84GMYyPQ" base_Class="_LnS4kPtnEfCxHv84GMYyPQ"/>
   <PortsAndFlows:FlowProperty xmi:id="_u7f7IPtpEfCxHv84GMYyPQ" base_Property="_pRy9IPtoEfCxHv84GMYyPQ" direction="out"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_-_lCwPtpEfCxHv84GMYyPQ" base_Port="_59XGEPtpEfCxHv84GMYyPQ"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_8yd1gPtqEfCxHv84GMYyPQ" base_Class="_8ycAUPtqEfCxHv84GMYyPQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_Y12LQvtsEfCxHv84GMYyPQ" base_Element="_Y12LQftsEfCxHv84GMYyPQ" propertyPath="_2i_OAvrGEfC6j4NmEvOmvg" base_ConnectorEnd="_Y12LQftsEfCxHv84GMYyPQ"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_21ztAPtuEfCxHv84GMYyPQ" base_Port="_0QJSUPtuEfCxHv84GMYyPQ"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_DvpGMPtvEfCxHv84GMYyPQ" base_Port="_ARWaYPtvEfCxHv84GMYyPQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_EwXjYvtvEfCxHv84GMYyPQ" base_Element="_EwXjYPtvEfCxHv84GMYyPQ" propertyPath="_3p9dIfrGEfC6j4NmEvOmvg" base_ConnectorEnd="_EwXjYPtvEfCxHv84GMYyPQ"/>
   <Blocks:Block xmi:id="_KPwkQPtvEfCxHv84GMYyPQ" base_Class="_KPuvEPtvEfCxHv84GMYyPQ"/>
   <SysMod_TechnicalDesignProfile:MicroController xmi:id="_Mv0GMPtvEfCxHv84GMYyPQ" base_Class="_KPuvEPtvEfCxHv84GMYyPQ"/>
@@ -1766,43 +1792,28 @@ This SysML package contains the Controller responsible for coordinating the comm
   <Blocks:NestedConnectorEnd xmi:id="_sAx0c_t_EfCxHv84GMYyPQ" base_Element="_sAx0cft_EfCxHv84GMYyPQ" propertyPath="_zFp_svtvEfCxHv84GMYyPQ" base_ConnectorEnd="_sAx0cft_EfCxHv84GMYyPQ"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_X0LtYPuBEfCgrNhU7riF3A" base_Class="_X0J4MPuBEfCgrNhU7riF3A"/>
   <PortsAndFlows:FlowProperty xmi:id="_urpicPuDEfCgrNhU7riF3A" base_Property="_E4Ou0PuDEfCgrNhU7riF3A" direction="in"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_HOgF0PuHEfCgrNhU7riF3A" base_Port="_8nSW4PuDEfCgrNhU7riF3A"/>
   <Blocks:NestedConnectorEnd xmi:id="_fnMvAPuHEfCgrNhU7riF3A" base_Element="_fnMH8PuHEfCgrNhU7riF3A" propertyPath="_zFp_svtvEfCxHv84GMYyPQ" base_ConnectorEnd="_fnMH8PuHEfCgrNhU7riF3A"/>
   <Blocks:NestedConnectorEnd xmi:id="_fnMvAfuHEfCgrNhU7riF3A" base_Element="_fnMH8fuHEfCgrNhU7riF3A" propertyPath="_rVf-oPuGEfCgrNhU7riF3A" base_ConnectorEnd="_fnMH8fuHEfCgrNhU7riF3A"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_nx0nEPuHEfCgrNhU7riF3A" base_Port="_joqZUPuHEfCgrNhU7riF3A"/>
   <Blocks:NestedConnectorEnd xmi:id="_q6UpEvuHEfCgrNhU7riF3A" base_Element="_q6UpEfuHEfCgrNhU7riF3A" propertyPath="_zFp_svtvEfCxHv84GMYyPQ" base_ConnectorEnd="_q6UpEfuHEfCgrNhU7riF3A"/>
   <Blocks:Block xmi:id="_YcHL4PuIEfCgrNhU7riF3A" base_Class="_YcFWsPuIEfCgrNhU7riF3A"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="_nDx_4PuIEfCgrNhU7riF3A" base_Class="_YcFWsPuIEfCgrNhU7riF3A"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_p_XnQPuIEfCgrNhU7riF3A" base_Class="_Cug7MPuBEfCgrNhU7riF3A"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_Ex6csPuJEfCgrNhU7riF3A" base_Port="_A4cQwPuJEfCgrNhU7riF3A"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_N_85kPuJEfCgrNhU7riF3A" base_Port="_KtGBsPuJEfCgrNhU7riF3A"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="_nDx_4PuIEfCgrNhU7riF3A" base_Class="_YcFWsPuIEfCgrNhU7riF3A"/>
   <Blocks:NestedConnectorEnd xmi:id="_UlS14vuJEfCgrNhU7riF3A" base_Element="_UlS14PuJEfCgrNhU7riF3A" propertyPath="_rVf-oPuGEfCgrNhU7riF3A" base_ConnectorEnd="_UlS14PuJEfCgrNhU7riF3A"/>
   <Blocks:NestedConnectorEnd xmi:id="_UlS14_uJEfCgrNhU7riF3A" base_Element="_UlS14fuJEfCgrNhU7riF3A" propertyPath="_rcPN4vuIEfCgrNhU7riF3A" base_ConnectorEnd="_UlS14fuJEfCgrNhU7riF3A"/>
   <Blocks:Block xmi:id="_SpHaoPwZEfCTk8HW0t6Msg" base_Class="_So7NYPwZEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="_fr8XwPwZEfCTk8HW0t6Msg" base_Class="_So7NYPwZEfCTk8HW0t6Msg"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="_fr8XwPwZEfCTk8HW0t6Msg" base_Class="_So7NYPwZEfCTk8HW0t6Msg"/>
   <Blocks:NestedConnectorEnd xmi:id="_TCaO8PwaEfCTk8HW0t6Msg" base_Element="_TCZn4PwaEfCTk8HW0t6Msg" propertyPath="_c-kykPwZEfCTk8HW0t6Msg" base_ConnectorEnd="_TCZn4PwaEfCTk8HW0t6Msg"/>
   <Blocks:NestedConnectorEnd xmi:id="_TCaO8fwaEfCTk8HW0t6Msg" base_Element="_TCZn4fwaEfCTk8HW0t6Msg" propertyPath="_36-I0ftvEfCxHv84GMYyPQ" base_ConnectorEnd="_TCZn4fwaEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_doL60PwaEfCTk8HW0t6Msg" base_Port="_QjWykPwaEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_eqba8PwaEfCTk8HW0t6Msg" base_Port="_SP_TgPwaEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_MiHVQPwbEfCTk8HW0t6Msg" base_Port="_IX3iYPwbEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_iCtv8PwbEfCTk8HW0t6Msg" base_Port="_asIj8PwbEfCTk8HW0t6Msg"/>
   <Blocks:NestedConnectorEnd xmi:id="_0yawUfwbEfCTk8HW0t6Msg" base_Element="_0yaJQfwbEfCTk8HW0t6Msg" propertyPath="_c-kykPwZEfCTk8HW0t6Msg" base_ConnectorEnd="_0yaJQfwbEfCTk8HW0t6Msg"/>
   <Blocks:NestedConnectorEnd xmi:id="_0yawUvwbEfCTk8HW0t6Msg" base_Element="_0yawUPwbEfCTk8HW0t6Msg" propertyPath="_rVf-oPuGEfCgrNhU7riF3A" base_ConnectorEnd="_0yawUPwbEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_2v2tYPwbEfCTk8HW0t6Msg" base_Port="_yRiH8PwbEfCTk8HW0t6Msg"/>
   <Blocks:NestedConnectorEnd xmi:id="_-1_uEvwbEfCTk8HW0t6Msg" base_Element="_-1_uEPwbEfCTk8HW0t6Msg" propertyPath="_c-kykPwZEfCTk8HW0t6Msg" base_ConnectorEnd="_-1_uEPwbEfCTk8HW0t6Msg"/>
   <Blocks:NestedConnectorEnd xmi:id="_-2AVIPwbEfCTk8HW0t6Msg" base_Element="_-1_uEfwbEfCTk8HW0t6Msg" propertyPath="_rcPN4vuIEfCgrNhU7riF3A" base_ConnectorEnd="_-1_uEfwbEfCTk8HW0t6Msg"/>
   <Blocks:Block xmi:id="_e-rhwPwcEfCTk8HW0t6Msg" base_Class="_e-pskPwcEfCTk8HW0t6Msg"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_UOkYsPwdEfCTk8HW0t6Msg" base_Port="_95kiEPwbEfCTk8HW0t6Msg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_K5ylMPweEfCTk8HW0t6Msg" base_Port="_GZKSoPweEfCTk8HW0t6Msg"/>
   <PortsAndFlows:ProxyPort xmi:id="_vXZ_gPwjEfCONYqEA7gpog" base_Port="_vXVuEPwjEfCONYqEA7gpog"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_n8zkQPwlEfCONYqEA7gpog" base_Class="_kSUE8PwkEfCONYqEA7gpog" ProcessRate="0.0"/>
   <Activities:Rate xmi:id="_igDRkPwuEfCHzqIFEPPEfQ" base_ObjectNode="_c5J6gPwuEfCHzqIFEPPEfQ"/>
   <Activities:NoBuffer xmi:id="_igIKEPwuEfCHzqIFEPPEfQ" base_ObjectNode="_c5J6gPwuEfCHzqIFEPPEfQ"/>
   <SysMod_TechnicalDesignProfile:OwnedBehavior xmi:id="_Sdj2oPw0EfCjo5ZcXAFzZQ" base_Activity="_ZmwEsPwlEfCONYqEA7gpog"/>
   <Activities:Discrete xmi:id="_P9_ncPw1EfCjo5ZcXAFzZQ" base_ObjectNode="_8qNRUPwuEfCHzqIFEPPEfQ"/>
   <Blocks:Block xmi:id="_apgH4Pw1EfCjo5ZcXAFzZQ" base_Class="_Cug7MPuBEfCgrNhU7riF3A"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_BRikoPw2EfCjo5ZcXAFzZQ" base_Port="_1yQRIPwlEfCONYqEA7gpog"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_CeUg0Pw2EfCjo5ZcXAFzZQ" base_Port="_5fG9YPwlEfCONYqEA7gpog"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_KpEMUPxEEfCwUJq9NUZK1A" base_Class="_KpBwEPxEEfCwUJq9NUZK1A"/>
   <PortsAndFlows:FlowProperty xmi:id="_VGyvcPxEEfCwUJq9NUZK1A" base_Property="_N8E1MPxEEfCwUJq9NUZK1A" direction="out"/>
   <Blocks:Block xmi:id="_9lYBoPxFEfCwUJq9NUZK1A" base_Class="_kSUE8PwkEfCONYqEA7gpog"/>
@@ -1815,12 +1826,9 @@ This SysML package contains the Controller responsible for coordinating the comm
   <PortsAndFlows:FlowProperty xmi:id="_asDtkPzuEfCUGInwsD8kCg" base_Property="_gKKKcPztEfCUGInwsD8kCg" direction="in"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_t8XgoPzuEfCUGInwsD8kCg" base_Class="_t8VrcPzuEfCUGInwsD8kCg"/>
   <PortsAndFlows:FlowProperty xmi:id="_1Gu1lPzuEfCUGInwsD8kCg" base_Property="_1GsZUPzuEfCUGInwsD8kCg" direction="out"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_odGmIPzvEfCUGInwsD8kCg" base_Port="_odFYAPzvEfCUGInwsD8kCg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_odGmIfzvEfCUGInwsD8kCg" base_Port="_odF_EPzvEfCUGInwsD8kCg"/>
   <Blocks:Block xmi:id="_HW69gPzxEfCrsYob3LYTKQ" base_Class="_HW2FAPzxEfCrsYob3LYTKQ"/>
   <Blocks:Block xmi:id="_r1wSEPzxEfCrsYob3LYTKQ" base_Class="_r1t10PzxEfCrsYob3LYTKQ"/>
   <Blocks:Block xmi:id="_VqjfkP0PEfC5TZDX4_ilaA" base_Class="_VqdY8P0PEfC5TZDX4_ilaA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_zIcg8P0PEfC5TZDX4_ilaA" base_Class="_WvFMkPzsEfCUGInwsD8kCg" ProcessRate="0.0"/>
   <Requirements:Requirement xmi:id="_fJM4YP0cEfC1tP0nbvQkeg" base_NamedElement="_YBEeQPqOEfCdvKL71mzKtg" base_Class="_YBEeQPqOEfCdvKL71mzKtg"/>
   <ModelElements:Stakeholder xmi:id="_rXxuEP0cEfC1tP0nbvQkeg" base_Classifier="_rXpyQP0cEfC1tP0nbvQkeg"/>
   <Requirements:Trace xmi:id="_v4KwEP0cEfC1tP0nbvQkeg" base_DirectedRelationship="_v4HswP0cEfC1tP0nbvQkeg" base_Abstraction="_v4HswP0cEfC1tP0nbvQkeg"/>
@@ -1863,7 +1871,6 @@ This SysML package contains the Controller responsible for coordinating the comm
   <Requirements:Verify xmi:id="_QNxqsP64EfCsXaHXONNEfg" base_DirectedRelationship="_QNv1gP64EfCsXaHXONNEfg" base_Abstraction="_QNv1gP64EfCsXaHXONNEfg"/>
   <Requirements:TestCase xmi:id="_osSA8P64EfCsXaHXONNEfg" base_Behavior="_osQLwP64EfCsXaHXONNEfg"/>
   <Requirements:Verify xmi:id="_t46d4P64EfCsXaHXONNEfg" base_DirectedRelationship="_t45PwP64EfCsXaHXONNEfg" base_Abstraction="_t45PwP64EfCsXaHXONNEfg"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_91EYkP64EfCsXaHXONNEfg" base_Class="_909D0P64EfCsXaHXONNEfg"/>
   <Requirements:Satisfy xmi:id="_JSO_cP65EfCsXaHXONNEfg" base_DirectedRelationship="_JSNxUP65EfCsXaHXONNEfg" base_Abstraction="_JSNxUP65EfCsXaHXONNEfg"/>
   <SysMod_SystemContextProfile:System xmi:id="_V3z_4P65EfCsXaHXONNEfg" base_Class="_T-iKEP65EfCsXaHXONNEfg"/>
   <SysMod_RequirementsEngineeringProfile:SystemUseCase xmi:id="_ebROsP65EfCsXaHXONNEfg" base_UseCase="_aZn-MP65EfCsXaHXONNEfg"/>
@@ -1873,23 +1880,17 @@ This SysML package contains the Controller responsible for coordinating the comm
   <Allocations:AllocateActivityPartition xmi:id="_sWAzUAAOEfGuRKqBBCPETQ" base_ActivityPartition="_sV9I8AAOEfGuRKqBBCPETQ"/>
   <Blocks:Block xmi:id="_kg7Q8AAPEfGuRKqBBCPETQ" base_Class="_kg40sAAPEfGuRKqBBCPETQ"/>
   <Blocks:Block xmi:id="_o2SusAAPEfGuRKqBBCPETQ" base_Class="_o2QScAAPEfGuRKqBBCPETQ"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_5o_P0AAPEfGuRKqBBCPETQ" base_Class="_CdKBMP69EfCsXaHXONNEfg" ProcessRate="0.0"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_6hhaUAAPEfGuRKqBBCPETQ" base_Class="_IGck8P69EfCsXaHXONNEfg" ProcessRate="0.0"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_7ec8oAAPEfGuRKqBBCPETQ" base_Class="_Qqu6MP69EfCsXaHXONNEfg" ProcessRate="0.0"/>
   <ModelElements:View xmi:id="_SU9k4AAREfGuRKqBBCPETQ" base_Class="_SU7IoAAREfGuRKqBBCPETQ"/>
   <PortsAndFlows:ProxyPort xmi:id="_Sg9qoAA_EfG8hsyKKgHT2w" base_Port="_Sg6nUAA_EfG8hsyKKgHT2w"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:ProtocolDataUnit xmi:id="_wnot0ABAEfGhaKW3I8EJFQ" base_Port="_joqZUPuHEfCgrNhU7riF3A"/>
   <Blocks:Block xmi:id="_QgAYIABCEfGhaKW3I8EJFQ" base_Class="_Qf9U0ABCEfGhaKW3I8EJFQ"/>
   <Blocks:Block xmi:id="_VvIIYABCEfGhaKW3I8EJFQ" base_Class="_VvFsIABCEfGhaKW3I8EJFQ"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_gQOIkABCEfGhaKW3I8EJFQ" base_Class="_VvFsIABCEfGhaKW3I8EJFQ"/>
   <Blocks:Block xmi:id="_l2BTcABCEfGhaKW3I8EJFQ" base_Class="_l1_eQABCEfGhaKW3I8EJFQ"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_Hhw1UABDEfGhaKW3I8EJFQ" base_Class="_l1_eQABCEfGhaKW3I8EJFQ" ProcessRate="0.0"/>
   <Blocks:Block xmi:id="_wWsAYABDEfGhaKW3I8EJFQ" base_Class="_wWpkIABDEfGhaKW3I8EJFQ"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_A8i_YABEEfGhaKW3I8EJFQ" base_Class="_wWpkIABDEfGhaKW3I8EJFQ" ProcessRate="0.0"/>
   <Blocks:Block xmi:id="_MHRycABEEfGhaKW3I8EJFQ" base_Class="_MHP9QABEEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="_OnsgwABEEfGhaKW3I8EJFQ" base_Class="_MHP9QABEEfGhaKW3I8EJFQ"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="_OnsgwABEEfGhaKW3I8EJFQ" base_Class="_MHP9QABEEfGhaKW3I8EJFQ"/>
   <Blocks:Block xmi:id="_iq37MABEEfGhaKW3I8EJFQ" base_Class="_iq2GAABEEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="_j2px0ABEEfGhaKW3I8EJFQ" base_Class="_iq2GAABEEfGhaKW3I8EJFQ"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="_j2px0ABEEfGhaKW3I8EJFQ" base_Class="_iq2GAABEEfGhaKW3I8EJFQ"/>
   <SysMod_TechnicalDesignProfile:MicroController xmi:id="_-rqscABEEfGhaKW3I8EJFQ" base_Class="_Qf9U0ABCEfGhaKW3I8EJFQ"/>
   <Blocks:Block xmi:id="_iCP_gABFEfGhaKW3I8EJFQ" base_Class="_iCOKUABFEfGhaKW3I8EJFQ"/>
   <Blocks:Block xmi:id="_0VzPYABFEfGhaKW3I8EJFQ" base_Class="_0VxaMABFEfGhaKW3I8EJFQ"/>
@@ -1916,12 +1917,6 @@ This SysML package contains the Controller responsible for coordinating the comm
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Required xmi:id="_oQfGkABJEfGhaKW3I8EJFQ" base_Port="_YbkRwABIEfGhaKW3I8EJFQ"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Provided xmi:id="_I7oHEABKEfGhaKW3I8EJFQ" base_Port="_ZrdzYABIEfGhaKW3I8EJFQ"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Required xmi:id="_I7ouIABKEfGhaKW3I8EJFQ" base_Port="_ZrdzYABIEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_K5FSQABKEfGhaKW3I8EJFQ" base_Port="_CRli4ABIEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_HcDVQABLEfGhaKW3I8EJFQ" base_Port="_EkFpoABLEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_IbziEABLEfGhaKW3I8EJFQ" base_Port="_CV7I8ABLEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_KbXmEABLEfGhaKW3I8EJFQ" base_Port="_AIvAAABIEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_LZW4UABLEfGhaKW3I8EJFQ" base_Port="_DBl8IABLEfGhaKW3I8EJFQ"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_MYR-sABLEfGhaKW3I8EJFQ" base_Port="_FQ66cABLEfGhaKW3I8EJFQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_XTfIAQBLEfGhaKW3I8EJFQ" base_Element="_XTeg8ABLEfGhaKW3I8EJFQ" propertyPath="_9X2esgBFEfGhaKW3I8EJFQ" base_ConnectorEnd="_XTeg8ABLEfGhaKW3I8EJFQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_XTfIAgBLEfGhaKW3I8EJFQ" base_Element="_XTfIAABLEfGhaKW3I8EJFQ" propertyPath="_sHd8AgBFEfGhaKW3I8EJFQ" base_ConnectorEnd="_XTfIAABLEfGhaKW3I8EJFQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_cK0DUgBLEfGhaKW3I8EJFQ" base_Element="_cK0DUABLEfGhaKW3I8EJFQ" propertyPath="_sHd8AgBFEfGhaKW3I8EJFQ" base_ConnectorEnd="_cK0DUABLEfGhaKW3I8EJFQ"/>
@@ -1949,114 +1944,60 @@ This SysML package contains the Controller responsible for coordinating the comm
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:ProtocolDataUnit xmi:id="_jITSgABOEfGhaKW3I8EJFQ" base_Port="_ddMJ0ABOEfGhaKW3I8EJFQ"/>
   <PortsAndFlows:ProxyPort xmi:id="_XPy1MADXEfGRvrPFIKYNww" base_Port="_XPodIADXEfGRvrPFIKYNww"/>
   <PortsAndFlows:ProxyPort xmi:id="_ZpDLkADXEfGRvrPFIKYNww" base_Port="_ZpAvUADXEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_whsP4ADaEfGRvrPFIKYNww" base_Port="_mk2owADZEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_1MIlwADaEfGRvrPFIKYNww" base_Port="_eo960ADaEfGRvrPFIKYNww"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_HPv8MADbEfGRvrPFIKYNww" base_Port="_D8qa0ADbEfGRvrPFIKYNww"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_N1BAAADbEfGRvrPFIKYNww" base_Port="_KLLLgADbEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_csX10ADbEfGRvrPFIKYNww" base_Class="_csWAoADbEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_9xJeUADbEfGRvrPFIKYNww" base_Class="_9xHpIADbEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_T4qvEADcEfGRvrPFIKYNww" base_Element="_T4qIAQDcEfGRvrPFIKYNww" propertyPath="_sHd8AgBFEfGhaKW3I8EJFQ" base_ConnectorEnd="_T4qIAQDcEfGRvrPFIKYNww"/>
   <Blocks:BindingConnector xmi:id="_T4qvEQDcEfGRvrPFIKYNww" base_Connector="_T4o54ADcEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_WMcvkADcEfGRvrPFIKYNww" base_Port="_ddMJ0ABOEfGhaKW3I8EJFQ"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_XpgjcADcEfGRvrPFIKYNww" base_Port="_OwTeoABOEfGhaKW3I8EJFQ"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Provided xmi:id="_q9VdMADfEfGRvrPFIKYNww" base_Port="_bySr0ADeEfGRvrPFIKYNww"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Required xmi:id="_q9WEQADfEfGRvrPFIKYNww" base_Port="_bySr0ADeEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_wtYJMgDfEfGRvrPFIKYNww" base_Element="_wtYJMQDfEfGRvrPFIKYNww" propertyPath="_DP3JwgDcEfGRvrPFIKYNww" base_ConnectorEnd="_wtYJMQDfEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="__-06AgDfEfGRvrPFIKYNww" base_Element="__-06AADfEfGRvrPFIKYNww" propertyPath="_RsyNsQDZEfGRvrPFIKYNww" base_ConnectorEnd="__-06AADfEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="__-1hEADfEfGRvrPFIKYNww" base_Element="__-06AQDfEfGRvrPFIKYNww" propertyPath="_DP3JwgDcEfGRvrPFIKYNww" base_ConnectorEnd="__-06AQDfEfGRvrPFIKYNww"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_mGIBMADgEfGRvrPFIKYNww" base_Port="_-ZukcADfEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_5_-1oADiEfGRvrPFIKYNww" base_Port="_2Bql8ADiEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_DvY6MADjEfGRvrPFIKYNww" base_Port="_9zrJsADiEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_FY5OogDjEfGRvrPFIKYNww" base_Element="_FY5OoADjEfGRvrPFIKYNww" propertyPath="_DP3JwgDcEfGRvrPFIKYNww" base_ConnectorEnd="_FY5OoADjEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_FY51sADjEfGRvrPFIKYNww" base_Element="_FY5OoQDjEfGRvrPFIKYNww" propertyPath="_D1hbkgDcEfGRvrPFIKYNww" base_ConnectorEnd="_FY5OoQDjEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_QsfCwADjEfGRvrPFIKYNww" base_Port="_N560gADjEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_tSc9oADjEfGRvrPFIKYNww" base_Class="_tSZTQADjEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_4fihIADjEfGRvrPFIKYNww" base_Class="_4fe2wADjEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_5W0HYADjEfGRvrPFIKYNww" base_Class="_5WySMADjEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_hsZ1oADlEfGRvrPFIKYNww" base_Port="_cDo2UADlEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_iZC5MADlEfGRvrPFIKYNww" base_Element="_iZCSIADlEfGRvrPFIKYNww" propertyPath="_D1hbkgDcEfGRvrPFIKYNww" base_ConnectorEnd="_iZCSIADlEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_iZC5MQDlEfGRvrPFIKYNww" base_Element="_iZCSIQDlEfGRvrPFIKYNww" propertyPath="_890qUgDjEfGRvrPFIKYNww" base_ConnectorEnd="_iZCSIQDlEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_Az3c4ADmEfGRvrPFIKYNww" base_Port="_8hfBsADlEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_HQeT8gDmEfGRvrPFIKYNww" base_Element="_HQeT8ADmEfGRvrPFIKYNww" propertyPath="_890qUgDjEfGRvrPFIKYNww" base_ConnectorEnd="_HQeT8ADmEfGRvrPFIKYNww"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Provided xmi:id="_QpAwoADmEfGRvrPFIKYNww" base_Port="_7I7TUADlEfGRvrPFIKYNww"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:Required xmi:id="_QpAwoQDmEfGRvrPFIKYNww" base_Port="_7I7TUADlEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_JqPLMgDnEfGRvrPFIKYNww" base_Element="_JqPLMQDnEfGRvrPFIKYNww" propertyPath="_RsyNsQDZEfGRvrPFIKYNww" base_ConnectorEnd="_JqPLMQDnEfGRvrPFIKYNww"/>
-  <SysMod_HierarchicalControlProfile:ControlPort xmi:id="_pwwbsADnEfGRvrPFIKYNww" base_Port="_DHvukADnEfGRvrPFIKYNww"/>
   <ModelElements:View xmi:id="_GVYrEADuEfGRvrPFIKYNww" base_Class="_GVVnwADuEfGRvrPFIKYNww"/>
   <ModelElements:View xmi:id="_0SndoAD3EfGRvrPFIKYNww" base_Class="_0SlBYAD3EfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_fqcwsAEAEfGRvrPFIKYNww" base_Class="_fqWqEAEAEfGRvrPFIKYNww"/>
   <SysMod_TechnicalDesignProfile:MicroController xmi:id="_qTqyIAEAEfGRvrPFIKYNww" base_Class="_fqWqEAEAEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_9zJCkAEAEfGRvrPFIKYNww" base_Class="_9zF_QAEAEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_SF04oAEBEfGRvrPFIKYNww" base_Class="_1RyskAEAEfGRvrPFIKYNww" ProcessRate="0.0"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_TD7foAEBEfGRvrPFIKYNww" base_Class="_9zF_QAEAEfGRvrPFIKYNww" ProcessRate="0.0"/>
   <PortsAndFlows:ProxyPort xmi:id="_AxnwcAECEfGRvrPFIKYNww" base_Port="_Axhp0AECEfGRvrPFIKYNww"/>
   <PortsAndFlows:ProxyPort xmi:id="_ROpjkAECEfGRvrPFIKYNww" base_Port="_ROlSIAECEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_jkwYMgECEfGRvrPFIKYNww" base_Element="_jkwYMAECEfGRvrPFIKYNww" propertyPath="_DOwWsgEBEfGRvrPFIKYNww" base_ConnectorEnd="_jkwYMAECEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_38tIwgECEfGRvrPFIKYNww" base_Element="_38tIwAECEfGRvrPFIKYNww" propertyPath="_DOwWsgEBEfGRvrPFIKYNww" base_ConnectorEnd="_38tIwAECEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_38uW4AECEfGRvrPFIKYNww" base_Element="_38tIwQECEfGRvrPFIKYNww" propertyPath="_CoQXYgEBEfGRvrPFIKYNww" base_ConnectorEnd="_38tIwQECEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_NahVMAEDEfGRvrPFIKYNww" base_Port="_qeNjUAECEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_PKKG0AEDEfGRvrPFIKYNww" base_Port="_1aqCwAECEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_R4J-IAEDEfGRvrPFIKYNww" base_Port="_JTvtEAEDEfGRvrPFIKYNww"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:ProtocolDataUnit xmi:id="_R4J-IQEDEfGRvrPFIKYNww" base_Port="_JTvtEAEDEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_pRhRQAEDEfGRvrPFIKYNww" base_Port="_h3JxcAEDEfGRvrPFIKYNww"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:ProtocolDataUnit xmi:id="_pRh4UAEDEfGRvrPFIKYNww" base_Port="_h3JxcAEDEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_u20s4gEDEfGRvrPFIKYNww" base_Element="_u20s4AEDEfGRvrPFIKYNww" propertyPath="_CoQXYgEBEfGRvrPFIKYNww" base_ConnectorEnd="_u20s4AEDEfGRvrPFIKYNww"/>
   <Blocks:NestedConnectorEnd xmi:id="_u217AAEDEfGRvrPFIKYNww" base_Element="_u20s4QEDEfGRvrPFIKYNww" propertyPath="_otl3EQD-EfGRvrPFIKYNww" base_ConnectorEnd="_u20s4QEDEfGRvrPFIKYNww"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_5ON-gAEDEfGRvrPFIKYNww" base_Port="_0nMwEAEDEfGRvrPFIKYNww"/>
   <Blocks:Block xmi:id="_qm9Y8AGtEfGPLcZf_--6ww" base_Class="_qm68sAGtEfGPLcZf_--6ww"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_tDklUAGtEfGPLcZf_--6ww" base_Class="_qm68sAGtEfGPLcZf_--6ww" PipelineKind="linear" StreamType="Parameter Monitoring" ProcessingType="cyclic stream"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_bLNAIAGuEfGPLcZf_--6ww" base_Class="_VkNicAGuEfGPLcZf_--6ww" Purpose="Conversion of raw cell voltages to discrete values" ProcessRate="100"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_MwNgwAGvEfGPLcZf_--6ww" base_Class="_HvVn4AGvEfGPLcZf_--6ww" Ordering="unordered" TransportMode="streaming" RateLimit="0.0"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_8I4awAGxEfGRm64pFX_jLw" base_Class="_5LD-wAGxEfGRm64pFX_jLw" Ordering="NoOrdering" TransportMode="Streaming" RateLimit="Continuous"/>
   <PortsAndFlows:FlowProperty xmi:id="_UVQfMAGyEfGRm64pFX_jLw" base_Property="_UVOqAAGyEfGRm64pFX_jLw" direction="in"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_OP5OAAGzEfGRm64pFX_jLw" base_Port="_OREvMAGyEfGRm64pFX_jLw"/>
   <SysMod_TechnicalDesignProfile:OwnedBehavior xmi:id="_Z8U_8AGzEfGRm64pFX_jLw" base_Activity="_UdGXIAGzEfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_oc_0EAGzEfGRm64pFX_jLw" base_Class="_iXaV4AGzEfGRm64pFX_jLw" Purpose="checks the Cell voltages for over- and undervoltage" ProcessRate="100"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_7KLE4AGzEfGRm64pFX_jLw" base_Class="_3s5FsAGzEfGRm64pFX_jLw" Ordering="FIFO" TransportMode="synchron" RateLimit="100"/>
   <PortsAndFlows:FlowProperty xmi:id="_Q1nLsAG2EfGRm64pFX_jLw" base_Property="_Q1lWgAG2EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_EO0N0AG3EfGRm64pFX_jLw" base_Port="_Aiee8AG3EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_zGgzoAG3EfGRm64pFX_jLw" base_Class="_9fiH0AG1EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_z-T-UAG3EfGRm64pFX_jLw" base_Class="_AI26gAG2EfGRm64pFX_jLw"/>
   <PortsAndFlows:FlowProperty xmi:id="_csiPAAG5EfGRm64pFX_jLw" base_Property="_ZRE0wAG5EfGRm64pFX_jLw" direction="out"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_zHHlsAG5EfGRm64pFX_jLw" base_Class="_tcNRUAG5EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_Mbyu8AG6EfGRm64pFX_jLw" base_Port="_n_ETMAG5EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_vFWj8AG6EfGRm64pFX_jLw" base_Class="_a1KoQAG6EfGRm64pFX_jLw" Purpose="qualify errors according to the defined qualification criterias" ProcessRate="100"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_35esAAG6EfGRm64pFX_jLw" base_Port="_1coPEAG6EfGRm64pFX_jLw"/>
   <SysMod_TechnicalDesignProfile:OwnedBehavior xmi:id="_FX5Y8AG7EfGRm64pFX_jLw" base_Activity="_CE1FsAG7EfGRm64pFX_jLw"/>
   <SysMod_TechnicalDesignProfile:OwnedBehavior xmi:id="_VOvV0AG7EfGRm64pFX_jLw" base_Activity="_Qmk34AG7EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_bPMcYAG7EfGRm64pFX_jLw" base_Port="_Za7CYAG7EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_cjTvoAG7EfGRm64pFX_jLw" base_Port="_Z7tbQAG7EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_hEs3MAG7EfGRm64pFX_jLw" base_Class="_eG3NEAG7EfGRm64pFX_jLw" Ordering="FIFO" TransportMode="synchron" RateLimit="100"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_0dKgsAG7EfGRm64pFX_jLw" base_Port="_zit5YAG1EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_3CrKYAG7EfGRm64pFX_jLw" base_Port="_0flxUAG1EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_1b6ygAG8EfGRm64pFX_jLw" base_Class="_lD9-kAG6EfGRm64pFX_jLw" Purpose="decide how to react on a qualified error based on a predefined reaction" Statefulness="true" ProcessRate="100"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_UBAsgAG9EfGRm64pFX_jLw" base_Port="_REzaEAG9EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_VL050AG9EfGRm64pFX_jLw" base_Port="_RrrM0AG9EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_mAETEAG9EfGRm64pFX_jLw" base_Class="_hqQJYAG9EfGRm64pFX_jLw" Ordering="FIFO" TransportMode="synchron" RateLimit="100"/>
   <PortsAndFlows:FlowProperty xmi:id="_986GsAG9EfGRm64pFX_jLw" base_Property="_984RgAG9EfGRm64pFX_jLw" direction="out"/>
   <PortsAndFlows:ProxyPort xmi:id="_uHOgEAHAEfGRm64pFX_jLw" base_Port="_uHMq4AHAEfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_FLVMcAKTEfGm-ofqeQU2yA" base_Class="_56Qg0AKSEfGm-ofqeQU2yA"/>
-  <SysMod_ChannelArchitectureProfile:Pipeline xmi:id="_P7WZcAKTEfGm-ofqeQU2yA" base_Class="_MGr1AAKTEfGm-ofqeQU2yA"/>
   <Blocks:NestedConnectorEnd xmi:id="_VdorYAKVEfGm-ofqeQU2yA" base_Element="_VdoEUQKVEfGm-ofqeQU2yA" propertyPath="_Y9o5UAKTEfGm-ofqeQU2yA" base_ConnectorEnd="_VdoEUQKVEfGm-ofqeQU2yA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_xSVLQAKeEfGlnZyM-lIyIg" base_Port="_RgKwQAKVEfGm-ofqeQU2yA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_4cHRYAKeEfGlnZyM-lIyIg" base_Port="_zjQFAAKeEfGlnZyM-lIyIg"/>
   <ModelElements:View xmi:id="_C1vlYAKkEfGlnZyM-lIyIg" base_Class="_C1tJIAKkEfGlnZyM-lIyIg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_0m65wAKkEfGlnZyM-lIyIg" base_Port="_IthbgAG8EfGRm64pFX_jLw"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_16gokAKkEfGlnZyM-lIyIg" base_Port="_H5FG0AG8EfGRm64pFX_jLw"/>
   <ModelElements:View xmi:id="_9j40wAKkEfGlnZyM-lIyIg" base_Class="_9j2YgAKkEfGlnZyM-lIyIg"/>
-  <SysMod_HierarchicalControlProfile:Controller xmi:id="_tbqQIAKoEfGlnZyM-lIyIg" base_Class="_msfpcAKoEfGlnZyM-lIyIg"/>
+  <SysModProfile_HierarchicalControlPattern:Controller xmi:id="_tbqQIAKoEfGlnZyM-lIyIg" base_Class="_msfpcAKoEfGlnZyM-lIyIg"/>
   <ModelElements:View xmi:id="_G0oDgAKpEfGlnZyM-lIyIg" base_Class="_G0mOUAKpEfGlnZyM-lIyIg"/>
   <ModelElements:View xmi:id="_6-3rkAKqEfGlnZyM-lIyIg" base_Class="_6-1PUAKqEfGlnZyM-lIyIg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_9Tve8AKvEfGlnZyM-lIyIg" base_Class="_DfDIcAKhEfGlnZyM-lIyIg"/>
   <ModelElements:View xmi:id="_4OQ9cAKwEfGlnZyM-lIyIg" base_Class="_4OOhMAKwEfGlnZyM-lIyIg"/>
   <SysMod_TechnicalDesignProfile:TechnicalView xmi:id="_y-y4YAMzEfGUR-7jVDy4Hg" base_Class="_64IBkAMyEfGW8q_rdwgz7g" Purpose="This diagram gives an overview of the BMU system layers according to the &quot;4 Layer BMU Design&quot; decision"/>
   <Blocks:Block xmi:id="_cBKpkAM0EfGUR-7jVDy4Hg" base_Class="_cBG_MAM0EfGUR-7jVDy4Hg"/>
   <Blocks:Block xmi:id="_kMgTUAM0EfGUR-7jVDy4Hg" base_Class="_kMeeIAM0EfGUR-7jVDy4Hg"/>
   <Blocks:Block xmi:id="_6DP9IAM0EfGUR-7jVDy4Hg" base_Class="_6DOH8AM0EfGUR-7jVDy4Hg"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_flWBUAM8EfGA465kvgcumA" base_Class="_a0wnMAM8EfGA465kvgcumA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingComponent xmi:id="_hUpbwAM8EfGA465kvgcumA" base_Class="_OeRysAM8EfGA465kvgcumA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_SIovIAM9EfGA465kvgcumA" base_Port="_OOOIAAM9EfGA465kvgcumA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_jeLeoAM9EfGA465kvgcumA" base_Port="_eMBogAM9EfGA465kvgcumA"/>
   <Blocks:NestedConnectorEnd xmi:id="_qbAG0gM9EfGA465kvgcumA" base_Element="_qbAG0AM9EfGA465kvgcumA" propertyPath="_Y9o5UAKTEfGm-ofqeQU2yA" base_ConnectorEnd="_qbAG0AM9EfGA465kvgcumA"/>
   <Blocks:NestedConnectorEnd xmi:id="_qbAt4AM9EfGA465kvgcumA" base_Element="_qbAG0QM9EfGA465kvgcumA" propertyPath="_RoFLkgKUEfGm-ofqeQU2yA" base_ConnectorEnd="_qbAG0QM9EfGA465kvgcumA"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:ProtocolDataUnit xmi:id="_sh_BcAM9EfGA465kvgcumA" base_Port="_RgKwQAKVEfGm-ofqeQU2yA"/>
@@ -2065,13 +2006,10 @@ This SysML package contains the Controller responsible for coordinating the comm
   <Blocks:NestedConnectorEnd xmi:id="_VqzjcgM_EfGA465kvgcumA" base_Element="_VqzjcAM_EfGA465kvgcumA" propertyPath="_Y9o5UAKTEfGm-ofqeQU2yA" base_ConnectorEnd="_VqzjcAM_EfGA465kvgcumA"/>
   <Blocks:NestedConnectorEnd xmi:id="_Vq0KgAM_EfGA465kvgcumA" base_Element="_VqzjcQM_EfGA465kvgcumA" propertyPath="_RoFLkgKUEfGm-ofqeQU2yA" base_ConnectorEnd="_VqzjcQM_EfGA465kvgcumA"/>
   <PortsAndFlows:FlowProperty xmi:id="_IQCK8ANAEfGA465kvgcumA" base_Property="_F9L-kANAEfGA465kvgcumA" direction="out"/>
-  <SysMod_ChannelArchitectureProfile:Channel xmi:id="_SfKRYANAEfGA465kvgcumA" base_Class="_qZCtEAM_EfGA465kvgcumA"/>
   <Blocks:NestedConnectorEnd xmi:id="_tVEj4gNAEfGA465kvgcumA" base_Element="_tVEj4QNAEfGA465kvgcumA" propertyPath="_Y9o5UAKTEfGm-ofqeQU2yA" base_ConnectorEnd="_tVEj4QNAEfGA465kvgcumA"/>
   <Blocks:BindingConnector xmi:id="_tVFK8ANAEfGA465kvgcumA" base_Connector="_tVA5gANAEfGA465kvgcumA"/>
   <PortsAndFlows:FlowProperty xmi:id="_4NeQ0ANAEfGA465kvgcumA" base_Property="_x8gCAANAEfGA465kvgcumA" direction="out"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_AIVOkANBEfGA465kvgcumA" base_Port="_QLqaMAM_EfGA465kvgcumA"/>
   <SysMod_LayeredInterfacesPatternProfile.Interfaces:ProtocolDataUnit xmi:id="_AIV1oANBEfGA465kvgcumA" base_Port="_QLqaMAM_EfGA465kvgcumA"/>
-  <SysMod_ChannelArchitectureProfile:ProcessingPort xmi:id="_IesckANBEfGA465kvgcumA" base_Port="_D6GjMAKVEfGm-ofqeQU2yA"/>
   <SysMod_SystemContextProfile:Energy xmi:id="_RTFqYANBEfGA465kvgcumA" base_Port="_mjgP8AHAEfGRm64pFX_jLw"/>
   <SysMod_MBSETestProfile:SystemIntegrationTest xmi:id="_XMgC4ANDEfGZk6lU1wBYuA" base_Behavior="_3lOIkANBEfGA465kvgcumA" TestScope="End2End_HappyPath" AbstractDescription="Goal is to proof that the data pipeline &quot;HV Battery Cell Voltage Monitoring&quot; is running properly" TestMethod="equivalence testing"/>
   <Requirements:Verify xmi:id="_na-nMANEEfG4i66jUe051A" base_DirectedRelationship="_na35gANEEfG4i66jUe051A" base_Abstraction="_na35gANEEfG4i66jUe051A"/>
@@ -2079,4 +2017,11 @@ This SysML package contains the Controller responsible for coordinating the comm
   <Requirements:Verify xmi:id="_tXSYIANFEfG4i66jUe051A" base_DirectedRelationship="_tXQi8ANFEfG4i66jUe051A" base_Abstraction="_tXQi8ANFEfG4i66jUe051A"/>
   <ModelElements:View xmi:id="_dOdogANHEfG4i66jUe051A" base_Class="_dObMQANHEfG4i66jUe051A"/>
   <Requirements:TestCase xmi:id="_1yW1EANHEfG4i66jUe051A" base_Behavior="_1yU_4ANHEfG4i66jUe051A"/>
+  <Blocks:Block xmi:id="_7hF-sAWmEfGu9PPOxEOY2Q" base_Class="_7hBGMAWmEfGu9PPOxEOY2Q"/>
+  <Blocks:Block xmi:id="_9LOIwAWnEfGu9PPOxEOY2Q" base_Class="_9LKeYAWnEfGu9PPOxEOY2Q"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_ZnhKQAWoEfGu9PPOxEOY2Q" base_Class="_ZneuAAWoEfGu9PPOxEOY2Q"/>
+  <Blocks:NestedConnectorEnd xmi:id="_TV93MgWpEfGu9PPOxEOY2Q" base_Element="_TV93MQWpEfGu9PPOxEOY2Q" propertyPath="_BIGOAAWoEfGu9PPOxEOY2Q" base_ConnectorEnd="_TV93MQWpEfGu9PPOxEOY2Q"/>
+  <PortsAndFlows:ProxyPort xmi:id="_y-9BsAWqEfGu9PPOxEOY2Q" base_Port="_y-6lcAWqEfGu9PPOxEOY2Q"/>
+  <PortsAndFlows:ProxyPort xmi:id="_GwpDgAWrEfGu9PPOxEOY2Q" base_Port="_GwmnQAWrEfGu9PPOxEOY2Q"/>
+  <Blocks:NestedConnectorEnd xmi:id="_ZcRcMgWrEfGu9PPOxEOY2Q" base_Element="_ZcRcMQWrEfGu9PPOxEOY2Q" propertyPath="_BIGOAAWoEfGu9PPOxEOY2Q" base_ConnectorEnd="_ZcRcMQWrEfGu9PPOxEOY2Q"/>
 </xmi:XMI>

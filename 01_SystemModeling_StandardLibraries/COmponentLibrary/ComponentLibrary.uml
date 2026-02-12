@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
+  <uml:Model xmi:id="_5KDjAAdgEfGOUOC5m8AzJQ" name="ComponentLibrary">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_5Md93QdgEfGOUOC5m8AzJQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_5MiPQAdgEfGOUOC5m8AzJQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bf55bf92d2a649a1ac3c0c" name="STGAP1AS" classifierBehavior="_yIjYQAfmEfGUl_4EmSYqbw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_b954db58356f4fae82a614" annotatedElement="_bf55bf92d2a649a1ac3c0c">
+        <body>STMicroelectronics STGAP1AS - Automotive Galvanically Isolated Gate Driver
+- Package: SO24W (24-pin SOIC)
+- Isolation: 1500V between Primary and Secondary
+- Gate Drive: 5A source/sink
+- Temperature: -40°C to +125°C (AEC-Q100 Grade 1)
+- Features: DESAT, SENSE, Active Clamping, 2-Level Turn-Off
+Datasheet: https://www.st.com/resource/en/datasheet/stgap1as.pdf</body>
+      </ownedComment>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_4J4LEAfyEfGUl_4EmSYqbw" name="Constraint5">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_4J5ZMAfyEfGUl_4EmSYqbw" name="constraintSpec">
+          <language>OCL</language>
+          <body>Impedance</body>
+        </specification>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_b0af099ba7b448e68da502" name="Pin23_VL_2" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_17b07effb6db4000b6d393">
+          <body>Pin 23: VL_2
+Type: Power
+Direction: in
+Description: Negative Gate Supply</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ba7e1a132ed74a5a8a7ded" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16df813ac0f2474f905c5c" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_-GZDQAfmEfGUl_4EmSYqbw" name="PwrSupply_MainContDriver" type="_LK9FwAfnEfGUl_4EmSYqbw" aggregation="composite"/>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_yIjYQAfmEfGUl_4EmSYqbw" name="StateMachine26">
+        <region xmi:type="uml:Region" xmi:id="_0K3OQAfmEfGUl_4EmSYqbw" name="Region1">
+          <subvertex xmi:type="uml:State" xmi:id="_xAvUQAfpEfGUl_4EmSYqbw" name="CMD_UNSUPPLIED"/>
+          <subvertex xmi:type="uml:State" xmi:id="_2ccvAAfpEfGUl_4EmSYqbw" name="CMD_POWERUP"/>
+          <subvertex xmi:type="uml:State" xmi:id="_Aqbl8AfqEfGUl_4EmSYqbw" name="St_CMD_Supplied">
+            <region xmi:type="uml:Region" xmi:id="_De8U8AfqEfGUl_4EmSYqbw" name="Region1">
+              <subvertex xmi:type="uml:State" xmi:id="_AePnQAfuEfGUl_4EmSYqbw" name="St_CMD_StandBy"/>
+              <subvertex xmi:type="uml:State" xmi:id="_cPUhgAfuEfGUl_4EmSYqbw" name="St_CMD_Awake">
+                <region xmi:type="uml:Region" xmi:id="_pQNk8QfuEfGUl_4EmSYqbw" name="Region1">
+                  <subvertex xmi:type="uml:State" xmi:id="_pQOzEAfuEfGUl_4EmSYqbw" name="St_CMD_Initialization"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_s5R9YAfuEfGUl_4EmSYqbw" name="St_CMD_Configuration"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_x2xyIAfuEfGUl_4EmSYqbw" name="St_CMD_NormalOperation"/>
+                </region>
+              </subvertex>
+            </region>
+            <region xmi:type="uml:Region" xmi:id="_ZuQPwAfqEfGUl_4EmSYqbw" name="Region2">
+              <transition xmi:type="uml:Transition" xmi:id="_ZfAgkAfvEfGUl_4EmSYqbw" source="_Wka-wAfvEfGUl_4EmSYqbw" target="_kngRQAfqEfGUl_4EmSYqbw"/>
+              <transition xmi:type="uml:Transition" xmi:id="_n7D6cAfvEfGUl_4EmSYqbw" source="_kngRQAfqEfGUl_4EmSYqbw" target="_hUgPcAfqEfGUl_4EmSYqbw"/>
+              <transition xmi:type="uml:Transition" xmi:id="_pwOFQAfvEfGUl_4EmSYqbw" source="_hUgPcAfqEfGUl_4EmSYqbw" target="_kngRQAfqEfGUl_4EmSYqbw"/>
+              <subvertex xmi:type="uml:State" xmi:id="_hUgPcAfqEfGUl_4EmSYqbw" name="CMD_NOSAFESTATE"/>
+              <subvertex xmi:type="uml:State" xmi:id="_kngRQAfqEfGUl_4EmSYqbw" name="CMD_SAFESTATE">
+                <doActivity xmi:type="uml:Activity" xmi:id="_gaEYwAfwEfGUl_4EmSYqbw" name="act_CheckForNormalOperation" node="_y_mJcAfwEfGUl_4EmSYqbw __y6OcAfxEfGUl_4EmSYqbw">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6GU7kAfwEfGUl_4EmSYqbw" name="Check for high impedance on Port GON"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AbRO8AfyEfGUl_4EmSYqbw" name="OpaqueBehavior3"/>
+                  <node xmi:type="uml:CallBehaviorAction" xmi:id="_y_mJcAfwEfGUl_4EmSYqbw" name="Check for high impedance between Port GON and GOFF" behavior="_6GU7kAfwEfGUl_4EmSYqbw"/>
+                  <node xmi:type="uml:CallBehaviorAction" xmi:id="__y6OcAfxEfGUl_4EmSYqbw" name="CallBehaviorAction4" behavior="_AbRO8AfyEfGUl_4EmSYqbw"/>
+                </doActivity>
+              </subvertex>
+              <subvertex xmi:type="uml:Pseudostate" xmi:id="_Wka-wAfvEfGUl_4EmSYqbw" name="Initial3"/>
+            </region>
+          </subvertex>
+        </region>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LK9FwAfnEfGUl_4EmSYqbw" name="TechIF_MCD_PowerSupply">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_4946a89ff45240fcb5bc2e" name="Pin7_VDD" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_d52dcf7cebe34ecc8f8f51">
+          <body>Pin 7: VDD
+Type: Power
+Direction: in
+Description: Logic Supply 4.5-5.5V</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93fccaf382024ad29ba81c" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_21291d6ec7e44d649cdebc" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_fee5e474bec34d938bfc80" name="Pin17_VH" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_4b119f38b074485c8aab26">
+          <body>Pin 17: VH
+Type: Power
+Direction: in
+Description: Positive Gate Supply 12-30V</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_69297ab2bead4ff6a2c223" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_30e1be961f964737b8f760" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_95b8922e414c4ce389df7a" name="Pin14_VL" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_c1cb2a3835ac43aa9a111b">
+          <body>Pin 14: VL
+Type: Power
+Direction: in
+Description: Negative Gate Supply</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c80db28ebb2d4c09b48917" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c3c761aced7442feb85fef" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_af1f639f7ab04db6acdc05" name="Pin1_GND" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_937604fc071d4738924f0f">
+          <body>Pin 1: GND
+Type: Power
+Direction: inout
+Description: Primary Ground</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bf4d1843a37a40c1bfef1d" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_727f96df3a5649c2be677b" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_3b1a1a1fd54f4774acf90d" name="Pin12_GND_2" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_b5493aecd8364efb810e6e">
+          <body>Pin 12: GND_2
+Type: Power
+Direction: inout
+Description: Primary Ground</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_96021685c8e64a6693808f" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_57615fc2ae784ac8a5c3c5" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_c62a455bb6364f83b6d77e" name="Pin13_GNDISO" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_e25615db55db4a3a8739a7">
+          <body>Pin 13: GNDISO
+Type: Power
+Direction: inout
+Description: Isolated Ground</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1fe90eea15624ecb9cbf8e" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6d7cb0f666bd445fbc9a58" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_e98674954ec94d7f88e5af" name="Pin15_VREGISO" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_f448e667facd4558bcf172">
+          <body>Pin 15: VREGISO
+Type: Power
+Direction: out
+Description: Isolated 3.3V Regulator</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3b3ac886237940dab597cd" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e4b2f74edb844e4db244b6" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_e8f3676605bd4892a09b67" name="Pin6_VREG" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_a3200c1c10aa4d868f6643">
+          <body>Pin 6: VREG
+Type: Power
+Direction: out
+Description: 3.3V Regulator Output</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8566a597dacd4694a71883" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_590bb2a49b544497aa2160" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_raMNYAfnEfGUl_4EmSYqbw" name="TechIF_MCD_CtrlInput">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_99e37e3f0f524098a98125" name="Pin9_IN_PLUS" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_bb5f272daef8498c90ab0d">
+          <body>Pin 9: IN_PLUS
+Type: Digital
+Direction: in
+Description: Positive Input</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7493963aefd84bb4aace1f" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d927dec38a3842148cbbf7" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_a202e9c1ca4649738a5e28" name="Pin11_SD" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_09e8cc370f7545a29b0245">
+          <body>Pin 11: SD
+Type: Digital
+Direction: in
+Description: Shutdown</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18488a152f5648849a8649" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f0264addc8764620adb051" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_2c45326c47534fff9423bb" name="Pin24_ASC" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_b661de8bcdd64d8f96d75c">
+          <body>Pin 24: ASC
+Type: Digital
+Direction: in
+Description: Async Stop Command</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ce199e60f204486894a09f" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_824bae044d464bba8ad21e" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NPCn8AfoEfGUl_4EmSYqbw" name="TechIF_MCD_SPI">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_c65f7a8f38de470ea6faa1" name="Pin2_SDO" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_bc2c08b9c36f4da294d848">
+          <body>Pin 2: SDO
+Type: Digital
+Direction: out
+Description: SPI Data Out (MISO)</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6b9d39ddb0fd4373990407" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f28e1cf9d2334ef89ae2a8" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_9b0573ed48f04d149a1304" name="Pin3_SDI" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_e6004afb22cc4bdc9c53b0">
+          <body>Pin 3: SDI
+Type: Digital
+Direction: in
+Description: SPI Data In (MOSI)</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d696c646163146e88d5ada" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_94acb29f42de470c94dcfc" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_e37ebe2622804b6fb7034e" name="Pin4_CS" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_331e9b2743cb4a0ca950bf">
+          <body>Pin 4: CS
+Type: Digital
+Direction: in
+Description: SPI Chip Select</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d962a10f34b947fba2da73" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eedd501143954693ab6f8a" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_340c26f352ef486b9c3815" name="Pin5_CK" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8538e726986c44dca88b89">
+          <body>Pin 5: CK
+Type: Digital
+Direction: in
+Description: SPI Clock</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e9d0ac31df38417c909a9c" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_23b8d5994d3b4c3fbdf36b" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VzCpUAfoEfGUl_4EmSYqbw" name="TechIF_MCD_GateDrvrOut">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_3f4b0b1e840c44808e4799" name="Pin20_GON" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ffaa64bcf5e443dbb35a72">
+          <body>Pin 20: GON
+Type: Analog
+Direction: out
+Description: Gate Source Output</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a072a8d5962949e1804257" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_61fbfc143c4642c0b4b619" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_e7ea3c305ad646a596c4cb" name="Pin19_GOFF" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_27a56f0a6eef49a8a9c5fb">
+          <body>Pin 19: GOFF
+Type: Analog
+Direction: out
+Description: Gate Sink Output</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3996e817b1834283919c4e" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cd11620e402744e68eb859" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_116a2fe9c3e6431e926da5" name="Pin22_CLAMP" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_adf02b6909ea4523b234e4">
+          <body>Pin 22: CLAMP
+Type: Analog
+Direction: out
+Description: Miller Clamp Output</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2e79c5126d8c422b8e04db" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_541e90ab494248bea19b28" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ek8j0AfoEfGUl_4EmSYqbw" name="TechIF_MCD_PrtctIn">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_bec9c710a7cb478ab2e1f4" name="Pin18_DESAT" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_c559a5e08a004872ae687f">
+          <body>Pin 18: DESAT
+Type: Analog
+Direction: inout
+Description: Desaturation Detection</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_38c879da66404d23bd739a" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f5c25ba7f22146fa94ae51" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_c4f1d892bacf4b56a7b412" name="Pin16_SENSE" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_49212c52bd494cf083a3c5">
+          <body>Pin 16: SENSE
+Type: Analog
+Direction: in
+Description: Current Sense Input</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8a8e771274264182beb5b0" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_22de907c07074f929057bb" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_92e4d95afe104bf3944c34" name="Pin21_VCECLAMP" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_23e0d489e86344299a5039">
+          <body>Pin 21: VCECLAMP
+Type: Analog
+Direction: in
+Description: VCE Clamping Input</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_641782ce86794b72838d8d" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f22ee40fdb544f278f6224" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wIprIAfoEfGUl_4EmSYqbw" name="TechIF_MCD_DiagOut">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_588546e1b1264328896476" name="Pin10_DIAG1" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_504aa8877feb4b83a9eaec">
+          <body>Pin 10: DIAG1
+Type: Digital
+Direction: out
+Description: Diagnostic Output 1</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8b47b18b4c604ae38cb548" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bce5906bc85b407bb41137" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_55e8886d1b5c49478ee4db" name="Pin8_IN_MINUS_DIAG2" aggregation="composite">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8746219d6c76472baa5eb0">
+          <body>Pin 8: IN_MINUS_DIAG2
+Type: Digital
+Direction: inout
+Description: Negative Input / Diag2</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f40342998620421a85594a" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b2f297ba55144e2cb3614c" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5LnCMAdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5LpecAdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5MdWwAdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MdWwQdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5MdWwgdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MdWwwdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5MdWxAdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md90AdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5Md90QdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md90gdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5Md90wdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md91AdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5Md91QdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md91gdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5Md91wdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md92AdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5Md92QdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md92gdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5Md92wdgEfGOUOC5m8AzJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Md93AdgEfGOUOC5m8AzJQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <PortsAndFlows:ProxyPort xmi:id="_-Gi0QAfmEfGUl_4EmSYqbw" base_Port="_-GZDQAfmEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_W8YFYAfnEfGUl_4EmSYqbw" base_Port="_4946a89ff45240fcb5bc2e"/>
+  <PortsAndFlows:ProxyPort xmi:id="_h-cEoAfnEfGUl_4EmSYqbw" base_Port="_fee5e474bec34d938bfc80"/>
+  <PortsAndFlows:ProxyPort xmi:id="_jZ-1kAfnEfGUl_4EmSYqbw" base_Port="_95b8922e414c4ce389df7a"/>
+  <PortsAndFlows:ProxyPort xmi:id="_kSM3AAfnEfGUl_4EmSYqbw" base_Port="_af1f639f7ab04db6acdc05"/>
+  <PortsAndFlows:ProxyPort xmi:id="_k8dU8AfnEfGUl_4EmSYqbw" base_Port="_3b1a1a1fd54f4774acf90d"/>
+  <PortsAndFlows:ProxyPort xmi:id="_llDmAAfnEfGUl_4EmSYqbw" base_Port="_c62a455bb6364f83b6d77e"/>
+  <PortsAndFlows:ProxyPort xmi:id="_mOp8oAfnEfGUl_4EmSYqbw" base_Port="_e98674954ec94d7f88e5af"/>
+  <PortsAndFlows:ProxyPort xmi:id="_m81RQAfnEfGUl_4EmSYqbw" base_Port="_e8f3676605bd4892a09b67"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_raNbgAfnEfGUl_4EmSYqbw" base_Class="_raMNYAfnEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_6JvLAAfnEfGUl_4EmSYqbw" base_Class="_LK9FwAfnEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_NPEdIAfoEfGUl_4EmSYqbw" base_Class="_NPCn8AfoEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_VzD3cAfoEfGUl_4EmSYqbw" base_Class="_VzCpUAfoEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_ek-ZAAfoEfGUl_4EmSYqbw" base_Class="_ek8j0AfoEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_wIrgUAfoEfGUl_4EmSYqbw" base_Class="_wIprIAfoEfGUl_4EmSYqbw"/>
+  <PortsAndFlows:InvocationOnNestedPortAction xmi:id="_CGxugAfyEfGUl_4EmSYqbw" base_Element="__y6OcAfxEfGUl_4EmSYqbw" base_InvocationAction="__y6OcAfxEfGUl_4EmSYqbw"/>
+</xmi:XMI>
