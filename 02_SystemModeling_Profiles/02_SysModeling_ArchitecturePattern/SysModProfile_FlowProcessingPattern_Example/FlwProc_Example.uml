@@ -11,44 +11,39 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_fHalkAZlEfG1DZmvn2WgWQ" name="01_FunctionalDesign">
         <packagedElement xmi:type="uml:Class" xmi:id="_lb6CcAZlEfG1DZmvn2WgWQ" name="SensorDataProcessing"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_sUJsoAZlEfG1DZmvn2WgWQ" name="TempSensorConversion"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Q337wAgoEfGKydjji9IfOA" name="Class3" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Tnp7wAgoEfGKydjji9IfOA" name="Property1" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ViaYQAgoEfGKydjji9IfOA" name="LiteralString1" value="mmmm"/>
+          </ownedAttribute>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_L5FIcAZlEfG1DZmvn2WgWQ" name="02_TechnicalDesign"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_1y438AZlEfG1DZmvn2WgWQ" name="FlwProc_Example_MultiECU">
       <packagedElement xmi:type="uml:Package" xmi:id="_6kVNsAZlEfG1DZmvn2WgWQ" name="01_FunctionalDesign">
-        <packagedElement xmi:type="uml:Class" xmi:id="_A8is8AZmEfG1DZmvn2WgWQ" name="Func Sensor Data Acquisition">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_W6TA4AZqEfG1DZmvn2WgWQ" name="cva" visibility="public" type="_RQ0zwAZmEfG1DZmvn2WgWQ" aggregation="composite" association="_W6RLsAZqEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W6TA4QZqEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W6TA4gZqEfG1DZmvn2WgWQ" value="1"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_v7a7EAgiEfG6g6j0PsjZng" name="Constraint18">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_v7dXUAgiEfG6g6j0PsjZng" name="constraintSpec">
+            <language>OCL</language>
+            <body>true</body>
+          </specification>
+        </ownedRule>
+        <packagedElement xmi:type="uml:Class" xmi:id="_A8is8AZmEfG1DZmvn2WgWQ" name="Temperature Regulation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XXvx4gZqEfG1DZmvn2WgWQ" name="tempaqc" visibility="public" type="_KaaVkAZmEfG1DZmvn2WgWQ" aggregation="composite" association="_XXvK0AZqEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oyxvUAggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oyxvUQggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_XXvx4gZqEfG1DZmvn2WgWQ" name="hvbta" visibility="public" type="_KaaVkAZmEfG1DZmvn2WgWQ" aggregation="composite" association="_XXvK0AZqEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XXwY8AZqEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XXwY8QZqEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_EEFTYgZrEfG1DZmvn2WgWQ" name="erm" type="_k77IkAZqEfG1DZmvn2WgWQ" aggregation="composite" association="_EEEsUAZrEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EEF6cAZrEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EEF6cQZrEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_DTLI8gZtEfG1DZmvn2WgWQ" name="hvmca" type="_U_ZYcAaAEfG1DZmvn2WgWQ" aggregation="composite" association="_DTKh4AZtEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DTLI8wZtEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DTLI9AZtEfG1DZmvn2WgWQ" value="1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DTLI8gZtEfG1DZmvn2WgWQ" name="cntact" type="_U_ZYcAaAEfG1DZmvn2WgWQ" aggregation="composite" association="_DTKh4AZtEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oTTlEAggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oTUzMAggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_MveCQAaDEfG0ZPgk6yVR-w" name="" type="_29gx0AaCEfG0ZPgk6yVR-w" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_V8DtoAaDEfG0ZPgk6yVR-w" name="" type="_lapYAAaCEfG0ZPgk6yVR-w" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_y-jMcAaDEfG0ZPgk6yVR-w" name="" type="_JZWNQAZ-EfG1DZmvn2WgWQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_zxr5kAaDEfG0ZPgk6yVR-w" name="" type="_y7WWMAZ9EfG1DZmvn2WgWQ" aggregation="composite"/>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_MCI_AAZ_EfG1DZmvn2WgWQ" name="Connector5">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_MCKNIAZ_EfG1DZmvn2WgWQ" partWithPort="_W6TA4AZqEfG1DZmvn2WgWQ" role="_hiVmgAZ-EfG1DZmvn2WgWQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_MCKNIQZ_EfG1DZmvn2WgWQ" partWithPort="_EEFTYgZrEfG1DZmvn2WgWQ" role="_JOTlcAZ_EfG1DZmvn2WgWQ"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_NNvPcAZ_EfG1DZmvn2WgWQ" name="Connector6">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_NNwdkAZ_EfG1DZmvn2WgWQ" partWithPort="_XXvx4gZqEfG1DZmvn2WgWQ" role="_4N0f8AZ-EfG1DZmvn2WgWQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_NNwdkQZ_EfG1DZmvn2WgWQ" partWithPort="_EEFTYgZrEfG1DZmvn2WgWQ" role="_JoWdIAZ_EfG1DZmvn2WgWQ"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_LCG-AAaCEfG0ZPgk6yVR-w" name="Connector7">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_LCJaQAaCEfG0ZPgk6yVR-w" partWithPort="_EEFTYgZrEfG1DZmvn2WgWQ" role="_1TfnYAZ_EfG1DZmvn2WgWQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_LCKBUAaCEfG0ZPgk6yVR-w" partWithPort="_DTLI8gZtEfG1DZmvn2WgWQ" role="_e4txgAaBEfG1DZmvn2WgWQ"/>
-          </ownedConnector>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cxjxcAgmEfGKydjji9IfOA" name="Property1" type="_HVqGAAglEfG6g6j0PsjZng">
+            <defaultValue xmi:type="uml:LiteralReal" xmi:id="_jY7HAAgmEfGKydjji9IfOA" name="LiteralReal1"/>
+          </ownedAttribute>
           <ownedConnector xmi:type="uml:Connector" xmi:id="_W5yhMAaDEfG0ZPgk6yVR-w" name="Connector10">
             <end xmi:type="uml:ConnectorEnd" xmi:id="_W5zIQAaDEfG0ZPgk6yVR-w" partWithPort="_DTLI8gZtEfG1DZmvn2WgWQ" role="_ZfXRwAaCEfG0ZPgk6yVR-w"/>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_W5zIQQaDEfG0ZPgk6yVR-w" role="_V8DtoAaDEfG0ZPgk6yVR-w"/>
@@ -61,91 +56,45 @@
             <end xmi:type="uml:ConnectorEnd" xmi:id="_YIX-wAaEEfG0ZPgk6yVR-w" role="_y-jMcAaDEfG0ZPgk6yVR-w"/>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_YIYl0AaEEfG0ZPgk6yVR-w" partWithPort="_XXvx4gZqEfG1DZmvn2WgWQ" role="_GX9f4AZ-EfG1DZmvn2WgWQ"/>
           </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_YzcVAAaEEfG0ZPgk6yVR-w" name="Connector15">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_Yzc8EAaEEfG0ZPgk6yVR-w" role="_zxr5kAaDEfG0ZPgk6yVR-w"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_YzdjIAaEEfG0ZPgk6yVR-w" partWithPort="_W6TA4AZqEfG1DZmvn2WgWQ" role="_Il1iIAZ9EfG1DZmvn2WgWQ"/>
-          </ownedConnector>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_KaaVkAZmEfG1DZmvn2WgWQ" name="HV Battery Temperature Acquisition">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_h1rB8QZtEfG1DZmvn2WgWQ" name="temperature sensoring" type="_YUb8QAZtEfG1DZmvn2WgWQ" aggregation="composite" association="_h1pz0AZtEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h1rB8gZtEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h1rB8wZtEfG1DZmvn2WgWQ" value="1"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KaaVkAZmEfG1DZmvn2WgWQ" name="Temperature Acquisition">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_h1rB8QZtEfG1DZmvn2WgWQ" name="tempsens" type="_YUb8QAZtEfG1DZmvn2WgWQ" aggregation="composite" association="_h1pz0AZtEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rliK0AggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rliK0QggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_-N6C0gZtEfG1DZmvn2WgWQ" name="sensor data conversion" type="_jfYxwAZtEfG1DZmvn2WgWQ" aggregation="composite" association="_-N40sAZtEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-N6C0wZtEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-N6C1AZtEfG1DZmvn2WgWQ" value="1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-N6C0gZtEfG1DZmvn2WgWQ" name="tempdtconv" type="_jfYxwAZtEfG1DZmvn2WgWQ" aggregation="composite" association="_-N40sAZtEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rL8mIAggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rL9NMAggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_-sGasgZtEfG1DZmvn2WgWQ" name="temperature monitoring" type="_uYLgQAZtEfG1DZmvn2WgWQ" aggregation="composite" association="_-sFzoAZtEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-sGaswZtEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-sGatAZtEfG1DZmvn2WgWQ" value="1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-sGasgZtEfG1DZmvn2WgWQ" name="tempmon" type="_uYLgQAZtEfG1DZmvn2WgWQ" aggregation="composite" association="_-sFzoAZtEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qxPnIAggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qxPnIQggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_GX9f4AZ-EfG1DZmvn2WgWQ" name="" visibility="public" type="_JZWNQAZ-EfG1DZmvn2WgWQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_4N0f8AZ-EfG1DZmvn2WgWQ" name="" type="_7nzTgAZ-EfG1DZmvn2WgWQ" aggregation="composite"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_RQ0zwAZmEfG1DZmvn2WgWQ" name="Cell Voltage Acquisition">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_xkICYgZuEfG1DZmvn2WgWQ" name="block16" type="_rHdg8AZuEfG1DZmvn2WgWQ" aggregation="composite" association="_xkHbUAZuEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xkIpcAZuEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xkIpcQZuEfG1DZmvn2WgWQ" value="1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YBFPkAgnEfGKydjji9IfOA" name="Property1" type="_HVqGAAglEfG6g6j0PsjZng" isDerived="true">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_cOXvYAgnEfGKydjji9IfOA" name="LiteralString1" value="0,00"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_yDgtEgZuEfG1DZmvn2WgWQ" name="block17" type="_s1S7wAZuEfG1DZmvn2WgWQ" aggregation="composite" association="_yDgGAAZuEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yDhUIAZuEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yDhUIQZuEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_yoozYgZuEfG1DZmvn2WgWQ" name="block18" type="_uK3nkAZuEfG1DZmvn2WgWQ" aggregation="composite" association="_yonlQAZuEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yoozYwZuEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yoozZAZuEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_Il1iIAZ9EfG1DZmvn2WgWQ" name="" visibility="public" type="_y7WWMAZ9EfG1DZmvn2WgWQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_hiVmgAZ-EfG1DZmvn2WgWQ" name="" type="_ltA3MAZ-EfG1DZmvn2WgWQ" aggregation="composite"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_W6RLsAZqEfG1DZmvn2WgWQ" memberEnd="_W6TA4AZqEfG1DZmvn2WgWQ _W6TA4wZqEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W6SZ0AZqEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W6SZ0QZqEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_W6TA4wZqEfG1DZmvn2WgWQ" name="func sensor data acquisition" type="_A8is8AZmEfG1DZmvn2WgWQ" association="_W6RLsAZqEfG1DZmvn2WgWQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_XXvK0AZqEfG1DZmvn2WgWQ" memberEnd="_XXvx4gZqEfG1DZmvn2WgWQ _XXwY8gZqEfG1DZmvn2WgWQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XXvx4AZqEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XXvx4QZqEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_XXwY8gZqEfG1DZmvn2WgWQ" name="func sensor data acquisition" type="_A8is8AZmEfG1DZmvn2WgWQ" association="_XXvK0AZqEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_XXwY8gZqEfG1DZmvn2WgWQ" name="tempreg" type="_A8is8AZmEfG1DZmvn2WgWQ" association="_XXvK0AZqEfG1DZmvn2WgWQ"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_k77IkAZqEfG1DZmvn2WgWQ" name="ErrorManagement">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_P6ZAwgZwEfG1DZmvn2WgWQ" name="cell voltage error validation" type="_l0bEkAZvEfG1DZmvn2WgWQ" aggregation="composite" association="_P6YZsAZwEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P6Zn0AZwEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P6Zn0QZwEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_RriOQgZwEfG1DZmvn2WgWQ" name="battery temperature error validation" type="_AYq_UAZwEfG1DZmvn2WgWQ" aggregation="composite" association="_RrhAIAZwEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RriOQwZwEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RriORAZwEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_SQofYgZwEfG1DZmvn2WgWQ" name="hv battery error reaction" type="_EXiBkAZwEfG1DZmvn2WgWQ" aggregation="composite" association="_SQn4UAZwEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SQofYwZwEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SQofZAZwEfG1DZmvn2WgWQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_JOTlcAZ_EfG1DZmvn2WgWQ" name="" type="_ltA3MAZ-EfG1DZmvn2WgWQ" aggregation="composite" isConjugated="true" isService="false"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_JoWdIAZ_EfG1DZmvn2WgWQ" name="" type="_7nzTgAZ-EfG1DZmvn2WgWQ" aggregation="composite" isConjugated="true" isService="false"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1TfnYAZ_EfG1DZmvn2WgWQ" name="" type="_6AMAAAZ_EfG1DZmvn2WgWQ" aggregation="composite"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_EEEsUAZrEfG1DZmvn2WgWQ" memberEnd="_EEFTYgZrEfG1DZmvn2WgWQ _EEF6cgZrEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EEFTYAZrEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EEFTYQZrEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_EEF6cgZrEfG1DZmvn2WgWQ" name="func sensor data acquisition" type="_A8is8AZmEfG1DZmvn2WgWQ" association="_EEEsUAZrEfG1DZmvn2WgWQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_L5WmgAZrEfG1DZmvn2WgWQ" name="HV Main Contactor Control"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_L5WmgAZrEfG1DZmvn2WgWQ" name="Contactor Driver"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_DTKh4AZtEfG1DZmvn2WgWQ" memberEnd="_DTLI8gZtEfG1DZmvn2WgWQ _DTLI9QZtEfG1DZmvn2WgWQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DTLI8AZtEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DTLI8QZtEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_DTLI9QZtEfG1DZmvn2WgWQ" name="func sensor data acquisition" type="_A8is8AZmEfG1DZmvn2WgWQ" association="_DTKh4AZtEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DTLI9QZtEfG1DZmvn2WgWQ" name="tempreg" type="_A8is8AZmEfG1DZmvn2WgWQ" association="_DTKh4AZtEfG1DZmvn2WgWQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_YUb8QAZtEfG1DZmvn2WgWQ" name="Temperature Sensoring"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_h1pz0AZtEfG1DZmvn2WgWQ" memberEnd="_h1rB8QZtEfG1DZmvn2WgWQ _h1rB9AZtEfG1DZmvn2WgWQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h1qa4AZtEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h1rB8AZtEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_h1rB9AZtEfG1DZmvn2WgWQ" name="system temperature acquisition" type="_KaaVkAZmEfG1DZmvn2WgWQ" association="_h1pz0AZtEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_h1rB9AZtEfG1DZmvn2WgWQ" name="tempacq" type="_KaaVkAZmEfG1DZmvn2WgWQ" association="_h1pz0AZtEfG1DZmvn2WgWQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_jfYxwAZtEfG1DZmvn2WgWQ" name="Sensor Data Conversion"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_uYLgQAZtEfG1DZmvn2WgWQ" name="Temperature Monitoring"/>
@@ -153,56 +102,15 @@
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-N6C0AZtEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-N6C0QZtEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_-N6C1QZtEfG1DZmvn2WgWQ" name="system temperature acquisition" type="_KaaVkAZmEfG1DZmvn2WgWQ" association="_-N40sAZtEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-N6C1QZtEfG1DZmvn2WgWQ" name="tempacq" type="_KaaVkAZmEfG1DZmvn2WgWQ" association="_-N40sAZtEfG1DZmvn2WgWQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_-sFzoAZtEfG1DZmvn2WgWQ" memberEnd="_-sGasgZtEfG1DZmvn2WgWQ _-sGatQZtEfG1DZmvn2WgWQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-sGasAZtEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-sGasQZtEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_-sGatQZtEfG1DZmvn2WgWQ" name="system temperature acquisition" type="_KaaVkAZmEfG1DZmvn2WgWQ" association="_-sFzoAZtEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-sGatQZtEfG1DZmvn2WgWQ" name="tempacq" type="_KaaVkAZmEfG1DZmvn2WgWQ" association="_-sFzoAZtEfG1DZmvn2WgWQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_rHdg8AZuEfG1DZmvn2WgWQ" name="Voltage Sensoring"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_s1S7wAZuEfG1DZmvn2WgWQ" name="Sensor Data Conversion"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_uK3nkAZuEfG1DZmvn2WgWQ" name="Cell Voltage Monitoring"/>
-        <packagedElement xmi:type="uml:Association" xmi:id="_xkHbUAZuEfG1DZmvn2WgWQ" memberEnd="_xkICYgZuEfG1DZmvn2WgWQ _xkIpcgZuEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xkICYAZuEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xkICYQZuEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_xkIpcgZuEfG1DZmvn2WgWQ" name="system voltage acquisition" type="_RQ0zwAZmEfG1DZmvn2WgWQ" association="_xkHbUAZuEfG1DZmvn2WgWQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_yDgGAAZuEfG1DZmvn2WgWQ" memberEnd="_yDgtEgZuEfG1DZmvn2WgWQ _yDhUIgZuEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yDgtEAZuEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yDgtEQZuEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_yDhUIgZuEfG1DZmvn2WgWQ" name="system voltage acquisition" type="_RQ0zwAZmEfG1DZmvn2WgWQ" association="_yDgGAAZuEfG1DZmvn2WgWQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_yonlQAZuEfG1DZmvn2WgWQ" memberEnd="_yoozYgZuEfG1DZmvn2WgWQ _yoozZQZuEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yoozYAZuEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yoozYQZuEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_yoozZQZuEfG1DZmvn2WgWQ" name="system voltage acquisition" type="_RQ0zwAZmEfG1DZmvn2WgWQ" association="_yonlQAZuEfG1DZmvn2WgWQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_l0bEkAZvEfG1DZmvn2WgWQ" name="Cell Voltage Error Validation"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_AYq_UAZwEfG1DZmvn2WgWQ" name="Battery Temperature Error Validation"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_EXiBkAZwEfG1DZmvn2WgWQ" name="HV Battery Error Reaction"/>
-        <packagedElement xmi:type="uml:Association" xmi:id="_P6YZsAZwEfG1DZmvn2WgWQ" memberEnd="_P6ZAwgZwEfG1DZmvn2WgWQ _P6Zn0gZwEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P6ZAwAZwEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P6ZAwQZwEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_P6Zn0gZwEfG1DZmvn2WgWQ" name="errormanagement" type="_k77IkAZqEfG1DZmvn2WgWQ" association="_P6YZsAZwEfG1DZmvn2WgWQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_RrhAIAZwEfG1DZmvn2WgWQ" memberEnd="_RriOQgZwEfG1DZmvn2WgWQ _RriORQZwEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RriOQAZwEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RriOQQZwEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_RriORQZwEfG1DZmvn2WgWQ" name="errormanagement" type="_k77IkAZqEfG1DZmvn2WgWQ" association="_RrhAIAZwEfG1DZmvn2WgWQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_SQn4UAZwEfG1DZmvn2WgWQ" memberEnd="_SQofYgZwEfG1DZmvn2WgWQ _SQofZQZwEfG1DZmvn2WgWQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SQofYAZwEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SQofYQZwEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_SQofZQZwEfG1DZmvn2WgWQ" name="errormanagement" type="_k77IkAZqEfG1DZmvn2WgWQ" association="_SQn4UAZwEfG1DZmvn2WgWQ"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_oTnigAZ9EfG1DZmvn2WgWQ" name="03_InterfaceBlocks">
           <packagedElement xmi:type="uml:Package" xmi:id="_qmgLIAZ9EfG1DZmvn2WgWQ" name="FuncSensorDataAcquisition_IF">
             <packagedElement xmi:type="uml:Class" xmi:id="_y7WWMAZ9EfG1DZmvn2WgWQ" name="SysIF_PhysCellVoltages">
@@ -237,31 +145,37 @@
             </packagedElement>
           </packagedElement>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_U_ZYcAaAEfG1DZmvn2WgWQ" name="HV Main Contactor Actuation">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_vws3wgaAEfG1DZmvn2WgWQ" name="hv main contactor control" type="_L5WmgAZrEfG1DZmvn2WgWQ" aggregation="composite" association="_vwrpoAaAEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vws3wwaAEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vws3xAaAEfG1DZmvn2WgWQ" value="1"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_U_ZYcAaAEfG1DZmvn2WgWQ" name="Contactor Actuation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vws3wgaAEfG1DZmvn2WgWQ" name="cntdrvr" type="_L5WmgAZrEfG1DZmvn2WgWQ" aggregation="composite" association="_vwrpoAaAEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p4EjcAggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p4FKgAggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_wPBLcgaAEfG1DZmvn2WgWQ" name="hv main contactor" type="_sfK1kAaAEfG1DZmvn2WgWQ" aggregation="composite" association="_wO_9UAaAEfG1DZmvn2WgWQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wPBLcwaAEfG1DZmvn2WgWQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wPBLdAaAEfG1DZmvn2WgWQ" value="1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wPBLcgaAEfG1DZmvn2WgWQ" name="mncnt" type="_sfK1kAaAEfG1DZmvn2WgWQ" aggregation="composite" association="_wO_9UAaAEfG1DZmvn2WgWQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pkpRIAggEfG6g6j0PsjZng" name="LiteralInteger1" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pkpRIQggEfG6g6j0PsjZng" name="LiteralUnlimitedNatural1" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_e4txgAaBEfG1DZmvn2WgWQ" name="" visibility="public" type="_6AMAAAZ_EfG1DZmvn2WgWQ" aggregation="composite" isConjugated="true" isService="false"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_ZDa8oAaCEfG0ZPgk6yVR-w" name="" type="_29gx0AaCEfG0ZPgk6yVR-w" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_ZfXRwAaCEfG0ZPgk6yVR-w" name="" type="_lapYAAaCEfG0ZPgk6yVR-w" aggregation="composite"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_sfK1kAaAEfG1DZmvn2WgWQ" name="HV Main Contactor"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_sfK1kAaAEfG1DZmvn2WgWQ" name="Main Contactor"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_vwrpoAaAEfG1DZmvn2WgWQ" memberEnd="_vws3wgaAEfG1DZmvn2WgWQ _vws3xQaAEfG1DZmvn2WgWQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vws3wAaAEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vws3wQaAEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_vws3xQaAEfG1DZmvn2WgWQ" name="hv main contactor actuation" type="_U_ZYcAaAEfG1DZmvn2WgWQ" association="_vwrpoAaAEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_vws3xQaAEfG1DZmvn2WgWQ" name="cntact" type="_U_ZYcAaAEfG1DZmvn2WgWQ" association="_vwrpoAaAEfG1DZmvn2WgWQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_wO_9UAaAEfG1DZmvn2WgWQ" memberEnd="_wPBLcgaAEfG1DZmvn2WgWQ _wPBLdQaAEfG1DZmvn2WgWQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wPBLcAaAEfG1DZmvn2WgWQ" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wPBLcQaAEfG1DZmvn2WgWQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_wPBLdQaAEfG1DZmvn2WgWQ" name="hv main contactor actuation" type="_U_ZYcAaAEfG1DZmvn2WgWQ" association="_wO_9UAaAEfG1DZmvn2WgWQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_wPBLdQaAEfG1DZmvn2WgWQ" name="cntact" type="_U_ZYcAaAEfG1DZmvn2WgWQ" association="_wO_9UAaAEfG1DZmvn2WgWQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_HVqGAAglEfG6g6j0PsjZng" name="ValueType19">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Lq4Z0AglEfG6g6j0PsjZng" name="Property1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_N2_sEAglEfG6g6j0PsjZng" name="LiteralString1" value="new"/>
+          </ownedAttribute>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yWeDUAaEEfG0ZPgk6yVR-w" name="02_TechnicalDesign">
@@ -1134,39 +1048,21 @@
   </uml:Model>
   <Blocks:Block xmi:id="_lb9s0AZlEfG1DZmvn2WgWQ" base_Class="_lb6CcAZlEfG1DZmvn2WgWQ"/>
   <Blocks:Block xmi:id="_sUMI4AZlEfG1DZmvn2WgWQ" base_Class="_sUJsoAZlEfG1DZmvn2WgWQ"/>
-  <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_X3RjUAZmEfG1DZmvn2WgWQ" base_Class="_A8is8AZmEfG1DZmvn2WgWQ" FlowChainKind="Hybrid" StreamingType="continuous" ProcessingType="parallel"/>
+  <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_X3RjUAZmEfG1DZmvn2WgWQ" base_Class="_A8is8AZmEfG1DZmvn2WgWQ" FlowChainKind="linear" StreamingType="continuous" ProcessingType="parallel"/>
   <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_ZBtWIAZmEfG1DZmvn2WgWQ" base_Class="_KaaVkAZmEfG1DZmvn2WgWQ" FlowChainKind="linear" StreamingType="continuous" ProcessingType="synchronous"/>
-  <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_aLTbcAZmEfG1DZmvn2WgWQ" base_Class="_RQ0zwAZmEfG1DZmvn2WgWQ" FlowChainKind="linear" StreamingType="continuous" ProcessingType="synchronous"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_OcdccAZrEfG1DZmvn2WgWQ" base_Class="_L5WmgAZrEfG1DZmvn2WgWQ" Purpose="orchestrate HV Main Contactor Control based on Monitoring Decision of Error Management" Statefulness="true"/>
-  <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_2glcsAZrEfG1DZmvn2WgWQ" base_Class="_k77IkAZqEfG1DZmvn2WgWQ" FlowChainKind="Converging" StreamingType="continuous" ProcessingType="synchronous"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_ei1YMAZtEfG1DZmvn2WgWQ" base_Class="_YUb8QAZtEfG1DZmvn2WgWQ" Purpose="transformation of physical temperature to discrete measure values"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_nCBLAAZtEfG1DZmvn2WgWQ" base_Class="_jfYxwAZtEfG1DZmvn2WgWQ" Purpose="transformation of digital value to actual temperature data"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_0OP7wAZtEfG1DZmvn2WgWQ" base_Class="_uYLgQAZtEfG1DZmvn2WgWQ" Purpose="monitoring of temperature data for error states"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_2rGjQAZuEfG1DZmvn2WgWQ" base_Class="_rHdg8AZuEfG1DZmvn2WgWQ" Purpose="transformation of physical cell voltage to discrete measure values"/>
-  <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_4A-xEAZuEfG1DZmvn2WgWQ" base_Class="_s1S7wAZuEfG1DZmvn2WgWQ" Purpose="transformation of digital value to actual cell voltage data"/>
-  <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_5DKm0AZuEfG1DZmvn2WgWQ" base_Class="_uK3nkAZuEfG1DZmvn2WgWQ" Purpose="monitoring of cell voltage data for error states"/>
-  <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_UuHOcAZwEfG1DZmvn2WgWQ" base_Class="_l0bEkAZvEfG1DZmvn2WgWQ" Purpose="filters incoming error status signals to validate an error state" Statefulness="true"/>
-  <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_VjqWYAZwEfG1DZmvn2WgWQ" base_Class="_AYq_UAZwEfG1DZmvn2WgWQ" Purpose="filters incoming error status signals to validate an error state" Statefulness="true"/>
-  <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_WoX7sAZwEfG1DZmvn2WgWQ" base_Class="_EXiBkAZwEfG1DZmvn2WgWQ" Purpose="decides the right error reaction based on the incoming types of the  error states"/>
   <Blocks:Block xmi:id="_2pYjoAZ8EfG1DZmvn2WgWQ" base_Class="_A8is8AZmEfG1DZmvn2WgWQ"/>
-  <PortsAndFlows:ProxyPort xmi:id="_Il3XUAZ9EfG1DZmvn2WgWQ" base_Port="_Il1iIAZ9EfG1DZmvn2WgWQ"/>
   <PortsAndFlows:ProxyPort xmi:id="_GX_VEAZ-EfG1DZmvn2WgWQ" base_Port="_GX9f4AZ-EfG1DZmvn2WgWQ"/>
-  <PortsAndFlows:ProxyPort xmi:id="_hiXbsAZ-EfG1DZmvn2WgWQ" base_Port="_hiVmgAZ-EfG1DZmvn2WgWQ"/>
   <PortsAndFlows:ProxyPort xmi:id="_4N1uEAZ-EfG1DZmvn2WgWQ" base_Port="_4N0f8AZ-EfG1DZmvn2WgWQ"/>
-  <PortsAndFlows:ProxyPort xmi:id="_JOVaoAZ_EfG1DZmvn2WgWQ" base_Port="_JOTlcAZ_EfG1DZmvn2WgWQ"/>
-  <PortsAndFlows:ProxyPort xmi:id="_JoXrQAZ_EfG1DZmvn2WgWQ" base_Port="_JoWdIAZ_EfG1DZmvn2WgWQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_MCKNIgZ_EfG1DZmvn2WgWQ" base_Element="_MCKNIAZ_EfG1DZmvn2WgWQ" propertyPath="_W6TA4AZqEfG1DZmvn2WgWQ" base_ConnectorEnd="_MCKNIAZ_EfG1DZmvn2WgWQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_MCK0MAZ_EfG1DZmvn2WgWQ" base_Element="_MCKNIQZ_EfG1DZmvn2WgWQ" propertyPath="_EEFTYgZrEfG1DZmvn2WgWQ" base_ConnectorEnd="_MCKNIQZ_EfG1DZmvn2WgWQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_NNwdkgZ_EfG1DZmvn2WgWQ" base_Element="_NNwdkAZ_EfG1DZmvn2WgWQ" propertyPath="_XXvx4gZqEfG1DZmvn2WgWQ" base_ConnectorEnd="_NNwdkAZ_EfG1DZmvn2WgWQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_NNxEoAZ_EfG1DZmvn2WgWQ" base_Element="_NNwdkQZ_EfG1DZmvn2WgWQ" propertyPath="_EEFTYgZrEfG1DZmvn2WgWQ" base_ConnectorEnd="_NNwdkQZ_EfG1DZmvn2WgWQ"/>
-  <PortsAndFlows:ProxyPort xmi:id="_1ThckAZ_EfG1DZmvn2WgWQ" base_Port="_1TfnYAZ_EfG1DZmvn2WgWQ"/>
   <SysModProfile_FlowProcessingPattern:FlowInterface xmi:id="_8T8yYAZ_EfG1DZmvn2WgWQ" base_Class="_6AMAAAZ_EfG1DZmvn2WgWQ"/>
   <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_YL37gAaAEfG1DZmvn2WgWQ" base_Class="_U_ZYcAaAEfG1DZmvn2WgWQ" FlowChainKind="linear" StreamingType="continuous" ProcessingType="synchronous"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_z4Ye0AaAEfG1DZmvn2WgWQ" base_Class="_sfK1kAaAEfG1DZmvn2WgWQ" Purpose="controls the opening and closing of the HV Path" Statefulness="true" ProcessRate=""/>
   <PortsAndFlows:ProxyPort xmi:id="_e4vmsAaBEfG1DZmvn2WgWQ" base_Port="_e4txgAaBEfG1DZmvn2WgWQ"/>
   <PortsAndFlows:FlowProperty xmi:id="_xvzzUAaBEfG1DZmvn2WgWQ" base_Property="_-om8oAZ_EfG1DZmvn2WgWQ" direction="out"/>
-  <Blocks:NestedConnectorEnd xmi:id="_LCKBUQaCEfG0ZPgk6yVR-w" base_Element="_LCJaQAaCEfG0ZPgk6yVR-w" propertyPath="_EEFTYgZrEfG1DZmvn2WgWQ" base_ConnectorEnd="_LCJaQAaCEfG0ZPgk6yVR-w"/>
-  <Blocks:NestedConnectorEnd xmi:id="_LCLPcAaCEfG0ZPgk6yVR-w" base_Element="_LCKBUAaCEfG0ZPgk6yVR-w" propertyPath="_DTLI8gZtEfG1DZmvn2WgWQ" base_ConnectorEnd="_LCKBUAaCEfG0ZPgk6yVR-w"/>
   <PortsAndFlows:ProxyPort xmi:id="_ZDd_8AaCEfG0ZPgk6yVR-w" base_Port="_ZDa8oAaCEfG0ZPgk6yVR-w"/>
   <PortsAndFlows:ProxyPort xmi:id="_Zfa8IAaCEfG0ZPgk6yVR-w" base_Port="_ZfXRwAaCEfG0ZPgk6yVR-w"/>
   <PortsAndFlows:FlowProperty xmi:id="_tChvYAaCEfG0ZPgk6yVR-w" base_Property="_sIaQgAaCEfG0ZPgk6yVR-w" direction="in"/>
@@ -1178,7 +1074,6 @@
   <PortsAndFlows:ProxyPort xmi:id="_y-lBoAaDEfG0ZPgk6yVR-w" base_Port="_y-jMcAaDEfG0ZPgk6yVR-w"/>
   <PortsAndFlows:ProxyPort xmi:id="_zxtHsAaDEfG0ZPgk6yVR-w" base_Port="_zxr5kAaDEfG0ZPgk6yVR-w"/>
   <Blocks:NestedConnectorEnd xmi:id="_YIYl0QaEEfG0ZPgk6yVR-w" base_Element="_YIYl0AaEEfG0ZPgk6yVR-w" propertyPath="_XXvx4gZqEfG1DZmvn2WgWQ" base_ConnectorEnd="_YIYl0AaEEfG0ZPgk6yVR-w"/>
-  <Blocks:NestedConnectorEnd xmi:id="_YzdjIQaEEfG0ZPgk6yVR-w" base_Element="_YzdjIAaEEfG0ZPgk6yVR-w" propertyPath="_W6TA4AZqEfG1DZmvn2WgWQ" base_ConnectorEnd="_YzdjIAaEEfG0ZPgk6yVR-w"/>
   <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_g0PGMAaFEfG0ZPgk6yVR-w" base_Class="_WafrMAaFEfG0ZPgk6yVR-w"/>
   <SysModProfile_FlowProcessingPattern:FlowChain xmi:id="_reebUAaFEfG0ZPgk6yVR-w" base_Class="_ijFNoAaFEfG0ZPgk6yVR-w"/>
   <SysModProfile_FlowProcessingPattern:FlowProcessor xmi:id="_yfCUAAaFEfG0ZPgk6yVR-w" base_Class="_uVC_0AaFEfG0ZPgk6yVR-w"/>
