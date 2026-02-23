@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flow Processing Pattern - SysML Profile Specification</title>
+    <title>Flow Processing Pattern - SysML Profile Overview</title>
     <style>
         * {
             margin: 0;
@@ -203,22 +203,69 @@
             margin: 8px 0;
         }
         
-        .stereotype-box {
+        .stereotype-card {
             background: white;
             border: 2px solid #667eea;
             border-radius: 12px;
-            padding: 20px;
+            padding: 25px;
             margin: 20px 0;
         }
         
         .stereotype-header {
-            background: #667eea;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .stereotype-icon {
+            font-size: 2.5em;
+            margin-right: 15px;
+        }
+        
+        .stereotype-name {
+            font-size: 1.6em;
+            color: #667eea;
             font-weight: bold;
-            margin-bottom: 15px;
-            font-size: 1.1em;
+        }
+        
+        .attribute-list {
+            margin: 15px 0;
+        }
+        
+        .attribute-item {
+            background: #f7fafc;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+        
+        .attribute-name {
+            font-weight: bold;
+            color: #2d3748;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .attribute-type {
+            color: #667eea;
+            font-family: 'Courier New', monospace;
+            margin-left: 10px;
+        }
+        
+        .attribute-description {
+            color: #4a5568;
+            margin-top: 8px;
+        }
+        
+        .enum-values {
+            background: #edf2f7;
+            padding: 10px;
+            border-radius: 6px;
+            margin-top: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
         }
         
         .relationship-diagram {
@@ -253,17 +300,17 @@
     <div class="container">
         <div class="header">
             <h1>Flow Processing Pattern</h1>
-            <p>SysML Profile for Flow-Oriented System Architectures</p>
+            <p>SysML Profile for Media Flow-Oriented System Architectures</p>
         </div>
         
         <div class="nav-tabs">
-            <button class="nav-tab active" onclick="showTab('tab1')">Pattern Overview</button>
+            <button class="nav-tab active" onclick="showTab('tab1')">Methods Overview</button>
             <button class="nav-tab" onclick="showTab('tab2')">Profile Overview</button>
             <button class="nav-tab" onclick="showTab('tab3')">Examples</button>
         </div>
         
         <div class="content">
-            <!-- TAB 1: PATTERN OVERVIEW -->
+            <!-- TAB 1: METHODS OVERVIEW -->
             <div id="tab1" class="tab-content active">
                 <div class="section">
                     <h2>📋 Architecture Pattern Explanation</h2>
@@ -275,21 +322,21 @@
                         <p>The media to be processed flow sequentially through a <strong>series of filters (processing components)</strong>, each fulfilling a clearly defined task, while <strong>interfaces</strong> of the filters act as connecting communication pathways.</p>
                     </div>
                     
-                    <h3>Core Principles</h3>
+                    <h3>Fundamental Principles</h3>
                     <ul>
                         <li><strong>Media Processor:</strong> Individual, independent processing units that transform, validate, or enrich media</li>
-                        <li><strong>Media Interface:</strong> Defined connections that couple processors together and transport the media flow</li>
-                        <li><strong>Sequential Media Flow:</strong> Each processor receives input media from an interface and passes processed output media through another interface</li>
+                        <li><strong>Media Interface:</strong> Defined connections that couple processors together and transport media flow</li>
+                        <li><strong>Sequential Media Flow:</strong> Each processor receives input media from one interface and passes processed output media through another interface</li>
                         <li><strong>Modular Composition:</strong> Complex processing chains emerge through chaining or reordering individual, reusable processors</li>
                     </ul>
                     
                     <div class="highlight">
-                        <strong>💡 Suitability:</strong> The pattern is particularly suited for <strong>flow or streaming systems</strong> where modular structure, flexible composition, and loose coupling are essential goals.
+                        <strong>💡 Suitability:</strong> The pattern is particularly suitable for <strong>flow or streaming systems</strong> where modular structure, flexible composition, and loose coupling are essential goals.
                     </div>
                 </div>
                 
                 <div class="section">
-                    <h2>✅ Pattern Benefits</h2>
+                    <h2>✅ Benefits of the Pattern</h2>
                     
                     <div class="success">
                         <h4>🔗 Loose Coupling & Better Replaceability</h4>
@@ -302,44 +349,44 @@
                     </div>
                     
                     <div class="success">
-                        <h4>⚡ Stage-Level Scaling</h4>
-                        <p>During deployment, "hotspots" (complex sub-flow chains) can be scaled specifically without completely rebuilding the entire flow chain.</p>
+                        <h4>⚡ Scaling per Stage</h4>
+                        <p>When deploying, "hotspots" (complex sub-flow chains) can be specifically scaled without completely rebuilding the entire flow chain.</p>
                     </div>
                     
                     <div class="success">
                         <h4>🧪 Testability and Maintainability</h4>
-                        <p>Small, clearly delineated processors are easier to test and maintain in isolation (Separation of Concerns). Each processor has a clear responsibility.</p>
+                        <p>Small, clearly defined processors are easier to test in isolation and maintain (Separation of Concerns). Each processor has a clear responsibility.</p>
                     </div>
                     
                     <div class="success">
                         <h4>🔄 Asynchronicity & Temporal Decoupling</h4>
-                        <p>Interfaces enable temporal decoupling of producers and consumers and allow various transport modes (synchronous/asynchronous/streaming) – especially helpful for event/stream processing.</p>
+                        <p>Interfaces enable temporal decoupling of producers and consumers and allow different transport modes (synchronous/asynchronous/streaming) – particularly helpful in event/stream processing.</p>
                     </div>
                 </div>
                 
                 <div class="section">
-                    <h2>⚠️ Risks and Drawbacks</h2>
+                    <h2>⚠️ Risks and Disadvantages</h2>
                     
                     <div class="warning">
-                        <h4>🔌 Schema/Media Format Coupling (Hidden Dependencies)</h4>
-                        <p>Despite loosely coupled media processors, strong coupling can emerge through the media format of the interfaces.</p>
+                        <h4>🔌 Schema/Media Format Coupling (Invisible Dependencies)</h4>
+                        <p>Despite loosely coupled media processors, strong coupling can arise through the format of the respective media at the interfaces.</p>
                         <p><strong>Remedy:</strong> Deploy converters in specific sub-flow chains.</p>
                     </div>
                     
                     <div class="warning">
-                        <h4>⏱️ Latency Overhead Through Multiple Stages</h4>
+                        <h4>⏱️ Latency Overhead from Many Stages</h4>
                         <p>Each component plus interface (queue/serialization) costs processing time.</p>
                         <p><strong>Caution:</strong> Critical analysis necessary for hard real-time requirements and complex flow chains.</p>
                     </div>
                     
                     <div class="warning">
-                        <h4>🍝 Risk of "Flow Chain Spaghetti"</h4>
-                        <p>Many branches and side-channels (e.g., additional diversions, "taps") can make the overall architecture confusing.</p>
+                        <h4>🍝 Danger of "Flow Chain Spaghetti"</h4>
+                        <p>Many branches and side-channels (e.g., additional taps, "Taps") can make the overall architecture confusing.</p>
                         <p><strong>Remedy:</strong> Strict governance and rules:</p>
                         <ul>
-                            <li>Naming conventions and stereotypes</li>
-                            <li>Clear interface definitions (contracts)</li>
-                            <li>Unambiguous versioning (especially for variant handling)</li>
+                            <li>Naming Conventions and Stereotypes</li>
+                            <li>Clear interface definition (contracts)</li>
+                            <li>Unique versioning (especially in variant handling)</li>
                         </ul>
                     </div>
                 </div>
@@ -349,17 +396,17 @@
                     
                     <div class="card">
                         <h4>📡 Real-Time Signal Processing</h4>
-                        <p>Audio, video, or sensor signals are processed step-by-step (e.g., noise reduction → feature extraction → classification).</p>
+                        <p>Audio, video, or sensor signals are processed step by step (e.g., noise suppression → feature extraction → classification).</p>
                     </div>
                     
                     <div class="card">
                         <h4>🌊 Data Stream Systems</h4>
-                        <p>Log and event processing in monitoring systems, big data pipelines, and ETL processes. Continuous processing of large data volumes.</p>
+                        <p>Log and event processing in monitoring systems, Big Data pipelines, and ETL processes. Continuous processing of large data volumes.</p>
                     </div>
                     
                     <div class="card">
                         <h4>🔧 Software with Multiple Transformation Stages</h4>
-                        <p>Compiler designs, image processing, protocol stacks – anywhere data must be rebuilt step-by-step.</p>
+                        <p>Compiler designs, image processing, protocol stacks – everywhere data must be progressively transformed.</p>
                     </div>
                     
                     <div class="card">
@@ -379,10 +426,10 @@
                 <div class="section">
                     <h2>📦 Package Overview</h2>
                     
-                    <p>The <strong>Flow Processing Pattern SysML Profile</strong> provides a formal modeling foundation for applying the Flow Processing Pattern in SysML-based system architectures. It extends SysML with specialized stereotypes that make the pattern's characteristic elements – processors, interfaces, and media flows – explicitly modelable.</p>
+                    <p>The <strong>Flow Processing Pattern SysML Profile</strong> provides a formal modeling foundation for applying the Flow Processing Pattern in SysML-based system architectures. It extends SysML with specialized stereotypes that make the characteristic elements of the pattern – processors, interfaces, and media flows – explicitly modelable.</p>
                     
                     <div class="highlight">
-                        <strong>💡 Goal:</strong> The profile enables architects to model media flow-based architectures consistently, traceably, and with tool support. Clear typing makes the architecture more understandable and better analyzable.
+                        <strong>💡 Goal:</strong> The profile enables architects to model media flow-based architectures consistently, comprehensibly, and with tool support. Through clear typing, the architecture becomes more understandable and better analyzable.
                     </div>
                     
                     <h3>Included Stereotypes</h3>
@@ -397,152 +444,273 @@
                     <h2>🔍 Stereotypes in Detail</h2>
                     
                     <!-- FlowChain -->
-                    <div class="stereotype-box">
-                        <div class="stereotype-header">«Stereotype» FlowChain</div>
+                    <div class="stereotype-card">
+                        <div class="stereotype-header">
+                            <div class="stereotype-icon">🔗</div>
+                            <div>
+                                <div class="stereotype-name">«Stereotype» FlowChain</div>
+                                <div style="color: #718096; margin-top: 5px;">extends Block</div>
+                            </div>
+                        </div>
                         
-                        <p><strong>Description:</strong> The FlowChain stereotype describes an abstract, sequential processing chain within the Flow Processing Pattern. It represents the highest abstraction level where media flow step-by-step through an ordered sequence of independent processing units (filters).</p>
+                        <p><strong>Description:</strong> The FlowChain stereotype describes an abstract, sequential processing chain within the pattern. It represents the highest level of abstraction in which media flow step by step through an ordered sequence of independent processing units (filters).</p>
                         
-                        <p><strong>Application:</strong> The FlowChain defines the order, coupling, and consistency of processing without specifying the internal logic of individual filters. It serves as an architectural framework for modeling modular, extensible, and reusable system and software architectures.</p>
+                        <p><strong>Application:</strong> The FlowChain defines the sequence, coupling, and consistency of the processing processors without specifying their internal logic. It serves as an architectural framework for modeling modular, extensible, and reusable media flow chains.</p>
                         
-                        <h4>Attributes:</h4>
-                        <table class="attribute-table">
-                            <thead>
-                                <tr>
-                                    <th>Attribute</th>
-                                    <th>Type</th>
-                                    <th>Description</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><code>FlowChainKind</code></td>
-                                    <td>String [1]</td>
-                                    <td>Classification of the flow chain type (e.g., "linear", "branching", "circular"). Describes the topological structure of the processing chain.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>StreamType</code></td>
-                                    <td>String [1]</td>
-                                    <td>Type of data stream (e.g., "continuous", "batch", "event-driven"). Defines how media flows through the chain.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>ProcessingType</code></td>
-                                    <td>String [1]</td>
-                                    <td>Processing mode (e.g., "synchronous", "asynchronous", "parallel"). Defines the temporal behavior of flow chain execution.</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h4 style="margin-top: 20px; color: #2d3748;">Tagged Values:</h4>
+                        
+                        <div class="attribute-list">
+                            <div class="attribute-item">
+                                <span class="attribute-name">FlowChainKind</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Classification of the flow chain type. Describes the topological structure of the processing chain.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • linear (sequential chain, classic pipeline structure)<br/>
+                                        • branching (chain with branches, parallel processing paths)<br/>
+                                        • converging (multiple parallel paths merge into common processor)<br/>
+                                        • dag (Directed Acyclic Graph, complex structure)<br/>
+                                        • circular (contains feedback loops, iterative refinement)<br/>
+                                        • hybrid (combination of different structure types)
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">StreamType</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Type of data stream. Defines how media flows through the chain.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • continuous (unlimited, continuous data stream without defined end)<br/>
+                                        • batch (limited data volumes processed in batches)<br/>
+                                        • event-driven (processing triggered by specific events)<br/>
+                                        • micro-batch (hybrid: continuous stream divided into very small batches)<br/>
+                                        • request-driven (processing on explicit request)
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">ProcessingType</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Processing mode. Defines the temporal behavior of flow chain execution.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • synchronous (sequential processing, blocking and deterministic)<br/>
+                                        • asynchronous (non-blocking processing with temporal decoupling)<br/>
+                                        • parallel (simultaneous processing of multiple media units)<br/>
+                                        • pipelined (classic pipeline model, optimized throughput)<br/>
+                                        • hybrid (combination of different processing modes)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     <!-- FlowProcessor -->
-                    <div class="stereotype-box">
-                        <div class="stereotype-header">«Stereotype» FlowProcessor</div>
+                    <div class="stereotype-card">
+                        <div class="stereotype-header">
+                            <div class="stereotype-icon">⚙️</div>
+                            <div>
+                                <div class="stereotype-name">«Stereotype» FlowProcessor</div>
+                                <div style="color: #718096; margin-top: 5px;">extends Block</div>
+                            </div>
+                        </div>
                         
                         <p><strong>Description:</strong> The stereotype describes an independent processing unit within the pattern. It represents a logically self-contained component that receives inputs via defined interfaces, transforms, analyzes, or enriches them, and passes results to subsequent components.</p>
                         
-                        <p><strong>Application:</strong> FlowProcessors are independent of each other, interchangeable, and free of assumptions about upstream or downstream processing steps. They form the fundamental building blocks of the media flow chain.</p>
+                        <p><strong>Application:</strong> FlowProcessors are independent of each other, interchangeable, and free from assumptions about upstream or downstream processing steps. They form the fundamental building blocks of the media flow chain.</p>
                         
-                        <h4>Attributes:</h4>
-                        <table class="attribute-table">
-                            <thead>
-                                <tr>
-                                    <th>Attribute</th>
-                                    <th>Type</th>
-                                    <th>Description</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><code>Purpose</code></td>
-                                    <td>String [1]</td>
-                                    <td>Describes the functional purpose of the component (e.g., "Validation", "Transformation", "Enrichment", "Aggregation"). Makes the role in the flow chain explicit.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>Statefulness</code></td>
-                                    <td>Boolean [1]</td>
-                                    <td>Indicates whether the component is stateful or stateless. Stateless components are easier to scale and test.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>ProcessRate</code></td>
-                                    <td>String [1]</td>
-                                    <td>Describes processing speed or throughput rate (e.g., "1000 msg/sec", "real-time", "batch-oriented"). Important for performance analysis and scaling decisions.</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h4 style="margin-top: 20px; color: #2d3748;">Tagged Values:</h4>
+                        
+                        <div class="attribute-list">
+                            <div class="attribute-item">
+                                <span class="attribute-name">Purpose</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Describes the functional purpose of the component. Makes its role in the flow chain explicit.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • validation (verifies media for correctness and rule compliance)<br/>
+                                        • transformation (converts media from one format to another)<br/>
+                                        • enrichment (extends media with additional information)<br/>
+                                        • aggregation (combines multiple media units and calculates aggregated values)<br/>
+                                        • filtering (selects relevant media and discards irrelevant ones)<br/>
+                                        • normalization (standardizes media to uniform format)<br/>
+                                        • deduplication (identifies and removes duplicates)<br/>
+                                        • routing (directs media to different processing paths)<br/>
+                                        • splitting (divides one medium into multiple separate media)<br/>
+                                        • merging (combines multiple media into one)<br/>
+                                        • buffering (temporarily buffers media for decoupling)<br/>
+                                        • monitoring (monitors media and captures metrics)<br/>
+                                        • encryption (encrypts or decrypts media)<br/>
+                                        • compression (compresses or decompresses media)<br/>
+                                        • orchestration (coordinates complex processing sequences)
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">Statefulness</span>
+                                <span class="attribute-type">: Boolean [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Indicates whether the component is stateful or stateless.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • false (stateless: no state stored between processings, easy scaling)<br/>
+                                        • true (stateful: stores state information, required for aggregations)
+                                    </div>
+                                    <strong>Note:</strong> Stateless components are easier to scale and test. Stateful components require state management and possibly persistence.
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">ProcessRate</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Describes processing speed or throughput rate. Important for performance analysis and scaling decisions.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • real-time (processing with minimal latency, milliseconds)<br/>
+                                        • near-real-time (processing with low delay, seconds to few minutes)<br/>
+                                        • batch-oriented (processing in batches at defined times)<br/>
+                                        • high-throughput (optimized for maximum throughput, >10,000 msg/sec)<br/>
+                                        • medium-throughput (moderate processing rate, 1,000-10,000 msg/sec)<br/>
+                                        • low-throughput (low processing rate, <1,000 msg/sec)<br/>
+                                        • variable (processing rate fluctuates, requires elastic scaling)
+                                    </div>
+                                    <strong>Note:</strong> Concrete numerical values (e.g., '1000 msg/sec') can be specified as free text.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                    
                     <!-- FlowInterface -->
-                    <div class="stereotype-box">
-                        <div class="stereotype-header">«Stereotype» FlowInterface</div>
+                    <div class="stereotype-card">
+                        <div class="stereotype-header">
+                            <div class="stereotype-icon">📌</div>
+                            <div>
+                                <div class="stereotype-name">«Stereotype» FlowInterface</div>
+                                <div style="color: #718096; margin-top: 5px;">extends Interface</div>
+                            </div>
+                        </div>
                         
-                        <p><strong>Description:</strong> The stereotype describes a standardized interface for defining media flows between components within the pattern. It types ProxyPorts and defines direction, structure, and type of media input and output.</p>
+                        <p><strong>Description:</strong> The stereotype describes a standardized interface for providing or receiving media within the pattern. It defines direction, structure, and type of media input and output.</p>
                         
-                        <p><strong>Application:</strong> FlowInterfaces encapsulate data communication, promote loose coupling of processors, and enable consistent, interchangeable, and traceable modeling of media flows.</p>
+                        <p><strong>Application:</strong> FlowInterfaces encapsulate data communication, promote loose coupling of processors, and enable consistent, interchangeable, and comprehensible modeling of media flows.</p>
                         
-                        <h4>Attributes:</h4>
-                        <table class="attribute-table">
-                            <thead>
-                                <tr>
-                                    <th>Attribute</th>
-                                    <th>Type</th>
-                                    <th>Description</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><code>Ordering</code></td>
-                                    <td>String [1]</td>
-                                    <td>Defines the order of media transmission (e.g., "FIFO", "LIFO", "priority-based", "unordered"). Important for correct stream processing.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>BufferCapacity</code></td>
-                                    <td>Integer [1]</td>
-                                    <td>Maximum number of "media entities" that can be buffered in the interface. Determines backpressure behavior and decoupling between producer and consumer.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>TransportMode</code></td>
-                                    <td>String [1]</td>
-                                    <td>Type of media transmission (e.g., "synchronous", "asynchronous", "streaming", "request-reply"). Determines temporal communication behavior.</td>
-                                </tr>
-                                <tr>
-                                    <td><code>RateLimit</code></td>
-                                    <td>String [1]</td>
-                                    <td>Transmission rate limitation (e.g., "1000 msg/sec", "unlimited"). Important for resource management and quality-of-service guarantees.</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h4 style="margin-top: 20px; color: #2d3748;">Tagged Values:</h4>
+                        
+                        <div class="attribute-list">
+                            <div class="attribute-item">
+                                <span class="attribute-name">Ordering</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Defines the order of media transmission. Important for correct stream processing.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • FIFO (First-In-First-Out, fair queue processing, predictability)<br/>
+                                        • LIFO (Last-In-First-Out, stack principle, newest information first)<br/>
+                                        • priority-based (based on assigned priority, critical vs. normal processing)<br/>
+                                        • unordered (no defined order, opportunistic, maximum throughput)<br/>
+                                        • timestamp-based (sorted by timestamp, Event-Time Processing)<br/>
+                                        • round-robin (uniform rotating distribution, load balancing)
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">BufferCapacity</span>
+                                <span class="attribute-type">: Integer [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Maximum number of media units that can be buffered in the interface. Determines backpressure behavior and decoupling between producer and consumer.
+                                    <br/><strong>Typical Ranges:</strong>
+                                    <div class="enum-values">
+                                        • 0 = No buffer (synchronous handover)<br/>
+                                        • 1-100 = Small buffer (low decoupling)<br/>
+                                        • 100-10,000 = Medium buffer (standard for many scenarios)<br/>
+                                        • >10,000 = Large buffer (high decoupling, higher memory requirement)<br/>
+                                        • -1 = Unlimited buffer (caution: memory growth)
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">TransportMode</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Type of media transmission. Determines temporal communication behavior.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • synchronous (blocking communication, sender waits for confirmation)<br/>
+                                        • asynchronous (non-blocking, temporal decoupling, higher throughput)<br/>
+                                        • streaming (continuous data flow, real-time streams)<br/>
+                                        • request-reply (bidirectional, sender expects response)<br/>
+                                        • fire-and-forget (unidirectional without confirmation, maximum throughput)<br/>
+                                        • publish-subscribe (one-to-many communication, loose coupling)<br/>
+                                        • polling (consumer periodically queries, pull-based)<br/>
+                                        • callback (event-based, callback on availability)
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attribute-item">
+                                <span class="attribute-name">RateLimit</span>
+                                <span class="attribute-type">: String [1]</span>
+                                <div class="attribute-description">
+                                    <strong>Description:</strong> Restriction of transmission rate. Important for resource management and quality-of-service guarantees.
+                                    <br/><strong>Values:</strong>
+                                    <div class="enum-values">
+                                        • unlimited (no rate restriction, maximum throughput)<br/>
+                                        • bandwidth-limited (based on data volume per time, e.g., '10 MB/sec')<br/>
+                                        • message-limited (based on message count, e.g., '100 msg/sec')<br/>
+                                        • token-bucket (allows bursts, average rate controlled)<br/>
+                                        • leaky-bucket (smooths traffic to constant rate)<br/>
+                                        • adaptive (dynamic adjustment to system conditions)<br/>
+                                        • fixed-window (limit for fixed time windows, simple implementation)<br/>
+                                        • sliding-window (sliding time window, smoother traffic)
+                                    </div>
+                                    <strong>Note:</strong> Concrete numerical values (e.g., '1000 msg/sec', '10 MB/sec') can be specified as free text.
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
                     
                 </div>
                 
                 <div class="section">
-                    <h2>🔗 Relationships Between Stereotypes</h2>
+                    <h2>Relationships between Stereotypes</h2>
                     
                     <div class="relationship-diagram">
                         <h4>Structural Dependencies</h4>
                         <p style="text-align: left; margin-top: 20px;">A <strong>FlowChain</strong> contains multiple <strong>FlowProcessors</strong>.</p>
-                        <p style="text-align: left;"><strong>FlowProcessors</strong> have <strong>ProxyPorts</strong> (inputs and outputs, standardized by SysML).</p>
+                        <p style="text-align: left;"><strong>FlowProcessors</strong> possess <strong>ProxyPorts</strong> (inputs and outputs, standardized by SysML).</p>
                         <p style="text-align: left;">A <strong>ProxyPort</strong> is typed by a <strong>FlowInterface</strong>.</p>                        
-                        <p style="text-align: left;"><strong>ProxyPorts</strong> are connected to other ProxyPorts through <strong>Connectors</strong>.</p>
+                        <p style="text-align: left;"><strong>ProxyPorts</strong> are connected to other ProxyPorts via <strong>Connectors</strong>.</p>
                     </div>
-                    
                     <div class="card">
-                        <h4>📊 Typical Pipeline Structure</h4>
+                        <h4>Typical Pipeline Structure</h4>
                         <ol>
                             <li><strong>FlowChain</strong> defines the overall structure and processing logic</li>
-                            <li><strong>FlowChains</strong> can be recursively decomposed as needed</li>
+                            <li>If needed, <strong>FlowChains</strong> can be recursively decomposed</li>
                             <li><strong>FlowProcessors</strong> are instantiated in the FlowChain</li>
-                            <li>Each FlowProcessor has <strong>ProxyPorts</strong> with typed <strong>FlowInterfaces</strong> (input/output)</li>
-                            <li><strong>Connectors</strong> link the ProxyPorts and define data flow characteristics</li>
+                            <li>Each FlowProcessor has <strong>ProxyPorts</strong> with typed <strong>FlowInterfaces</strong> (Input/Output)</li>
+                            <li><strong>Connectors</strong> link the ProxyPorts</li>
                         </ol>
                     </div>
                     
                     <div class="success">
                         <h4>✅ Best Practices</h4>
                         <ul>
-                            <li>Use clear <strong>naming conventions</strong> for ProxyPorts (e.g., prefix "fp_" for FlowProcessor ports)</li>
+                            <li>Use clear <strong>Naming Conventions</strong> (e.g., prefix "fi_" for FlowProcessor ProxyPorts with FlowInterfaces)</li>
                             <li>Document <strong>media formats</strong> at each FlowInterface via FlowProperty</li>
                             <li>Version FlowChain definitions for better <strong>traceability</strong></li>
-                            <li>Use the <strong>Statefulness attribute</strong> deliberately for scaling decisions</li>
+                            <li>Use the <strong>Statefulness attribute</strong> consciously for scaling decisions</li>
                             <li>Define <strong>FlowInterface characteristics</strong> explicitly (Ordering, BufferCapacity, etc.)</li>
                         </ul>
                     </div>
@@ -552,7 +720,7 @@
             <!-- TAB 3: EXAMPLES -->
             <div id="tab3" class="tab-content">
                 <div class="section">
-                    <h2>📚 Application Examples</h2>
+                    <h2>Application Examples</h2>
                     
                     <div class="placeholder">
                         <h3>Examples to Follow</h3>
@@ -564,8 +732,8 @@
         </div>
         
         <div class="footer">
-            <p>🏗️ Flow Processing Pattern – SysML Profile for Modern Flow Architectures</p>
-            <p>Documentation for System and Software Architects</p>
+            <p>🏗️ Flow Processing Pattern – SysML Profile for Modern Media Flow Architectures</p>
+            <p>Documentation for Systems and Software Architecture Development</p>
         </div>
     </div>
     
